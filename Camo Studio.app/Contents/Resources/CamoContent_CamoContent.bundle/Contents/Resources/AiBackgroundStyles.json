@@ -1,0 +1,3472 @@
+{
+    "prompts": [
+        {
+            "uid": "california_cool",
+            "name": "California Cool",
+            "description": "A relaxed but sophisticated vibe from a combination of natural materials, Mediterranean tones, and a splash of free spirit.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, soft white fabric, HDR, California cool style, coastal interior design, oak wood, soft grey walls, natural light, neutrals, linen curtains, ocean view",
+            "thumbnail": "california_cool.jpg",
+            "translations": [
+                {
+                    "name": "Калифорния прохладно",
+                    "description": "Спокойна, но изтънчена атмосфера, съчетана от естествени материали, средиземноморски тонове и щипка свободен дух.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Die Kombination aus natürlichen Materialien, mediterranen Tönen und einem Hauch von Freigeist sorgt für eine entspannte, aber dennoch anspruchsvolle Atmosphäre.",
+                    "lang": "de"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Um ambiente descontraído, mas sofisticado, com uma combinação de materiais naturais, tons mediterrâneos e um toque de espírito livre.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "California-stil",
+                    "description": "En avslappet, men sofistikert stemning fra en kombinasjon av naturlige materialer, middelhavstoner og en skvett løssluppenhet.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "加州酷炫風",
+                    "description": "結合天然材質、地中海色調和自由精神，營造出放鬆而雅致的氛圍。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Каліфорнійський шик",
+                    "description": "Розслаблена, але витончена атмосфера, що поєднує природні матеріали, середземноморські відтінки й нотки вільного духу.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Sproščeno, a prefinjeno vzdušje s pomočjo kombinacije naravnih materialov, mediteranskih tonov in kančka svobodnega duha.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "קליפורניה מגניבה",
+                    "description": "אווירה נינוחה אך מתוחכמת המשלבת חומרים טבעיים, גוונים ים-תיכוניים ונופך של רוח חופשית.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Опуштено калифорнијски",
+                    "description": "Опуштен али софистициран амбијент настао комбинацијом природних материјала, медитеранских тонова и мало слободног духа.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "캘리포니아 스타일",
+                    "description": "천연 소재와 지중해풍의 색조, 약간의 자유로운 정신을 결합하여 느긋하면서도 세련된 분위기의 공간을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Κουλ Καλιφόρνια",
+                    "description": "Μια χαλαρή αλλά εκλεπτυσμένη ατμόσφαιρα από έναν συνδυασμό φυσικών υλικών, μεσογειακών αποχρώσεων και μια πινελιά ελεύθερου πνεύματος.",
+                    "lang": "el"
+                },
+                {
+                    "name": "ความเจ๋งในแบบฉบับแคลิฟอร์เนีย",
+                    "description": "บรรยากาศที่ผ่อนคลายแต่เปี่ยมด้วยความหรูหรา เกิดจากการผสมผสานวัสดุธรรมชาติ โทนสีแบบเมดิเตอร์เรเนียน และกลิ่นอายแห่งอิสระที่เติมเต็มพื้นที่อย่างมีชีวิตชีวา",
+                    "lang": "th"
+                },
+                {
+                    "name": "Cool californien",
+                    "description": "Une ambiance détendue mais sophistiquée grâce à une combinaison de matériaux naturels, de tons méditerranéens et d'une touche d'esprit libre.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "A relaxed but sophisticated vibe from a combination of natural materials, Mediterranean tones, and a splash of free spirit.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Uvoľnená, ale sofistikovaná atmosféra z kombinácie prírodných materiálov, stredomorských tónov a štipky slobodného ducha.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Połączenie relaksu z wyrafinowanym stylem, dzięki kombinacji naturalnych materiałów, śródziemnomorskich nut i szczypty wolności.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Um ambiente descontraído, mas sofisticado, resultante de uma combinação de materiais naturais, tons mediterrânicos e um toque de espírito livre.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Kalifornian viileä",
+                    "description": "Rento mutta hienostunut tunnelma luonnonmateriaalien, Välimeren sävyjen ja vapaan hengen yhdistelmästä.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "カリフォルニア風のクールなスタイル",
+                    "description": "自然素材、地中海の色調、そして自由な精神を感じさせるアクセントが融合し、リラックスしながらも洗練された雰囲気を生み出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Opušteno kalifornijski",
+                    "description": "Opušten ali sofisticiran šmek nastao kombinacijom prirodnih materijala, mediteranskih tonova i malo slobodnog duha.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "O atmosferă relaxată, dar sofisticată, dintr-o combinație de materiale naturale, tonuri mediteraneene și un strop de spirit liber.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "कैलिफोर्निया कूल",
+                    "description": "प्राकृतिक सामग्रियों, मेडिटेरेनियन रंगतों और बंधनमुक्त आनंद की भावना के संयोजन से बना एक आरामदायक लेकिन परिष्कृत माहौल।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "La frescura de California",
+                    "description": "Un ambiente relajado pero sofisticado a partir de una combinación de materiales naturales, tonos mediterráneos y un toque de espíritu libre.",
+                    "lang": "es"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "En afslappet, men sofistikeret stemning fra en kombination af naturlige materialer, middelhavstoner og et stænk af fri ånd.",
+                    "lang": "da"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "A relaxed but sophisticated vibe from a combination of natural materials, Mediterranean tones, and a splash of free spirit.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Opuštena, ali sofisticirana vibra iz kombinacije prirodnih materijala, mediteranskih tonova i daška slobodnog duha.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Kalifornijas šiks",
+                    "description": "Mierīga, bet izsmalcināta noskaņa, ko veido dabiski materiāli, Vidusjūras toņi un brīva gara izpausmes.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "كاليفورنيا الرائعة",
+                    "description": "أجواء مريحة ورقيقة تجمع بين المواد الطبيعية، وألوان البحر الأبيض المتوسط، وروح حرة مفعمة بالحيوية.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Kalifornien-coolt",
+                    "description": "En avslappnad men sofistikerad stämning som kombinerar naturligt material, Medelhavsnyanser och den fria själen.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "加州酷感",
+                    "description": "天然材料、地中海色调和自由精神的结合，营造出一种轻松而精致的氛围。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Un'atmosfera rilassata ma sofisticata, frutto della combinazione di materiali naturali e colori mediterranei con un tocco di spirito libero.",
+                    "lang": "it"
+                },
+                {
+                    "name": "California Cool",
+                    "description": "Un ambiente relajado pero sofisticado gracias a una combinación de materiales naturales, tonos mediterráneos y un toque de espíritu libre.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Kaliforniai menő szoba",
+                    "description": "Kellemes, de kifinomult hangulat a természetes anyagok, mediterrán tónusok és egy kis szabad szellem kombinációjából.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "kalifornská pohoda",
+                    "description": "Uvolněná, ale vytříbená atmosféra a kombinace přírodních materiálů, středomořských tónů a špetky svobodného ducha.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "California Serinliği",
+                    "description": "Doğal malzemelerin, Akdeniz tonlarının ve bir tutam özgür ruhun birleşimiyle elde edilen rahat ancak sofistike bir atmosfer.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Калифорнийский шик",
+                    "description": "Расслабленная, но утонченная атмосфера, созданная сочетанием натуральных материалов, средиземноморских оттенков и легкой нотки свободы.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Californisch cool",
+                    "description": "Een ontspannen maar verfijnde sfeer door de combinatie van natuurlijke materialen, mediterrane tinten en een vleugje vrije geest.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "California lahe",
+                    "description": "Lõõgastunud, ent rafineeritud meeleolu, mida kannavad naturaalsed materjalid, Vahemere toonid ja vaba hinge vaimsus.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Kalifornijos elegancija",
+                    "description": "Atpalaiduojančią, bet rafinuotą atmosferą sudaro natūralių medžiagų, Viduržemio jūros atspalvių ir laisvos dvasios gaidos derinys.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "afrofuturist",
+            "name": "Afrofuturist",
+            "description": "A celebration of heritage and future, combining vibrant colours, bold patterns and tech elements to create a space that inspires and empowers.",
+            "prompt": "best quality, cinematic, open space, clear floor, soft glowing light and shadow, HDR, afrofuturism style, science fiction, purple and yellow neon tubes, fur coverings, green, dark wood, add plants, reflective",
+            "thumbnail": "afrofuturist.jpg",
+            "translations": [
+                {
+                    "name": "Афрофутуристичен",
+                    "description": "Празник на наследството и бъдещето, съчетаващ ярки цветове, дръзки десени и технологични елементи, за да създаде пространство, което вдъхновява и окуражава.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Afrofuturistisch",
+                    "description": "Ein Fest des Erbes und der Zukunft, das leuchtende Farben, auffällige Muster und technische Elemente kombiniert, um einen Raum zu schaffen, der inspiriert und bestärkt.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Uma celebração da herança e do futuro, combinando cores vibrantes, padrões ousados e elementos tecnológicos para criar um espaço que inspira e fortalece.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "En feiring av arv og fremtid, som kombinerer levende farger, dristige mønstre og teknologiske elementer for å skape et rom som inspirerer.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "非洲未來主義",
+                    "description": "這是傳統和未來交融的慶典，結合了鮮豔的色彩、大膽的圖案和科技元素，打造出一個能激發靈感、令人充滿力量的空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Афрофутуризм",
+                    "description": "Яскраві кольори, сміливі візерунки й технологічні елементи поєднуються в просторі сьогодення, що надихає і наснажує.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Afrofuturistično",
+                    "description": "Praznovanje dediščine in prihodnosti združuje živahne barve, drzne vzorce in tehnološke elemente ter ustvari prostor, ki navdihuje in krepi.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "אפרופוטוריזם",
+                    "description": "חגיגה של העבר והעתיד, המשלבת צבעים מרהיבים, דפוסים נועזים ואלמנטים טכנולוגיים ליצירת מרחב שמעצים ומעורר השראה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Афрофутуристички",
+                    "description": "Слављење наслеђа и будућности, комбинација живих боја, смелих дезена и технолошких елемената ствара простор који даје снагу и инспирацију.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "아프로퓨처리스트",
+                    "description": "과거의 유산과 미래를 기념하는 공간입니다. 생동감 넘치는 색상, 과감한 패턴과 첨단 아이템을 결합해 영감이 솟아나고 힘을 더해주는 공간을 만들었습니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Αφροφουτουριστικό",
+                    "description": "Μια γιορτή της κληρονομιάς και του μέλλοντος, που συνδυάζει ζωηρά χρώματα, τολμηρά μοτίβα και στοιχεία τεχνολογίας, ώστε να δημιουργήσει έναν χώρο που εμπνέει και ενδυναμώνει.",
+                    "lang": "el"
+                },
+                {
+                    "name": "แอฟโรฟิวเจอริสต์",
+                    "description": "การเฉลิมฉลองแห่งมรดกและอนาคต ผสานสีสันที่สดใส ลวดลายที่โดดเด่น และองค์ประกอบเทคโนโลยี เพื่อสร้างพื้นที่ที่เต็มไปด้วยแรงบันดาลใจและพลังแห่งการสร้างสรรค์",
+                    "lang": "th"
+                },
+                {
+                    "name": "Afrofuturiste",
+                    "description": "Une célébration du patrimoine et de l'avenir, combinant des couleurs vives, des motifs audacieux et des éléments technologiques pour créer un espace qui inspire et responsabilise.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "A celebration of heritage and future, combining vibrant colors, bold patterns and tech elements to create a space that inspires and empowers.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Afrofuturizmus",
+                    "description": "Oslava dedičstva a budúcnosti, kombinácia žiarivých farieb, odvážnych vzorov a technologických prvkov s cieľom vytvoriť priestor, ktorý inšpiruje a posilňuje.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Afrofuturystyczny",
+                    "description": "Celebracja dziedzictwa i przyszłości, łącząca żywe kolory, śmiałe wzory i elementy technologiczne, aby stworzyć przestrzeń, która inspiruje i dodaje sił.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Uma celebração do passado e do futuro, combinando cores vibrantes, padrões arrojados e elementos tecnológicos para criar um espaço que inspira e dá força.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Afrofuturisti",
+                    "description": "Perinteen ja tulevaisuuden juhla, jossa yhdistyvät eloisat värit, rohkeat kuviot ja tekniset elementit luoden tilan, joka inspiroi ja antaa voimaa.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "アフロフューチャリスト",
+                    "description": "伝統と未来の賛美。鮮やかな色彩と大胆なパターン、テクノロジーの要素が組み合わさって、インスピレーションと力強さを生み出す空間を創造します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Afrofuturistički",
+                    "description": "Slavljenje nasleđa i budućnosti, kombinacija živih boja, smelih šablona i tehnoloških elemenata stvara prostor koji daje snagu i inspiraciju.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "O sărbătoare a moștenirii și viitorului, combinând culori vii, modele îndrăznețe și elemente tehnologice pentru a crea un spațiu care inspiră și motivează.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "अफ्रोफ्यूचरिस्ट",
+                    "description": "विरासत और भविष्य का सेलिब्रेशन। जीवंत रंगों, बोल्ड पैटर्न और तकनीकी तत्वों का संयोजन करके एक ऐसा स्थान बनाना जो प्रेरित और सशक्त करे।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Una celebración de la herencia y el futuro, que combina colores vibrantes, estampados atrevidos y elementos tecnológicos para crear un espacio que inspira y potencia.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "En fejring af arv og fremtid, der kombinerer levende farver, vovede mønstre og tekniske elementer for at skabe et rum, der inspirerer og styrker.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "A celebration of heritage and future, combining vibrant colours, bold patterns and tech elements to create a space that inspires and empowers.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "Slavljenje nasljeđa i budućnosti, kombiniranje živih boja, odvažnih uzoraka i tehničkih elemenata za stvaranje prostora koji nadahnjuje i osnažuje.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Afrofutūrisms",
+                    "description": "Pagātnes un nākotnes svētki, apvienojot spilgtas krāsas, izteiksmīgus motīvus un tehniskos elementus, lai radītu interjeru, kas iedvesmo un dod spēku.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "الفن الأفريقي المعاصر",
+                    "description": "رحلة عبر الزمن، حيث يلتقي التراث بالمستقبل، تجمع بين الألوان الزاهية والأنماط الجريئة والتقنية لخلق مساحةً مفعمةً بالإلهام والتمكين.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "Ett firande av arv och framtid som kombinerar starka färger, modiga mönster och tekniska element för att skapa ett utrymme som inspirerar och stärker.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "非洲未来主义",
+                    "description": "这是一场融合了传统与未来的庆典，通过结合鲜艳的色彩、大胆的图案以及科技元素，打造出一个既能激发灵感又能赋予力量的空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Una celebrazione della tradizione e del futuro, che unisce colori vivaci, motivi audaci ed elementi tecnologici per creare uno spazio che ispira e motiva.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Una celebración de la herencia y el futuro, que combina colores vibrantes, patrones atrevidos y elementos tecnológicos para crear un espacio que inspira y empodera.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Afrofuturista",
+                    "description": "Az örökség és a jövő ünneplése, vibráló színekkel, merész mintákkal és technológiai elemekkel, hogy egy olyan teret hozzunk létre, ami inspiráló és funkcionális.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Afrofuturismus",
+                    "description": "Oslava odkazu a budoucnosti, kombinace živých barev, odvážných vzorů a technologických prvků, která vytváří prostor, jenž inspiruje a dodává sílu.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Afrofütürist",
+                    "description": "Canlı renklerin, cesur desenlerin ve teknoloji unsurlarının birleştirildiği geçmişin ve geleceğin bir övgüsü, ilham veren ve güçlendiren bir alan oluşturuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Афрофутуризм",
+                    "description": "Пространство, где прошлое встречается с будущим: динамичные оттенки, геометрические орнаменты и инновационные детали пробуждают креативность и мотивируют.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "Een viering van erfgoed en toekomst. Levendige kleuren, opvallende patronen en technische elementen worden gecombineerd om een ruimte te creëren die inspireert en kracht geeft.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Afrofuturist",
+                    "description": "Pärandi ja tuleviku väärtustamine, mille käigus elavad värvid, julged mustrid ja tehnoloogiaelemendid sulanduvad inspireerivaks ja võimestavaks ruumiks.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Afrikietiškas futurizmas",
+                    "description": "Iškilmingas interjeras, kuriame praeitis susilieja su ateitimi: dinamiški atspalviai, paryškinti ornamentai ir novatoriški elementai kuria įkvepiančią bei motyvuojančią erdvę.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "urban_office",
+            "name": "Urban office",
+            "description": "Clean lines, functional furniture, and city views deliver a productive and inspiring space for professionals who like a bit of panorama.",
+            "prompt": "best quality, open space, very clean, soft light and shadow, glass penthouse office style, CEO office, norman foster design, teak, marble, large windows, penthouse city view",
+            "thumbnail": "urban_office.jpg",
+            "translations": [
+                {
+                    "name": "Градски офис",
+                    "description": "Изчистени линии, функционалните мебели и гледки към града предоставят продуктивно и вдъхновяващо пространство за професионалисти, които обичат деликатна панорамна гледка.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Städtisches Büro",
+                    "description": "Klare Linien, funktionale Möbel und ein Blick auf die Stadt schaffen einen produktiven und inspirierenden Raum für Berufstätige, die gerne einen Hauch Panorama genießen.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Escritório urbano",
+                    "description": "Linhas limpas, móveis funcionais e vistas da cidade proporcionam um espaço produtivo e inspirador para profissionais que gostam de panoramas.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Urbant kontor",
+                    "description": "Rene linjer, funksjonelle møbler og utsikt over byen skaper et produktivt og inspirerende rom for personer som liker gode utsikter.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "都市辦公室",
+                    "description": "結合簡潔的線條、實用的家具和城市景觀，為喜愛景觀的專業人士創造出高效而且能夠啟發靈感的空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Міський офіс",
+                    "description": "Чіткі лінії, функціональні меблі й міські краєвиди створюють продуктивний і наснажливий простір для професіоналів, які полюбляють панорамні види.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Urbana pisarna",
+                    "description": "Čiste linije, funkcionalno pohištvo in pogled na mesto zagotavljajo produktivne ter navdihujoče prostore za strokovnjake, ki imajo radi malo panorame.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "משרד עירוני",
+                    "description": "קווים נקיים, ריהוט פונקציונלי ונופים של העיר יוצרים מרחב פרודוקטיבי ומעורר השראה עבור אנשי מקצוע שאוהבים קצת פנורמה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Урбана канцеларија",
+                    "description": "Чисте линије, функционалан намештај и поглед на град пружају продуктиван и инспиративан простор за професионалце који уживају у панорами.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "도시 사무실",
+                    "description": "깔끔한 선과 기능에 중점을 둔 가구, 그리고 도시의 전망이 탁 트인 전망을 좋아하는 전문가들에게 생산적이고 영감이 넘치는 공간을 제공합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Αστικό γραφείο",
+                    "description": "Οι καθαρές γραμμές, τα λειτουργικά έπιπλα και η θέα στην πόλη προσφέρουν έναν παραγωγικό και εμπνευσμένο χώρο για επαγγελματίες που τους αρέσει λίγη πανοραμική θέα.",
+                    "lang": "el"
+                },
+                {
+                    "name": "สำนักงานเขตเมือง",
+                    "description": "เส้นสายที่เรียบง่าย เฟอร์นิเจอร์ที่เน้นการใช้งาน และวิวเมืองที่กว้างไกล สร้างพื้นที่ที่ส่งเสริมความคิดสร้างสรรค์และประสิทธิภาพสำหรับมืออาชีพที่ชื่นชอบบรรยากาศแบบพาโนรามา",
+                    "lang": "th"
+                },
+                {
+                    "name": "Bureau urbain",
+                    "description": "Des lignes épurées, un mobilier fonctionnel et une vue sur la ville offrent un espace productif et inspirant pour les professionnels qui aiment un peu de panorama.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Urban office",
+                    "description": "Clean lines, functional furniture, and city views deliver a productive and inspiring space for professionals who like a bit of panorama.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Kancelária v meste",
+                    "description": "Čisté línie, funkčný nábytok a výhľad na mesto poskytujú produktívny a inšpiratívny priestor pre profesionálov, ktorí majú radi panorámu.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Miejskie biuro",
+                    "description": "Proste linie, funkcjonalne meble i widoki na miasto tworzą produktywną i inspirującą przestrzeń dla profesjonalistów, którzy lubią panoramy.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Escritório urbano",
+                    "description": "As linhas simples, a mobília funcional e as vistas da cidade proporcionam um espaço produtivo e inspirador para profissionais que gostam de um pouco de panorama.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Urbaani toimisto",
+                    "description": "Puhtaat linjat, käytännölliset kalusteet ja kaupunkinäkymät tarjoavat tuottavan ja inspiroivan tilan ammattilaisille, joita panoraama miellyttää.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "都会的なオフィス",
+                    "description": "無駄を省いたラインに機能的な家具、そして都市の景観が、パノラマを楽しむプロフェッショナル向けに生産的でインスピレーション豊かな空間を提供します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Urbana kancelarija",
+                    "description": "Čiste linije, funkcionalan nameštaj i pogled na grad pružaju produktivan i inspirativan prostor za profesionalce koji uživaju u panorami.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Birou urban",
+                    "description": "Liniile curate, mobilierul funcțional și priveliștile asupra orașului oferă un spațiu productiv, plin de inspirație pentru profesioniștii cărora le place puțină panoramă.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "शहरी ऑफिस",
+                    "description": "साफ-सुथरी रेखाएं, फंक्शनल फर्नीचर और शहर के दृश्य, पैनोरमा का आनंद लेने वाले पेशेवरों के लिए एक उत्पादक और प्रेरणादायक स्थान प्रदान करते हैं।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Oficina urbana",
+                    "description": "Las líneas limpias, el mobiliario funcional y las vistas de la ciudad ofrecen un espacio productivo e inspirador para los profesionales a los que les gusta un poco de panorama.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Bykontor",
+                    "description": "Rene linjer, funktionelle møbler og udsigt over byen leverer et produktivt og inspirerende rum for professionelle, der kan lide en smule panorama.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Urban office",
+                    "description": "Clean lines, functional furniture, and city views deliver a productive and inspiring space for professionals who like a bit of panorama.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Urbani ured",
+                    "description": "Čiste linije, funkcionalan namještaj i pogled na grad daju produktivan i kvalitetan prostor za profesionalce koji vole malo panorame.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Urbānais birojs",
+                    "description": "Tīras līnijas, funkcionālas mēbeles un skats uz pilsētu veido produktīvu un iedvesmojošu telpu profesionāļiem, kuri prot novērtēt labu panorāmu.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "المكتب الحضري",
+                    "description": "خطوط ناعمة، وأثاث وظيفي، وإطلالات بانورامية ساحرة تخلق مساحة محفزة ومثالية للإنتاجية، مخصصة للمحترفين الذين يستمتعون بالمشهد البانورامي.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Urbant kontor",
+                    "description": "Tydliga linjer, funktionella möbler och stadsvyer skapar ett produktivt och inspirerande utrymme för proffs som är ute efter panorama.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "都市办公室",
+                    "description": "简洁的线条、实用的家具，搭配城市景观，为喜爱开阔视野的人打造出高效且富有灵感的空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Ufficio urbano",
+                    "description": "Le linee pulite, i mobili funzionali e la vista sulla città creano uno spazio produttivo e stimolante per i professionisti a cui piacciono viste panoramiche.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Oficina urbana",
+                    "description": "Las líneas limpias, con mobiliario funcional y vistas a la ciudad, ofrecen un espacio productivo e inspirador para los profesionales a los que les gusta un poco de panorama.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Urbánus iroda",
+                    "description": "A tiszta vonalak, a funkcionális bútorzat és a kilátás a városra produktív és inspiráló helyet hoz létre olyan szakembereknek, akik kedvelik a panorámát.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Městská kancelář",
+                    "description": "Jednoduché linie, praktický nábytek a výhled na město poskytují produktivní a inspirativní prostor pro profesionály, kteří mají rádi trochu panoramatu.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Şehir ofisi",
+                    "description": "Temiz hatlar, işlevsel mobilyalar ve şehir manzarası, panoramalardan hoşlanan profesyoneller için üretken ve ilham verici bir alan sunuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Городской офис",
+                    "description": "Четкие линии, функциональная мебель и вид на город создают продуктивное и вдохновляющее пространство для профессионалов, которые любят панорамные виды.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Stedelijk kantoor",
+                    "description": "Strakke lijnen, functioneel meubilair en uitzicht op de stad creëren een productieve en inspirerende ruimte voor professionals die van een beetje panorama houden.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Linnakontor",
+                    "description": "Puhtad jooned, funktsionaalne mööbel ja linnavaated pakuvad produktiivset ja inspireerivat ruumi professionaalidele, kes naudivad ilusat vaadet.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Miesto biuras",
+                    "description": "Aiškios linijos, funkcionalūs baldai ir miesto panorama sukuria produktyvią bei įkvepiančią erdvę panoraminiais vaizdais gėrėtis mėgstantiems profesionalams.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "bauhaus",
+            "name": "Bauhaus",
+            "description": "Inspiration from the iconic design school, with a focus on function, form, colour and the use of industrial materials to create a space both timeless and modern.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, HDR, bauhaus style, dessau, breuer, bent plywood furniture, primary colours, plywood walls, bent steel tubes, josef albers homage to the square art, factory",
+            "thumbnail": "bauhaus.jpg",
+            "translations": [
+                {
+                    "name": "Баухаус",
+                    "description": "Вдъхновение от емблематичната дизайнерска школа с акцент върху функционалността, вида, цвета и употребата на индустриални материали за създаване на пространство, което е едновременно неподвластно на времето и модерно.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiriert von der legendären Designschule liegt der Fokus auf der harmonischen Verbindung von Funktion, Form und Farbe sowie der geschickten Nutzung industrieller Materialien. So entsteht ein Raum, der sowohl zeitlose Eleganz als auch moderne Raffinesse verkörpert.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiração na icônica escola de design, com foco em função, forma, cor e uso de materiais industriais para criar um espaço atemporal e moderno.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspirasjon fra den ikoniske designskolen, med fokus på funksjon, form, farge og bruk av industrielle materialer for å skape et rom som er både tidløst og moderne.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "包浩斯主義",
+                    "description": "靈感源自經典設計學院，聚焦於功能、形式、顏色和工業材料的使用，創造出兼具永恆及現代感的空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Баухаус",
+                    "description": "Простір у культовому дизайні, одночасно позачасовий і сучасний, створений із використанням промислових матеріалів з акцентом на функціональності, формі й кольорі.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Navdih iz kultne oblikovalske šole s poudarkom na funkciji, obliki, barvi in uporabi industrijskih materialov za ustvarjanje brezčasnega in sodobnega prostora.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "באוהאוס",
+                    "description": "השראה מבית הספר האיקוני לעיצוב, תוך התמקדות בפונקציה, בצורה, בצבע ובשימוש בחומרים תעשייתיים ליצירת מרחב נצחי ומודרני כאחד.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Баухаус",
+                    "description": "Инспирација потиче од легендарне школе дизајна, са фокусом на функционалности, форму, боју и коришћење индустријских материјала за безвремен и модеран простор.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "바우하우스",
+                    "description": "대표적인 디자인 학교에서 영감을 얻어 기능, 형태, 색상에 초점을 맞추고 산업용 자재를 사용하여 세월이 흘러도 변하지 않는 모던한 공간을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μπάουχαους",
+                    "description": "Έμπνευση από την εμβληματική σχολή σχεδιασμού, με έμφαση στη λειτουργία, στη μορφή, στο χρώμα και στη χρήση βιομηχανικών υλικών για δημιουργία ενός διαχρονικού και μοντέρνου χώρου.",
+                    "lang": "el"
+                },
+                {
+                    "name": "เบาเฮาส์",
+                    "description": "แรงบันดาลใจจากโรงเรียนออกแบบระดับตำนาน โดยเน้นการผสมผสานระหว่างฟังก์ชัน รูปทรง สีสัน และวัสดุอุตสาหกรรม เพื่อสร้างพื้นที่ที่ทั้งเหนือกาลเวลาและทันสมัย",
+                    "lang": "th"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiration de l'école de design emblématique, mettant l'accent sur la fonction, la forme, la couleur et l'utilisation de matériaux industriels pour créer un espace à la fois intemporel et moderne.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiration from the iconic design school, with a focus on function, form, color and the use of industrial materials to create a space both timeless and modern.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inšpirujte sa kultovou dizajnérskou školou so zameraním na funkciu, formu, farbu a použitie priemyselných materiálov, aby ste vytvorili nadčasový a zároveň moderný priestor.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Wnętrze inspirowane kultową szkołą designu, ze szczególnym uwzględnieniem funkcji, formy, koloru i wykorzystania materiałów przemysłowych, co pozwoliło stworzyć przestrzeń zarówno ponadczasową, jak i nowoczesną.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiração da icónica escola de design, com foco na função, forma, cor e utilização de materiais industriais para criar um espaço intemporal e moderno.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiraatio ikonisesta suunnittelukoulusta, jossa keskitytään toimivuuteen, muotoon, väreihin ja teollisten materiaalien käyttöön tehden tilasta sekä ajattoman että modernin.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "バウハウス",
+                    "description": "アイコニックなデザインスクールからのインスピレーション。機能性、形、色、そして工業用素材の使用に焦点を当て、時代を超えたモダンな空間を創り出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiracija potiče od legendarne škole dizajna, sa fokusom na funkcionalnosti, oblicima, bojama i korišćenju industrijskih materijala za bezvremen i moderan prostor.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspirație din școala de design emblematică, cu accent pe funcție, formă, culoare și utilizarea materialelor industriale pentru a crea un spațiu atât atemporal, cât și modern.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "बॉहॉस",
+                    "description": "डिजाइन के प्रतिष्ठित स्कूल से प्रेरित, कार्य, रूप, रंग और औद्योगिक सामग्रियों के उपयोग पर ध्यान केंद्रित करते हुए एक कालातीत लेकिन आधुनिक स्थान का निर्माण किया गया है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiración de la icónica escuela de diseño, que se centra en la función, la forma, el color y el uso de materiales industriales para crear un espacio atemporal y moderno.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiration fra den ikoniske designskole, med fokus på funktion, form, farve og brug af industrielle materialer til at skabe et rum både tidløst og moderne.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiration from the iconic design school, with a focus on function, form, colour and the use of industrial materials to create a space both timeless and modern.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiracija iz legendarne škole dizajna, s fokusom na funkciju, formu, boju i upotrebu industrijskih materijala za stvaranje bezvremenskog i modernog prostora.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Ikoniskās dizaina skolas iedvesmots, vienlaikus pārlaicisks un moderns interjers, kurā pievērsta uzmanība funkcijai, formai, krāsām un industriālo materiālu izmantošanai.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "باوهاوس",
+                    "description": "من مدرسة التصميم الشهيرة، يركز هذا المكان على الوظيفة، والشكل، واللون، واستخدام المواد الصناعية لخلق مساحةً تجمع بين الأناقة الخالدة والحداثة العصرية.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiration från den ikoniska designskolan med fokus på funktion, form, färg och användning av industriellt material för att skapa ett utrymme som är både tidlöst och modernt.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "包豪斯",
+                    "description": "灵感源自这所标志性的设计学院，注重功能、形式、色彩以及工业材料的运用，打造出一个兼具永恒感和现代感的空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Ispirato all'iconica scuola di design, con particolare attenzione alla funzione, alla forma, al colore e all'uso di materiali industriali per creare uno spazio senza tempo e al tempo stesso moderno.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiración de la icónica escuela de diseño, con un enfoque en la función, la forma, el color y el uso de materiales industriales para crear un espacio atemporal y moderno.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspiráció az ikonikus dizájniskolából, a funkcióra, formára, színre és az ipari anyagok felhasználására koncentrálva, hogy egy olyan tér jöhessen létre, ami időtlen és modern.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Inspirace kultovní školou designu se zaměřením na funkčnost, formu, barvy a použití průmyslových materiálů pro vytvoření nadčasového a zároveň moderního prostoru.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "İşlev, biçim, renk ve endüstriyel malzemelerin kullanımına odaklanan ve ikonik tasarım ekolünden ilham alan hem evrensel hem de modern bir alan.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Баухаус",
+                    "description": "Вдохновленное культовой школой дизайна пространство, где функциональность, форма, цвет и индустриальные материалы сочетаются, чтобы создать стильную и актуальную атмосферу.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Geïnspireerd door de iconische designschool, met de nadruk op functionaliteit, vorm, kleur en het gebruik van industriële materialen om een ruimte te creëren die zowel tijdloos als modern is.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Bauhaus",
+                    "description": "Legendaarsest disainikoolist inspireeritud lähenemine, kus keskmes on funktsionaalsus, vorm, värv ja tööstuslike materjalide kasutus, luues ajatu, kuid kaasaegse keskkonna.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Bauhauzas",
+                    "description": "Ikoniškos dizaino mokyklos įkvėptas interjeras, kuriame funkcionalumas, forma, spalvos bei pramoninės medžiagos dera tam, kad sukurtų nesenstančią stilingą erdvę.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "minimalist",
+            "name": "Minimalist",
+            "description": "Calm and simplicity unite in a decluttered space, with clean lines, a bit of nature, and an appreciation of essential elements.",
+            "prompt": "open space, very clean, clear floor, soft light and shadow, hdr, Minimalist style, japandi interior, neutral colour palette, zen retreat, bright space, cherry blossoms, soft white round ceramics, lake view",
+            "thumbnail": "minimalist.jpg",
+            "translations": [
+                {
+                    "name": "Минималистично",
+                    "description": "Спокойствието и простотата се обединяват в едно подредено пространство, с изчистени линии, малко природа и признателност към най-важните елементи.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Minimalistisch",
+                    "description": "Ruhe und Einfachheit finden ihren Einklang in einem harmonischen Raum, der durch klare Linien besticht. Ein Hauch von Natur und die Wertschätzung für das Wesentliche verleihen diesem Ambiente eine besondere Note.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "A calma e simplicidade se unem num espaço organizado, com linhas limpas, um pouco de natureza e valorização de elementos essenciais.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Ro og enkelhet forenes i et ryddig rom, med rene linjer, litt natur og en forståelse for essensielle elementer.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "極簡主義",
+                    "description": "透過整齊的空間、俐落的線條，一點自然氛圍，以及對基本元素的欣賞，將寧靜與簡易融為一體。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Мінімалізм",
+                    "description": "Чисті лінії, трохи природи й усе необхідне поєднуються в охайному та водночас невибагливому просторі.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Minimalistično",
+                    "description": "Mir in preprostost se združita v harmoničnem prostoru s čistimi linijami, kančkom narave in spoštovanjem bistvenih elementov.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "מינימליזם",
+                    "description": "רוגע ופשטות מתאחדים במרחב מסודר עם קווים נקיים, קצת טבע והערכה לדברים החיוניים.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Минималистички",
+                    "description": "Спој мира и једноставности у простору без сувишних ствари, са чистим линијама, мало природе и нагласком на суштинским елементима.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "미니멀리스트",
+                    "description": "깔끔한 선, 약간의 자연, 꼭 필요한 물건에 대한 감사의 마음만 남기고 잡동사니를 정리하여, 차분함과 단순함이 조화를 이루는 공간입니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μινιμαλιστικό",
+                    "description": "Η ηρεμία και η απλότητα ενώνονται σε έναν ακατάστατο χώρο, με καθαρές γραμμές, λίγη φύση και εκτίμηση βασικών στοιχείων.",
+                    "lang": "el"
+                },
+                {
+                    "name": "เรียบง่าย",
+                    "description": "ความสงบและความเรียบง่ายมาบรรจบกันในพื้นที่ที่ปราศจากความรก ซึ่งเต็มไปด้วยเส้นสายที่สะอาดตา ธรรมชาติเล็กน้อย และการชื่นชมในองค์ประกอบที่จำเป็น",
+                    "lang": "th"
+                },
+                {
+                    "name": "Minimaliste",
+                    "description": "Calme et simplicité s'unissent dans un espace neutre, avec des lignes épurées, un peu de nature et une appréciation des éléments essentiels.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Calm and simplicity unite in a decluttered space, with clean lines, a bit of nature, and an appreciation of essential elements.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Minimalizmus",
+                    "description": "Pokoj a jednoduchosť sa spájajú v decentnom priestore s čistými líniami, kúskom prírody a ocenením základných prvkov.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Minimalistyczny",
+                    "description": "Połączenie spokoju i prostoty w uporządkowanej przestrzeni. Proste linie, odrobina natury i uznanie dla podstawowych żywiołów.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "A calma e a simplicidade unem-se num espaço organizado, com linhas simples, um pouco de natureza e uma apreciação dos elementos essenciais.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Minimalistinen",
+                    "description": "Rauhallisuus ja yksinkertaisuus yhdistyvät siistissä tilassa, jota kuvastavat puhtaat linjat, ripaus luontoa ja olennaisten elementtien arvostus.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "ミニマリスト",
+                    "description": "落ち着きとシンプルさが調和した、整頓された空間。無駄を省いたラインと、少しの自然、そして本質的な要素への理解が感じ取れます。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Minimalistički",
+                    "description": "Spoj mira i jednostavnosti u prostoru bez suvišnih stvari, čistih linija sa malo prirode i naglaskom na suštinskim elementima.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Calmul și simplitatea se unesc într-un spațiu aerisit, cu linii curate, un pic de natură și o apreciere a elementelor esențiale.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "मिनिमलिस्ट",
+                    "description": "अनावश्यक चीजों से रहित स्थान, जहां शांति और सादगी का संयोजन है, साफ रेखाएं, थोड़ा प्रकृति का स्पर्श और आवश्यक तत्वों पर जोर के साथ।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "La calma y la sencillez se unen en un espacio despejado, con líneas limpias, un poco de naturaleza y una apreciación de los elementos esenciales.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Ro og enkelhed forenes i et rodet rum med rene linjer, en smule natur og en forståelse af væsentlige elementer.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Calm and simplicity unite in a decluttered space, with clean lines, a bit of nature, and an appreciation of essential elements.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Minimalistički",
+                    "description": "Smirenost i jednostavnost sjedinjuju se u rasterećenom prostoru, s čistim linijama, malo prirode i uvažavanjem bitnih elemenata.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Minimālisms",
+                    "description": "Miers un vienkāršība no liekā brīvā telpā ar skaidrām līnijām, nelielu dabas pieskārienu un cieņu pret būtiskajiem elementiem.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "الرقة",
+                    "description": "الهدوء والبساطة في مساحة مرتبة، مع خطوط ناعمة، وقليل من الطبيعة، وتقدير للعناصر الأساسية.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Lugn och enkelhet förenas på ett städat utrymme med tydliga linjer, en del natur och en uppskattning för de nödvändiga elementen.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "极简主义",
+                    "description": "宁静与简约在整洁的空间中融为一体，拥有简洁的线条、一丝自然元素，以及对基本元素的欣赏。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "La tranquillità e la semplicità si uniscono per dare vita a uno spazio ordinato, dalle linee pulite, per coloro che apprezzano le cose essenziali.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "La calma y la sencillez se unen en un espacio organizado, con líneas limpias, un poco de naturaleza y una revalorización de los elementos esenciales.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Minimalista",
+                    "description": "A nyugalom és az egyszerűség egysége egy rendezett térben, tiszta vonalakkal, egy kis természettel, és a létfontosságú elemek tiszteletben tartásával.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Minimalistické",
+                    "description": "V uspořádaném prostoru se snoubí klid a jednoduchost s ladnými liniemi, trochou přírody a respektem k základním prvkům.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Minimalist",
+                    "description": "Sakinlik ve basitlik, sabit hatların, biraz doğanın ve temel unsurların takdir edildiği düzenli bir alanda bir araya geliyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Минимализм",
+                    "description": "Простота и гармония в интерьере, где четкость линий сочетается с природными акцентами и осознанным подходом к деталям.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Minimalistisch",
+                    "description": "Rust en eenvoud komen samen in een opgeruimde ruimte, met strakke lijnen, een beetje natuur en waardering voor essentiële elementen.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Minimalistlik",
+                    "description": "Rahulikkus ja lihtsus ühinevad puhta kujundusega korrastatud ruumis, kus on veidi looduslikkust ja hinnatakse olulisi elemente.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Minimalizmas",
+                    "description": "Interjero harmonija ir paprastumas nesujauktoje erdvėje persipina su linijų ryškumu, gamtos elementais bei sąmoningu požiūriu į detales.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "pinktastic",
+            "name": "PinkTastic",
+            "description": "A festival of all things pink and fuzzy, combining soft blush tones with bold fuchsias for a space that’s playful, imaginative and full of joy.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, pink gamer style, fuzzy pink wall, big hearts on the the wall, lucite furniture, pink curtains, everything pink, fuzzy pink pillows, glowing pink lights, puffy clouds",
+            "thumbnail": "pinktastic.jpg",
+            "translations": [
+                {
+                    "name": "ПинкТастик",
+                    "description": "Фестивал на всичко розово и пухкаво, съчетаващ меки розови тонове с дръзки тонове фуксия за пространство, което е забавно, креативно и изпълнено с радост.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Pinktastisch",
+                    "description": "Feiern Sie alles, was rosa und kuschelig ist! Kreieren Sie einen verspielten und fantasievollen Raum, indem Sie sanfte Rottöne mit lebhaften Fuchsiafarben kombinieren. So entsteht eine Atmosphäre voller Freude und Leichtigkeit.",
+                    "lang": "de"
+                },
+                {
+                    "name": "RosaTástico",
+                    "description": "Um festival de tudo que é rosa e felpudo, combinando tons suaves de blush com fúcsia ousados para um espaço lúdico, imaginativo e cheio de alegria.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Rosatastisk",
+                    "description": "En festival med alt som er rosa og kosete. Her kombineres myke rødmetoner med dristig fuksia for et rom som er lekent, fantasifullt og fullt av glede.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "魅力粉紅",
+                    "description": "這是一個充滿粉紅色和毛茸敢的慶典，將柔和的腮紅色調與鮮豔的紫紅色相結合，營造出充滿趣味、想像力和歡樂的空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Рожева мрія",
+                    "description": "Рожеві кольори й м’які форми, що в поєднанні з яскравими фуксіями створюють грайливий, творчий і сповнений радості простір.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Pinktastično",
+                    "description": "Festival vsega rožnatega in puhastega, ki združuje nežne rdeče tone z drznimi fuksijami za prostor, ki je igriv, domiseln in poln veselja.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "חלום ורוד",
+                    "description": "פסטיבל של דברים ורודים ורכים, המשלב גווני סומק עדינים עם גווני פוקסיה נועזים ליצירת מרחב עליז, יצירתי ומלא שמחה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Пинктастично",
+                    "description": "Фестивал ружичастог и чупавог, комбинација нежних румених тонова и истакнутог собног цвећа за простор који је разигран, маштовит и пун радости.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "핑크타스틱",
+                    "description": "분홍색과 폭신폭신한 아이템의 축제. 부드러운 홍조빛을 진한 후크시아 색상에 더해 발랄하고 상상력이 솟구치는 즐거운 분위기의 공간을 만들었습니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Φανταστικό ροζ",
+                    "description": "Μια γιορτή με όλα τα ροζ και χνουδωτά πράγματα, που συνδυάζει απαλούς τόνους ρουζ με έντονα φούξια για έναν χώρο παιχνιδιάρικο, ευφάνταστο και γεμάτο χαρά.",
+                    "lang": "el"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "เทศกาลแห่งทุกสิ่งที่สีชมพูและนุ่มฟู ผสมผสานระหว่างโทนสีชมพูอ่อนกับสีชมพูสดใส เพื่อสร้างพื้นที่ที่เล่นสนุก เต็มไปด้วยจินตนาการและความสุขสุดเฟี้ยว",
+                    "lang": "th"
+                },
+                {
+                    "name": "RoseTastique",
+                    "description": "Un festival de tout ce qui est rose et duveteux, combinant des tons rosés doux avec des fuchsias audacieux pour un espace ludique, imaginatif et plein de joie.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "A festival of all things pink and fuzzy, combining soft blush tones with bold fuchsias for a space that’s playful, imaginative and full of joy.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Festival všetkého ružového a rozmazaného, kombinácia jemných ružových tónov s odvážnymi fuchsiami pre priestor, ktorý je hravý, nápaditý a plný radosti.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Festiwal różów i puszystości, połączenie miękkich tonów różu z wyrazistymi nutami magenty tworzą razem przestrzeń, która jest zarazem zabawna, działająca na wyobraźnię i radosna.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "RosaTástico",
+                    "description": "Um festival onde tudo é cor de rosa e felpudo, combinando tons suaves de rosa com fúcsias arrojadas para um espaço lúdico, imaginativo e cheio de alegria.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Kaiken vaaleanpunaisen ja pörröisen festivaali, jossa pehmeät punasävyt yhdistyvät rohkeisiin fuksioihin luoden tilan, joka on leikkisä, mielikuvituksellinen ja iloinen.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "ピンクタスティック",
+                    "description": "ピンク色とふわふわもふもふが集まった祭典。柔らかな桃色トーンと大胆なフクシアを組み合わせ、遊び心満載で想像力に富む、喜びに満ちた空間が広がります。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Pinktastično",
+                    "description": "Festival ružičastog i čupavog, kombinacija nežnih rumenih tonova i istaknutog sobnog cveća za prostor koji je razigran, maštovit i pun radosti.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Un festival al tuturor lucrurilor roz și pufoase, care combină tonuri pale de roz cu tonuri îndrăznețe de fucsia pentru un spațiu jucăuș, imaginativ și plin de bucurie.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "पिंकटैस्टिक",
+                    "description": "गुलाबी और मखमली चीजों का त्यौहार। कोमल लालिमा वाली रंगतों को फ्यूशिया के गाढ़े रंगों के साथ मिलाकर एक ऐसा स्थान तैयार करता है जो एक उमंग भरा, कल्पनाशील और मजेदार है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Rosástico",
+                    "description": "Un festival de todo lo rosa y peludo, que combina suaves tonos de colorete con atrevidos fucsias para crear un espacio alegre, imaginativo y lleno de alegría.",
+                    "lang": "es"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "En festival med alt, hvad der er pink og fuzzy, der kombinerer bløde blush-toner med dristige fuchsiaer for et rum, der er legende, fantasifuldt og fuld af glæde.",
+                    "lang": "da"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "A festival of all things pink and fuzzy, combining soft blush tones with bold fuchsias for a space that’s playful, imaginative and full of joy.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Festival svega što je ružičasto i nejasno, kombinira nježne tonove rumenila s odvažnim nijansama fuksije za prostor koji je razigran, maštovit i pun radosti.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Rozā sapnis",
+                    "description": "Visa sārtā un pūkainā svētki, kur maigi sārtie toņi saplūst ar spilgti rozā, veidojot rotaļīgu un iztēli un prieku rosinošu telpu.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "وردي ساحر",
+                    "description": "تجميع لكل شيء وردي ورقيق، تجمع بين درجات اللون الزهري الناعم والفوشيا الجريء لخلق مساحة مرحة وخلاقة ومفعمة بالمرح.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "En festival av allt som är rosa och fluffigt med en blandning av mjuka molniga toner och modiga fuchsior i ett utrymme som är lekfullt, kreativt och fullt av glädje.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "粉色魅力",
+                    "description": "这是一场充满粉色和毛茸茸元素的盛会，将柔和的腮红色与鲜艳的紫红色相结合，营造出一个充满乐趣、想象力和欢乐的空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "All'insegna del rosa",
+                    "description": "Una celebrazione del colore rosa e delle cose soffici, che combina tonalità tenui con il fucsia vivace per dare vita a uno spazio divertente, fantasioso e pieno di gioia.",
+                    "lang": "it"
+                },
+                {
+                    "name": "PinkTástico",
+                    "description": "Un festival de todo lo rosa y aterciopelado, que combina suaves tonos de rubor con atrevidos fucsias para crear un espacio lúdico, imaginativo y lleno de alegría.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Pinktasztikus",
+                    "description": "Pink és bolyhos dolgok arzenálja, ami a puha és pirosas tónusokat kombinálja merész fuksziákkal, hogy egy olyan teret hozzon létre, ami játékos, fantáziadús és örömmel teli.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Růžostické",
+                    "description": "Festival růžových a chundelatých věcí, který kombinuje jemné růžové tóny s výraznými fuchsiemi a vytváří hravý, nápaditý a veselý prostor.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Pembeteşem",
+                    "description": "Eğlenceli, yaratıcı ve neşe dolu bir alan için yumuşak al tonlarını cüretkar fuşya renkleriyle birleştiren pembe ve tüylü şeylerden oluşan bir cümbüş.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Розовая феерия",
+                    "description": "Торжество розового цвета и пушистых фактур: мягкие пастельные тона сочетаются с яркой фуксией, создавая игривую, творческую и счастливую атмосферу.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "PinkTastic",
+                    "description": "Een festival vol roze en harige dingen, waarbij zachte, blozende tinten worden gecombineerd met opvallende fuchsiakleuren voor een speelse, fantasierijke en vrolijke sfeer.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Roostastiline",
+                    "description": "Igasuguste roosade ja uduste asjade festival, kombineerides pehmed punased toonid julgete fuksiatoonidega mänguliseks, kujutlusvõimeliseks ja rõõmu täis ruumiks.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Rožinė pasaka",
+                    "description": "Rožinės spalvos ir švelnių faktūrų triumfas: švelnūs pasteliniai tonai, derinami su ryškiomis fuksijomis, sukuria žaismingą, kūrybingą ir džiaugsmo kupiną erdvę.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "modern_farmhouse",
+            "name": "Modern Farmhouse",
+            "description": "Warmth and comfort meet a modern sensibility in a space that’s both inviting and stylish, functional and polished.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, HDR, bright, Modern Farmhouse style, converted barn, white wood plank walls, oak, iron, hygge, farrow and ball, grey hessian fabric",
+            "thumbnail": "modern_farmhouse.jpg",
+            "translations": [
+                {
+                    "name": "Модерна къща във фермата",
+                    "description": "Топлина и комфорт се срещат с модерната чувствителност в пространство, което е едновременно приветливо и стилно, функционално и изпипано.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Modernes Bauernhaus",
+                    "description": "Wärme und Komfort treffen auf moderne Sensibilität in einem Raum, der sowohl einladend als auch stilvoll, funktionell sowie ausgefeilt ist.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Casa de fazenda moderna",
+                    "description": "Calor e conforto se unem a uma sensibilidade moderna em um espaço convidativo e elegante, funcional e refinado.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Moderne gårdshus",
+                    "description": "Varme og komfort møter en moderne sensibilitet i et rom som er både innbydende og stilig, funksjonelt og polert.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "現代農舍",
+                    "description": "這個空間將溫馨、舒適與現代感融為一體，既極富魅力又有時尚感，同時還兼具了實用性和雅致感。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Сучасний фермерський будинок",
+                    "description": "Тепло й комфорт поєднуються із сучасною чуттєвістю в просторі, який одночасно привабливий і стильний, функціональний і вишуканий.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Sodobna kmečka hiša",
+                    "description": "Toplota in udobje se srečata s sodobno občutljivostjo v prostoru, ki je hkrati vabljiv in eleganten, funkcionalen in dovršen.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "בית כפרי מודרני",
+                    "description": "חום ונוחות משתלבים עם רגישות מודרנית במרחב שהוא גם מזמין וגם מסוגנן, פונקציונלי ומלוטש.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Модерна сеоска кућа",
+                    "description": "Топлина и удобност у комбинацији са савременим сензибилитетом у простору који је истовремено привлачан и елегантан, функционалан и дотеран.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "모던 스타일 농가",
+                    "description": "따뜻함과 편안함에 현대적인 감각이 어우러져 매력적이면서도 우아하고, 기능을 중시하면서도 세련된 공간을 연출합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μοντέρνα αγροικία",
+                    "description": "Η ζεστασιά και η άνεση συναντούν μια μοντέρνα ευαισθησία σε έναν χώρο που είναι φιλόξενος και κομψός, λειτουργικός και εκλεπτυσμένος.",
+                    "lang": "el"
+                },
+                {
+                    "name": "บ้านไร่สไตล์โมเดิร์น",
+                    "description": "ความอบอุ่นและความสะดวกสบายมาบรรจบกับความทันสมัยในพื้นที่ที่ทั้งน่าดึงดูดและมีสไตล์ พร้อมทั้งมีฟังก์ชันการใช้งานและการตกแต่งที่ประณีต",
+                    "lang": "th"
+                },
+                {
+                    "name": "Ferme moderne",
+                    "description": "La chaleur et le confort rencontrent une sensibilité moderne dans un espace à la fois accueillant et élégant, fonctionnel et raffiné.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Modern Farmhouse",
+                    "description": "Warmth and comfort meet a modern sensibility in a space that’s both inviting and stylish, functional and polished.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Moderná farma",
+                    "description": "Teplo a pohodlie sa stretávajú s moderným cítením v priestore, ktorý je príjemný, štýlový, funkčný a uhladený.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Nowoczesny domek za miastem",
+                    "description": "Ciepło i komfort łączą się z nowoczesną wrażliwością w przestrzeni, która jest zarówno przyjazna i stylowa, funkcjonalna i elegancka.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Casa de campo moderna",
+                    "description": "O calor e o conforto encontram-se com uma sensibilidade moderna num espaço que é simultaneamente convidativo e elegante, funcional e refinado.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Moderni maalaistalo",
+                    "description": "Lämpö ja mukavuus kohtaavat modernin herkkyyden tilassa, joka on sekä kutsuva että tyylikäs, toimiva ja hienostunut.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "モダンなファームハウス",
+                    "description": "温かみと快適さが融合し、魅力的でスタイリッシュ、機能的かつ洗練された空間で現代的な感覚を生み出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Moderna farma",
+                    "description": "Toplina i udobnost u kombinaciji sa savremenim senzibilitetom u prostoru koji je istovremeno primamljiv, elegantan, funkcionalan i uglađen.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Fermă modernă",
+                    "description": "Căldura și confortul se întâlnesc cu o sensibilitate modernă într-un spațiu care este atât primitor, cât și elegant, atât funcțional, cât și rafinat.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "आधुनिक फार्महाउस",
+                    "description": "आधुनिक संवेदनशीलता के साथ गर्मजोशी और आराम का संयोजन एक ऐसे स्थान का निर्माण करता है जो आकर्षक व सुरुचिपूर्ण, कार्यात्मक व परिष्कृत दोनों है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Granja moderna",
+                    "description": "La calidez y el confort se unen a una sensibilidad moderna en un espacio que es a la vez acogedor y elegante, funcional y refinado.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Moderne Bondegård",
+                    "description": "Varme og komfort møder en moderne sensibilitet i et rum, der er både indbydende og stilfuldt, funktionelt og poleret.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Modern Farmhouse",
+                    "description": "Warmth and comfort meet a modern sensibility in a space that’s both inviting and stylish, functional and polished.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Moderna seoska kuća",
+                    "description": "Toplina i udobnost susreću se s modernim senzibilitetom u prostoru koji je i privlačan i moderan, funkcionalan i dotjeran.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Moderna lauku māja",
+                    "description": "Siltums un komforts sastop mūsdienīgu atmosfēru telpā, kas ir gan aicinoša, gan stilīga, funkcionāla un pārdomāta.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "مزرعة عصرية",
+                    "description": "الدفء والراحة مع الذوق الحديث في مساحة جذابة وأنيقة وعملية ورائعة.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Modern bondgård",
+                    "description": "Värme och bekvämlighet möter en modern känslighet i ett utrymme som är både inbjudande, snyggt, funktionellt och polerat.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "现代农舍",
+                    "description": "在这个空间里，温暖舒适与现代气息相融合，既温馨宜人又时尚雅致，兼具实用性与精致感。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Fattoria moderna",
+                    "description": "Il colore e il comfort incontrano una sensibilità moderna, il risultato è uno spazio accogliente ed elegante, funzionale e raffinato.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Casa de campo moderna",
+                    "description": "La calidez y la comodidad se unen a una sensibilidad moderna en un espacio que a la vez es acogedor y elegante, funcional y refinado.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Modern udvarház",
+                    "description": "A melegség és a kényelem találkozik a modern fogékonysággal egy olyan térben, ami egyszerre vonzó, stílusos, funkcionális és kifinomult.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Moderní statek",
+                    "description": "Hřejivost a pohodlí se snoubí s moderní vnímavostí v prostoru, který je příjemný i stylový, funkční i elegantní.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Modern Çiftlik Evi",
+                    "description": "Sıcaklık ve konfor, davetkar olmanın yanı sıra şık, işlevsel ve gösterişli bir alanda modern bir hissiyat yaratıyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Современный фермерский дом",
+                    "description": "Тепло и комфорт сочетаются с современной эстетикой, создавая гостеприимное, стильное и функциональное пространство.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Moderne boerderij",
+                    "description": "Warmte en comfort komen samen met een moderne toets in een ruimte die zowel uitnodigend als stijlvol, functioneel en gepolijst is.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kaasaegne talumaja",
+                    "description": "Soojus ja mugavus ühinevad kaasaegse tunnetusega ruumis, mis on nii kutsuv kui ka stiilne, funktsionaalne ja viimistletud.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Šiuolaikinė sodyba",
+                    "description": "Šiluma ir komfortas susilieja su šiuolaikine estetika viliojančioje bei stilingoje, funkcionalioje ir nugludintoje erdvėje.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "toy_bricks",
+            "name": "Toy bricks",
+            "description": "Colourful blocks to prompt a sense of playfulness, and bring alive infinite creative possibilities. Perfect for children and adults alike.",
+            "prompt": "best quality, open space, soft light and shadow, shiny plastic surfaces, HDR, Interlocking plastic toy brick style, everything made of toy bricks, primary colors, mix of yellow blocks, red blocks, green blocks, and blue blocks",
+            "thumbnail": "toy_bricks.jpg",
+            "translations": [
+                {
+                    "name": "Играчки тухлички",
+                    "description": "Цветни блокчета, които предизвикват чувство на игривост и разкриват безкрайни творчески възможности. Идеални за деца и възрастни.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Spielzeugsteine",
+                    "description": "Farbenfrohe Blöcke, die den Spieltrieb anregen und unendliche kreative Möglichkeiten aufzeigen. Perfekt für Kinder und Erwachsene gleichermaßen.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Tijolos de brinquedo",
+                    "description": "Blocos coloridos para estimular um senso de brincadeira e trazer à vida infinitas possibilidades criativas. Perfeito para crianças e adultos.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Lekeklosser",
+                    "description": "Fargerike blokker som vekker en følelse av lekenhet, og puser liv i endeløse kreative muligheter. Perfekt for både barn og voksne.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "玩具積木",
+                    "description": "色彩繽紛的積木激發大家的玩樂靈感，帶來無限的創意可能。兒童和大人都能享受其中的趣味。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Іграшкові цеглинки",
+                    "description": "Кольорові цеглинки повертають у дитинство й надихають на безмежну творчість. Ідеальний простір для дітей і дорослих.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Igralne kocke",
+                    "description": "Pisane kocke, ki spodbujajo občutek igrivosti in omogočajo neskončne možnosti ustvarjanja. Popolna izbira za otroke in odrasle.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "לבני צעצוע",
+                    "description": "בלוקים צבעוניים שנועדו ליצור תחושת שובבות ולהחיות אינסוף אפשרויות יצירתיות. מושלם עבור ילדים ומבוגרים כאחד.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Коцке за слагање",
+                    "description": "Шарене коцке буде осећај разиграности и оживљавају безброј креативних могућности. Савршено и за децу и за одрасле.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "장난감 벽돌",
+                    "description": "다채로운 색상의 블록이 장난기 어린 분위기를 유도하고 끝없는 창의력의 가능성에 생명을 불어넣습니다. 어린이와 어른 모두에게 이상적인 장소입니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Τουβλάκια",
+                    "description": "Πολύχρωμα μπλοκ για να προκαλέσουν αίσθηση παιχνιδιού και να ζωντανέψουν άπειρες δημιουργικές δυνατότητες. Ιδανικό για παιδιά και ενήλικες.",
+                    "lang": "el"
+                },
+                {
+                    "name": "อิฐของเล่น",
+                    "description": "บล็อกสีสันสดใสที่กระตุ้นความสนุกสนานและปลุกพลังแห่งความคิดสร้างสรรค์ที่ไร้ขีดจำกัด เหมาะสำหรับทั้งเด็กและผู้ใหญ่",
+                    "lang": "th"
+                },
+                {
+                    "name": "Briques de jeu",
+                    "description": "Des blocs colorés pour stimuler le sens du jeu et donner vie à des possibilités créatives infinies. Parfait pour les enfants et les adultes.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Toy bricks",
+                    "description": "Colorful blocks to prompt a sense of playfulness, and bring alive infinite creative possibilities. Perfect for children and adults alike.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Tehličky zo stavebnice",
+                    "description": "Farebné bloky podnecujú pocit hravosti a oživujú nekonečné tvorivé možnosti. Ideálne pre deti aj dospelých.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Klocki konstrukcyjne",
+                    "description": "Kolorowe klocki przynoszą na myśl zabawę i ożywiają nieskończone pokłady kreatywności. Doskonałe tło dla dzieci i dorosłych.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Blocos de brincar",
+                    "description": "Blocos coloridos que despertam a alegria e dão vida a infinitas possibilidades criativas. Perfeito para crianças e adultos.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Lelutiilet",
+                    "description": "Värikkäät lohkot luovat leikkisän vaikutelman ja poistavat luovuuden rajat. Täydellinen sekä lapsille että aikuisille.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "おもちゃのブロック",
+                    "description": "カラフルなブロックが遊び心を刺激し、無限の創造的可能性を生み出します。子どもにも大人にも最適な空間です。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Kocke za slaganje",
+                    "description": "Šarene kocke bude osećaj razigranosti i oživljavaju bezbroj kreativnih mogućnosti. Savršeno i za decu i za odrasle.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Cărămizi de jucărie",
+                    "description": "Blocuri colorate pentru a provoca un sentiment de joacă și da viață unor posibilități creative infinite. Perfect pentru copii și adulți deopotrivă.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "खिलौना ईंटें",
+                    "description": "रंग-बिरंगे ब्लॉक खुशी और उमंग जगाते हैं और अनंत रचनात्मक संभावनाओं को जीवंत करते हैं। यह बच्चों और वयस्कों दोनों के लिए आदर्श स्थान है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Ladrillos de juguete",
+                    "description": "Bloques de colores para despertar la alegría y dar vida a infinitas posibilidades creativas. Perfectos tanto para niños como para adultos.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Legetøjsklodser",
+                    "description": "Farverige klodser til at fremkalde en følelse af legende og bringe liv i uendelige kreative muligheder. Perfekt til både børn og voksne.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Toy bricks",
+                    "description": "Colourful blocks to prompt a sense of playfulness, and bring alive infinite creative possibilities. Perfect for children and adults alike.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Kockice",
+                    "description": "Šareni blokovi koji potiču osjećaj razigranosti i oživljavaju beskonačne kreativne mogućnosti. Savršeno za djecu i odrasle.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Rotaļu klucīši",
+                    "description": "Krāsaini bloki rosina rotaļīguma sajūtu un iedzīvina bezgalīgas radošās iespējas. Lieliski piemērots gan bērniem, gan pieaugušajiem.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "مكعبات اللعب",
+                    "description": "مكعبات ملونة تُلهم روح اللعب وتطلق العنان لإمكانات إبداعية لا حدود لها. مثالية للأطفال والكبار على حد سواء.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Leksakstegelstenar",
+                    "description": "Färgstarka block som uppmanar till en lekfull känsla och väcker liv i obgränsade kreativa möjligheter. Perfekt för både barn och vuxna.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "玩具积木",
+                    "description": "色彩斑斓的积木激发趣味感，带来无限创意可能。无论是儿童还是成人，都能乐在其中。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Mattoncini",
+                    "description": "I blocchi colorati creano un senso di allegria e danno vita a infinite possibilità creative. Perfetto sia per bambini che per adulti.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Ladrillos de juguete",
+                    "description": "Bloques de colores para despertar la alegría y dar vida a infinitas posibilidades creativas. Perfectos tanto para niños como para adultos.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Játékkockák",
+                    "description": "Színes kockák, amik a játékosság érzetét adják, és életre keltik a végtelen, kreatív lehetőségeket. Tökéletes a gyermekeknek, és a gyermeki énnel rendelkező felnőtteknek.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Hrací kostky",
+                    "description": "Barevné bloky podporují pocit hravosti a oživují nekonečné tvůrčí možnosti. Ideální pro děti i dospělé.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Oyuncak tuğlalar",
+                    "description": "Renkli bloklar eğlenceli bir ortam oluşturuyor ve sonsuz yaratıcılık olasılığına hayat veriyor. Hem çocuklar hem de yetişkinler için mükemmel.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Игрушечные блоки",
+                    "description": "Разноцветные блоки оживляют воображение и наполняют пространство бесконечной энергией творчества. Отличный выбор для всех возрастов.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Speelgoedstenen",
+                    "description": "Kleurrijke blokken om een gevoel van speelsheid op te wekken en oneindige creatieve mogelijkheden tot leven te brengen. Perfect voor zowel kinderen als volwassenen.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Mänguklotsid",
+                    "description": "Värvilised klotsid, mis kutsuvad esile mängulisuse tunde ja loovad lõputuid loomingulisi võimalusi. Sobib suurepäraselt nii lastele kui täiskasvanutele.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Žaislinės kaladėlės",
+                    "description": "Spalvingos kaladėlės sužadina žaismingumą ir atveria begalines kūrybines galimybes. Puikiai tinka tiek vaikams, tiek suaugusiesiems.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "deconstructivist",
+            "name": "Deconstructivist",
+            "description": "A spatial reimagining that combines fragmented forms and unexpected angles for a thought-provoking, stimulating environment.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, HDR, interior in the deconstructivist architectural style of Zaha Hadid, Guangzhou Opera house, curving translucent white walls, furniture in organic shapes",
+            "thumbnail": "deconstructivist.jpg",
+            "translations": [
+                {
+                    "name": "Деконструктивист",
+                    "description": "Пространствено преосмисляне, което съчетава фрагментирани форми и необичайни ъгли за провокираща мисленето и стимулираща среда.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Dekonstruktivistisch",
+                    "description": "Eine räumliche Neuinterpretation, die fragmentierte Formen und unerwartete Blickwinkel zu einer zum Nachdenken anregenden Umgebung kombiniert.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Desconstrutivista",
+                    "description": "Uma releitura espacial que combina formas fragmentadas e ângulos inesperados para um ambiente estimulante e instigante.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Dekonstruktivist",
+                    "description": "En romlig gjenskapelse som kombinerer fragmenterte former og uventede vinkler for et tankevekkende, stimulerende miljø.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "解構主義",
+                    "description": "將碎片化的形式和意想不到的角度結合，重新構想一個空間，從而營造出能激發思考和靈感的環境。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Деконструктивізм",
+                    "description": "Нова інтерпретація простору, що поєднує фрагментовані форми й несподівані ракурси для створення середовища, що спонукає до роздумів.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Dekonstruktivistično",
+                    "description": "Prostorska preobrazba, ki združuje razdrobljene oblike in nepričakovane zorne kote za spodbudno in stimulativno okolje.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "דה-קונסטרוקטיביזם",
+                    "description": "גרסה מחודשת של מרחב המשלב צורות מקוטעות וזוויות בלתי צפויות ליצירת סביבה מגרה ומעוררת מחשבה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Деконструктивистички",
+                    "description": "Поново осмишљен простор са комбинацијом фрагментарних форми и неочекиваних углова делује подстицајно и тера на размишљање.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "해체주의자",
+                    "description": "단편적인 형태와 예상치 못한 각도를 결합하여 새롭게 공간을 구성하여 사고를 자극하는, 흥미로운 환경을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Διακοσμοκονστρουκτιβιστικό",
+                    "description": "Μια χωρική αναπαράσταση που συνδυάζει κατακερματισμένες φόρμες και απροσδόκητες γωνίες για ένα περιβάλλον που προκαλεί σκέψη.",
+                    "lang": "el"
+                },
+                {
+                    "name": "ดีคอนสตรัคติวิสต์",
+                    "description": "การจินตนาการใหม่ของพื้นที่ที่ผสมผสานรูปทรงที่แตกหักและมุมมองที่ไม่คาดคิด เพื่อสร้างบรรยากาศที่กระตุ้นความคิดและมีแรงบันดาลใจ",
+                    "lang": "th"
+                },
+                {
+                    "name": "Déconstructiviste",
+                    "description": "Une réinvention spatiale qui combine des formes fragmentées et des angles inattendus pour un environnement stimulant et productif.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Deconstructivist",
+                    "description": "A spatial reimagining that combines fragmented forms and unexpected angles for a thought-provoking, stimulating environment.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Dekonštruktivizmus",
+                    "description": "Priestorové pretvorenie, ktoré kombinuje fragmentárne formy a nečakané uhly, vytvára podnetné a stimulujúce prostredie.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Dekonstruktywizm",
+                    "description": "Przestrzenna wizja łącząca w sobie fragmentaryczne formy i zaskakujące kąty, tworząc skłaniające do myślenia, stymulujące środowisko.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Desconstrutivista",
+                    "description": "Uma reimaginação espacial que combina formas fragmentadas e ângulos inesperados para um ambiente estimulante que convida a reflexão.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Dekonstruktivisti",
+                    "description": "Uudistettu tila, jossa yhdistyy pirstoutuneita muotoja ja odottamattomia kulmia ajatuksia herättäväksi, stimuloivaksi ympäristöksi.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "脱構造主義者",
+                    "description": "断片的な形状と予想外の角度を組み合わせた空間の再構築が、思考を生み出す刺激的な環境を創造します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Dekonstruktivistički",
+                    "description": "Preosmišljen prostor sa kombinacijom fragmentarnih formi i neočekivanih uglova deluje podsticajno i tera na razmišljanje.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Deconstructivist",
+                    "description": "O reimaginare spațială care combină forme fragmentate și unghiuri neașteptate pentru un mediu stimulant și productiv.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "डीकंस्ट्रक्टिविस्ट",
+                    "description": "खंडित रूपों और अप्रत्याशित कोणों को मिलाकर, यह एक नई स्थानिक रचना बनाता है, जो एक दिलचस्प और विचारोत्तेजक वातावरण बनाता है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Deconstructivista",
+                    "description": "Una reinvención espacial que combina formas fragmentadas y ángulos inesperados para crear un entorno estimulante que invita a la reflexión.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Dekonstructivist",
+                    "description": "En rumlig genforestilling, der kombinerer fragmenterede former og uventede vinkler til et tankevækkende, stimulerende miljø.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Deconstructivist",
+                    "description": "A spatial reimagining that combines fragmented forms and unexpected angles for a thought-provoking, stimulating environment.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Dekonstruktivist",
+                    "description": "Ponovno osmišljavanje prostora koje kombinira fragmentirane oblike i neočekivane kutove za poticajno okruženje koje potiče na razmišljanje.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Dekonstruktīvisms",
+                    "description": "Pārveidota telpa, kurā sadrumstalotas formas apvienotas ar negaidītiem leņķiem, lai veidotu pārdomas rosinošu, stimulējošu vidi.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "التصدع",
+                    "description": "إعادة تخيل للمكان تجمع بين الأشكال المكسورة والزوايا غير المتوقعة لخلق بيئة محفزة ومثيرة للتفكير.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Dekonstruktivist",
+                    "description": "En rumslig ombildning som kombinerar fragmenterade former och oväntade vinklar i en tankeväckande och stimulerande miljö.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "解构主义",
+                    "description": "这是一次空间的重新构想，融合了碎片化的形态与出人意料的角度，营造出一个引人深思、充满刺激感的环境。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Decostruttivista",
+                    "description": "Una rivisitazione spaziale che combina forme frammentate con angoli insoliti per creare un ambiente stimolante e produttivo.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Deconstructivista",
+                    "description": "Una reinvención espacial que combina formas fragmentadas y ángulos inesperados para crear un entorno estimulante que invita a la reflexión.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Dekonstruktivista",
+                    "description": "Egy térbeli újragondolás, ami kombinálja a fragmentált formákat és a váratlan szögeket egy gondolatébresztő, stimuláló környezetért.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Dekonstruktivismus",
+                    "description": "Prostorová proměna, která kombinuje fragmentované formy a překvapivé úhly pohledu a vytváří tak podnětné prostředí, které nutí k zamyšlení.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Yapıbozumcu",
+                    "description": "Düşündürücü ve ilham verici bir ortam için parçalı formları ve beklenmedik açıları birleştiren uzamsal bir yeniden tasarım.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Деконструктивизм",
+                    "description": "Новая интерпретация пространства, в котором фрагментированные формы и неожиданные углы создают вдохновляющую и мотивирующую атмосферу.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Deconstructivist",
+                    "description": "Een ruimtelijke herinterpretatie die gefragmenteerde vormen en onverwachte hoeken combineert tot een stimulerende omgeving die tot nadenken stemt.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Dekonstruktivistlik",
+                    "description": "Ruumiline ümberkujutamine, mis ühendab killustunud vormid ja ootamatud nurgad mõtlemapaneva, stimuleeriva keskkonna loomiseks.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Dekonstruktyvizmas",
+                    "description": "Nauja erdvės interpretacija, apimanti fragmentuotas formas ir netikėtu kampu kurianti įkvepiančią bei motyvuojančią aplinką.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "graffiti",
+            "name": "Graffiti",
+            "description": "Bold murals and street art bring the urban jungle indoors, creating a dynamic and expressive environment for those who appreciate raw creativity.",
+            "prompt": "best quality, open space, soft light and shadow, hdr, graffiti, detailed street art, concrete walls, tags, spray paint, bright, tagging, graffiti tags on the concrete walls, large artworks",
+            "thumbnail": "graffiti.jpg",
+            "translations": [
+                {
+                    "name": "Графити",
+                    "description": "Дръзки стенописи и улично изкуство пренасят градската джунгла на закрито, създавайки динамична и изразителна среда за тези, които ценят суровата креативност.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Auffällige Wandmalereien und Straßenkunst bringen den Großstadtdschungel nach drinnen und schaffen eine dynamische sowie ausdrucksstarke Umgebung für alle, die pure Kreativität schätzen.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Murais ousados e arte de rua trazem a selva urbana para dentro de casa, criando um ambiente dinâmico e expressivo para aqueles que curtem a criatividade bruta.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Dristige veggmalerier og gatekunst bringer den urbane jungelen innendørs, og skaper et dynamisk og uttrykksfullt miljø for de som setter pris på rå kreativitet.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "塗鴉",
+                    "description": "大膽的壁畫和街頭藝術在室內打造出都市叢林，為欣賞原始創造力的人創造出充滿活力和表現力的環境。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Графіті",
+                    "description": "Сміливі стінописи й вуличне мистецтво, притаманні міським джунглям, створюють динамічний і виразний інтер’єр для тих, хто цінує творчість без фільтрів.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Drzne stenske poslikave in ulična umetnost prinašajo urbano džunglo v notranjost ter ustvarijo dinamično in ekspresivno okolje za vse, ki cenijo surovo kreativnost.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "גרפיטי",
+                    "description": "ציורי קיר נועזים ואומנות רחוב מעבירים את הג'ונגל העירוני לתוך הבית ויוצרים סביבה דינמית ואקספרסיבית למי שמעריך יצירתיות גולמית.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Графити",
+                    "description": "Наглашени мурали и улична уметност доносе урбану џунглу у затворени простор и креирају динамично и експресивно окружење за оне који цене сирову креативност.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "그래피티",
+                    "description": "대담한 벽화와 거리 예술을 통해 도시의 정글을 실내로 옮겨와, 날 것의 창의성을 중요시하는 사람들을 위한 역동적이고 표현적인 환경을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Γκράφιτι",
+                    "description": "Οι έντονες τοιχογραφίες και η τέχνη του δρόμου φέρνουν την αστική ζούγκλα σε εσωτερικούς χώρους, δημιουργώντας ένα δυναμικό και εκφραστικό περιβάλλον για όσους εκτιμούν την ωμή δημιουργικότητα.",
+                    "lang": "el"
+                },
+                {
+                    "name": "กราฟฟิตี้",
+                    "description": "ภาพจิตรกรรมฝาผนังและศิลปะบนถนนที่โดดเด่นนำความเป็นป่าคอนกรีตเข้ามาไว้ภายใน ซึ่งช่วยสร้างบรรยากาศที่มีชีวิตชีวาและเปี่ยมไปด้วยการแสดงออกสำหรับผู้ที่ชื่นชอบความคิดสร้างสรรค์ที่ดิบและแท้จริง",
+                    "lang": "th"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Des peintures murales audacieuses et du street art amènent la jungle urbaine à l'intérieur, créant un environnement dynamique et expressif pour ceux qui apprécient la créativité brute.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Bold murals and street art bring the urban jungle indoors, creating a dynamic and expressive environment for those who appreciate raw creativity.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Výrazné nástenné maľby a pouličné umenie vnášajú mestskú džungľu do interiéru a vytvárajú dynamické a expresívne prostredie pre tých, ktorí oceňujú surovú kreativitu.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Intensywne murale i street art wprowadzają styl miejskiej dżungli do wnętrza i tworzą dynamiczne, pełne ekspresji otoczenie dla ceniących nieokiełznaną kreatywność.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Os murais arrojados e a arte de rua trazem a selva urbana para dentro de casa, criando um ambiente dinâmico e expressivo para aqueles que apreciam a criatividade em estado puro.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Rohkeat seinämaalaukset ja katutaide tuovat urbaanin viidakon sisätiloihin luoden dynaamisen ja ilmeikkään ympäristön niille, jotka arvostavat raakaa luovuutta.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "グラフィティ",
+                    "description": "大胆な壁画とストリートアートが融合した都会のジャングルを室内に。そのままの創造性を大切にする人々にダイナミックかつ表現力豊かな環境を創り出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Frafiti",
+                    "description": "Naglašeni murali i ulična umetnost donose urbanu džunglu u zatvoreni prostor i kreiraju dinamično i ekspresivno okruženje za one koji cene sirovu kreativnost.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Picturile murale și arta stradală îndrăznețe aduc jungla urbană în interior, creând un mediu dinamic și expresiv pentru cei care apreciază creativitatea brută.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "ग्राफिटी",
+                    "description": "बोल्ड भित्ति चित्र और सड़क कला के चलते शहरी जंगल वाला माहौल घर के अंदर बन जाता है, और उन लोगों के लिए जीवंत और अभिव्यक्तिपूर्ण वातावरण तैयार हो जाता है जो अनगढ़ क्रिएटिविटी को सराहते हैं।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Los murales atrevidos y el arte callejero traen la jungla urbana al interior, creando un ambiente dinámico y expresivo para aquellos que aprecian la creatividad en estado puro.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Modige vægmalerier og gadekunst bringer den urbane jungle indendørs og skaber et dynamisk og udtryksfuldt miljø for dem, der sætter pris på rå kreativitet.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Bold murals and street art bring the urban jungle indoors, creating a dynamic and expressive environment for those who appreciate raw creativity.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Odvažni murali i ulična umjetnost donose urbanu džunglu unutra, stvarajući dinamično i izražajno okruženje za one koji cijene sirovu kreativnost.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Drosmīgi sienas gleznojumi un ielu māksla ieved pilsētas džungļus iekštelpās, radot dinamisku un izteiksmīgu vidi visiem, kas novērtē tīru radošumu.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "غرافيتي",
+                    "description": "لوحات جدارية جريئة وفن الشارع يُعيدان تعريف الغابة الحضرية داخل الأماكن المغلقة، مخلقة بيئة حيوية تعبر عن الذات لمن يقدرون الإبداع الخام.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Modiga väggmålningar och gatukonst flyttar den urbana djungeln inomhus vilket skapar en dynamisk och uttrycksfull miljö för alla som uppskattar rå kreativitet.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "涂鸦",
+                    "description": "大胆的壁画和街头艺术将城市丛林的氛围引入室内，为那些欣赏原始创造力的人们创造了一个充满活力和表现力的环境。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Dipinti murali e street art per portare la giungla urbana in casa e creare un ambiente dinamico ed espressivo per coloro che apprezzano la creatività allo stato puro.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Los atrevidos murales y el arte callejero traen la jungla urbana al interior, creando un entorno dinámico y expresivo para aquellos que aprecian la creatividad en estado puro.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "A merész falfestmények és az utcai művészet a beltérre hozza a városi dzsungelt, így létrehozva egy dinamikus és kifejezésteli környezetet azok számára, akik kedvelik a nyers kreativitást.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Odvážné nástěnné malby a street art přenášejí městskou džungli do interiéru a vytvářejí dynamické a expresivní prostředí pro ty, kteří oceňují neotřelou kreativitu.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Cesur duvar resimleri ve sokak sanatı, şehir keşmekeşini iç mekana taşıyarak ham yaratıcılığı takdir edenler için dinamik ve dışavurumcu bir ortam yaratıyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Граффити",
+                    "description": "Смелые граффити и стрит-арт наполняют интерьер энергией мегаполиса, создавая динамичное и выразительное пространство для ценителей урбанистической эстетики.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Graffiti",
+                    "description": "Opvallende muurschilderingen en straatkunst halen de stedelijke jungle naar binnen en creëren een dynamische en expressieve omgeving voor iedereen die van pure creativiteit houdt.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Grafiti",
+                    "description": "Julged seinamaalid ja tänavakunst toovad linnadžungli siseruumidesse, luues dünaamilise ja väljendusrikka keskkonna neile, kes hindavad ehedat loovust.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Grafitis",
+                    "description": "Ryškūs grafičiai ir gatvės menas interjerą pripildo megapolio energijos ir sukuria dinamišką bei išraiškingą erdvę vertinantiems urbanistinę estetiką.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "post_apocalyptic",
+            "name": "Post-apocalyptic",
+            "description": "A thought-provoking homage to the beauty of decay and the resilience of nature.",
+            "prompt": "best quality, open space, soft light and shadow, hdr, post-apocalyptic style, crumbling concrete walls covered with ivy, tree roots coming through the floor, cracked brick, broken glass, forest view",
+            "thumbnail": "post_apocalyptic.jpg",
+            "translations": [
+                {
+                    "name": "Постапокалиптичен",
+                    "description": "Провокираща размисъл почит към красотата на разпада и устойчивостта на природата.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Post-apokalyptisch",
+                    "description": "Eine zum Nachdenken anregende Hommage an die Schönheit des Verfalls und die Widerstandskraft der Natur.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Pós-apocalíptico",
+                    "description": "Uma homenagem instigante à beleza da decadência e à resiliência da natureza.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Post-apokalyptisk",
+                    "description": "En tankevekkende hyllest til forfallets skjønnhet og naturens motstandskraft.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "後世界末日",
+                    "description": "對於腐朽之美和大自然復原力的一次令人省思的致敬。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Постапокаліпсис",
+                    "description": "Зворушлива данина красі занепаду й стійкості природи.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Postapokaliptično",
+                    "description": "Poklon lepoti propadanja in odpornosti narave, ki vabi k razmišljanju.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "פוסט-אפוקליפסה",
+                    "description": "מחווה מעוררת מחשבה ליופיו של הריקבון ולחוסן של הטבע.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Постапокалиптички",
+                    "description": "Провокативни омаж лепоти пролазности и отпорности природе.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "포스트 아포칼립스",
+                    "description": "쇠락의 아름다움과 자연의 회복력을 향한 묵시적인 찬사입니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μετα-αποκαλυπτικό",
+                    "description": "Ένας χώρος που προκαλεί φόρο τιμής στην ομορφιά της αποσύνθεσης και την ανθεκτικότητα της φύσης.",
+                    "lang": "el"
+                },
+                {
+                    "name": "โพสต์-อาพอคาลิปติก",
+                    "description": "การยกย่องที่กระตุ้นความคิดถึงความงดงามของการเสื่อมสลายและความแข็งแกร่งของธรรมชาติ",
+                    "lang": "th"
+                },
+                {
+                    "name": "Post-apocalyptique",
+                    "description": "Un hommage stimulant à la beauté de la décomposition et à la résilience de la nature.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Post-apocalyptic",
+                    "description": "A thought-provoking homage to the beauty of decay and the resilience of nature.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Post-apokalyptistický",
+                    "description": "Podnetná pocta kráse starnutia a odolnosti prírody.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Styl postapokaliptyczny",
+                    "description": "Prowokujący do myślenia hołd dla piękna przemijania i odporności natury.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Pós-apocalíptico",
+                    "description": "Uma homenagem que convida à reflexão da beleza da decadência e à resistência da natureza.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Post-apokalyptinen",
+                    "description": "Ajatuksia herättävä kunnianosoitus rappeutumisen kauneudelle ja luonnon sietokyvylle.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "ポストアポカリプス",
+                    "description": "思考を刺激するオマージュで、朽ちていく美しさと自然の回復力への想いを表現します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Postapokaliptički",
+                    "description": "Provokativni omaž lepoti prolaznosti i otpornosti prirode.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Post-apocaliptic",
+                    "description": "Un omagiu incitant adus frumuseții descompunerii și rezistenței naturii.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "पोस्ट-एपोकैलिप्टिक",
+                    "description": "यह क्षरण के सौन्दर्य और प्रकृति के सामर्थ्य का एक अंतर्निहित स्तुतिगान है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Posapocalíptico",
+                    "description": "Un homenaje que invita a la reflexión a la belleza de la decadencia y la resistencia de la naturaleza.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Post-apokalyptisk",
+                    "description": "En tankevækkende hyldest til skønheden i forfald og naturens modstandsdygtighed.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Post-apocalyptic",
+                    "description": "A thought-provoking homage to the beauty of decay and the resilience of nature.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Postapokaliptično",
+                    "description": "Počast ljepoti propadanja i otpornosti prirode koja potiče na razmišljanje.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Postapokalipse",
+                    "description": "Pārdomas rosinošs veltījums laika zoba skaistumam un dabas izturībai.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "ما بعد الدمار",
+                    "description": "لوحة فنية تعكس جماليات الزوال وتحتفي بقوة الطبيعة المتجددة.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Postapokalyptisk",
+                    "description": "En tankeväckande hyllning till förfallets skönhet och naturens motståndskraft.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "后启示录",
+                    "description": "对腐朽之美和大自然复原力的一次发人深省的致敬。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Post-apocalittico",
+                    "description": "Un omaggio alla bellezza della fragilità e della resilienza della natura, che fa riflettere.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Post apocalíptico",
+                    "description": "Un homenaje que invita a la reflexión a la belleza de la decadencia y la resistencia de la naturaleza.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Posztapokaliptikus",
+                    "description": "Gondolatébresztő tisztelet a romlás szépségének és a természet rezilienciájának.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Postapokalyptický",
+                    "description": "Podnětná pocta kráse chátrání a houževnatosti přírody.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Post apokaliptik",
+                    "description": "Yıpranmanın güzelliğine ve doğanın dayanıklılığına dair düşündürücü bir saygı duruşu.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Постапокалипсис",
+                    "description": "Философское переосмысление очарования упадка и несгибаемой силы возрождения природы.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Post-apocalyptisch",
+                    "description": "Een tot nadenken stemmende ode aan de schoonheid van verval en de veerkracht van de natuur.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Postapokalüptiline",
+                    "description": "Mõtlemapanev austus lagunemise ilu ja looduse vastupidavuse vastu.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Poapokaliptinis stilius",
+                    "description": "Nykimo žavesio ir nepalenkiamos gamtos atgimimo jėgos įprasminimas.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "space_workshop",
+            "name": "Space Workshop",
+            "description": "A mix of mechanic’s grease and futuristic tech bring everyday texture to the space age for those who dream of remote work off-world.",
+            "prompt": "best quality, open space, soft light and shadow, glowing halogen light, space station style, space ship interior, futuristic workshop filled with robot parts and tools and steam, controls and consoles on wall, views of horsehead nebula",
+            "thumbnail": "space_workshop.jpg",
+            "translations": [
+                {
+                    "name": "Космическа работилница",
+                    "description": "Смесица от машинна смазка и футуристични технологии пренасят ежедневната текстура в космическата ера за тези, които мечтаят за дистанционна работа отвъд Земята.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Weltraumwerkstatt",
+                    "description": "Eine Mischung aus Mechanikerschmiere und futuristischer Technologie bringt alltägliche Texturen ins Weltraumzeitalter – für diejenigen, die von Remote-Arbeit abseits der Welt träumen.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Oficina Espacial",
+                    "description": "Uma mistura de graxa de mecânico e tecnologia futurista traz uma textura cotidiana à era espacial para aqueles que sonham com trabalho remoto fora do planeta.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Romskipsverksted",
+                    "description": "En blanding av mekanikerolje og futuristisk teknologi bringer hverdagstekstur til romalderen for de som er lei av hjemmekontor og drømmer om romkontor.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "太空工坊",
+                    "description": "專為夢想在外星遠端工作的人打造，機械油和未來科技的相結合為太空時代帶來了日常生活的質感。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Космічна майстерня",
+                    "description": "Поєднання механічного мастила й футуристичних технологій переносить повсякденні текстури в космічну еру для тих, хто мріє про віддалену роботу за межами планети.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Vesoljska delavnica",
+                    "description": "Kombinacija strojne masti in futuristične tehnologije prenaša vsakdanjo teksturo v vesoljsko dobo za tiste, ki sanjajo o delu na daljavo zunaj Zemlje.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "סדנת חלל",
+                    "description": "שילוב של שמן מכוניות וטכנולוגיה עתידנית מוסיפים אווירה יומיומית לעידן החלל עבור אלה שחולמים על עבודה מחוץ לגבולות כדור הארץ.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Свемирска радионица",
+                    "description": "Мешавина сирове механике и футуристичке технологије свакодневно окружење пребацује у свемирско доба за оне који сањају о радном месту далеко од овог света.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "우주 작업실",
+                    "description": "로봇의 기름과 미래적 기술이 융합되어, 지구 밖에서 일하는 것을 꿈꾸는 이들에게 우주 시대의 일상적인 느낌을 선사합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Διαστημικό εργαστήρι",
+                    "description": "Ένα μείγμα γράσου και φουτουριστικής τεχνολογίας μηχανικής φέρνει την καθημερινή υφή στην εποχή του διαστήματος για όσους ονειρεύονται απομακρυσμένη εργασία εκτός γης.",
+                    "lang": "el"
+                },
+                {
+                    "name": "พื้นที่เวิร์กช็อป",
+                    "description": "การผสมผสานระหว่างน้ำมันเครื่องและเทคโนโลยีแห่งอนาคต นำพื้นผิวในชีวิตประจำวันเข้ามาสู่ยุคอวกาศ สำหรับผู้ที่ฝันถึงการทำงานจากที่ไกลออกไปนอกโลก",
+                    "lang": "th"
+                },
+                {
+                    "name": "Atelier spatial",
+                    "description": "Un mélange de graisse de mécanicien et de technologie futuriste apporte une texture quotidienne à l'ère spatiale pour ceux qui rêvent de travailler à distance sur une autre planète.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Space Workshop",
+                    "description": "A mix of mechanic’s grease and futuristic tech bring everyday texture to the space age for those who dream of remote work off-world.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Vesmírny workshop",
+                    "description": "Zmes mechanického maziva a futuristickej techniky prináša každodennú štruktúru do vesmírneho veku pre tých, ktorí snívajú o práci na diaľku mimo Zeme.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Kosmiczny warsztat",
+                    "description": "Mieszanka zapachu smaru i futurystycznej technologii wprowadza odrobinę codzienności do ery kosmicznej dla osób, które marzą o zdalnej pracy w innym świecie.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Atelier espacial",
+                    "description": "Uma mistura de graxa de mecânico e tecnologia futurista traz a textura quotidiana para a era espacial para aqueles que sonham com o trabalho remoto de outro planeta.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Avaruustyöpaja",
+                    "description": "Mekaanikon rasvan ja futuristisen tekniikan yhdistelmä tuo arjen tekstuuria avaruusaikaan niille, jotka haaveilevat etätyöstä maapallon ulkopuolella.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "スペースワークショップ",
+                    "description": "機械工のグリースと未来のテクノロジーが融合し、地球外でのリモートワークを夢見る人々の宇宙時代に日常的な質感をもたらします。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Svemirska radionica",
+                    "description": "Mešavina sirove mehanike i futurističke tehnologije svakodnevno okruženje prebacuje u svemirsko doba, za one koji sanjaju o radnom mestu daleko od ovog sveta.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Atelier spațial",
+                    "description": "Un amestec de vaselină mecanică și tehnologie futuristă aduce textura de zi cu zi în era spațială pentru cei care visează la lucrul de la distanță în spațiu.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "स्पेस वर्कशॉप",
+                    "description": "तमाम कलपुर्जों और भविष्योन्मुखी तकनीक का मिश्रण उन लोगों के लिए रोजमर्रा की जिंदगी के तानेबाने को अंतरिक्ष युग में स्थापित कर देता है, जो अपने दूरस्थ कार्य दुनिया से दूर रहकर करने का सपना देखते हैं।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Taller espacial",
+                    "description": "Una mezcla de grasa de mecánico y tecnología futurista aporta una textura cotidiana a la era espacial para aquellos que sueñan con trabajar a distancia fuera del mundo.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Rumværksted",
+                    "description": "En blanding af mekanisk materiale og futuristisk teknologi bringer hverdagens tekstur ind i rumalderen for dem, der drømmer om at arbejde ude i verden.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Space Workshop",
+                    "description": "A mix of mechanic’s grease and futuristic tech bring everyday texture to the space age for those who dream of remote work off-world.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Prostorna radionica",
+                    "description": "Mješavina mehaničarske masti i futurističke tehnologije donosi svakodnevnu teksturu u svemirsko doba za one koji sanjaju o radu na daljinu izvan svijeta.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Darbnīca kosmosā",
+                    "description": "Mehāniķa darbnīcas un nākotnes tehnoloģiju sajaukums piešķir ikdienišķu auru kosmosa laikmetam – visiem, kuri sapņo par attālināto darbu no citas planētas.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "ورشة عمل في الفضاء",
+                    "description": "مزيج من الآلات والذكاء الاصطناعي، يرسخ جذور الحياة اليومية في عصر الفضاء لمن يحلمون بالعمل عن بعد بين النجوم.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Rymdworkshop",
+                    "description": "En blandning av mekanikerns smörjmedel och futuristisk teknik tar vardagstextur till rymdåldern för de som drömmer om att jobba i en annan värld.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "太空工作坊",
+                    "description": "机械油污与未来科技相结合，为那些梦想在太空进行远程工作的人们带来了具有日常质感的太空时代体验。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Officina spaziale",
+                    "description": "Un mix tra officina meccanica e tecnologia futuristica, un esempio della quotidianità nell'era spaziale per coloro che sognano di lavorare da un altro pianeta.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Estudio espacial",
+                    "description": "Una mezcla de aceite de motor y tecnología futurista aporta una textura cotidiana a la era espacial para aquellos que sueñan con trabajar a distancia fuera de este mundo.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Űrbeli műhely",
+                    "description": "A szerelőzsír és a futurisztikus technológia mindennapi textúrája az űrkorban azoknak, akik a távoli, világon túli távmunkáról álmodnak.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Vesmírná dílna",
+                    "description": "Kombinace strojního maziva a futuristické techniky přenáší každodenní atmosféru do vesmírného věku pro všechny, kteří sní o práci na dálku mimo Zemi.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Uzay Atölyesi",
+                    "description": "Tamirci yağları ile fütüristik teknolojinin karışımı, dünyanın dışında uzaktan çalışmayı hayal edenler için gündelik dokuları uzay çağına taşıyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Космическая мастерская",
+                    "description": "Сплав индустриальной механики и высоких технологий переносит повседневные текстуры в космическую эру для мечтателей, желающих работать удаленно в глубоком космосе.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Ruimtewerkplaats",
+                    "description": "Een mix van monteursvet en futuristische technologie brengt alledaagse textuur in het ruimtetijdperk voor degenen die dromen van werken op afstand buiten de aardbol.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kosmose töötuba",
+                    "description": "Kombinatsioon mehaaniku määrdest ja futuristlikust tehnikast toob kosmoseajastu igapäevase tekstuuri nende kasutajateni, kes unistavad kaugtööst väljaspool maailma.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Kosminės dirbtuvės",
+                    "description": "Pramoninės mechanikos ir futuristinių technologijų derinys kasdienę tekstūrą perkelia į kosminę svajotojų, trokštančių dirbti nuotoliu už pasaulio ribų, erą.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "glam",
+            "name": "Glam",
+            "description": "Luxurious materials, statement lighting and an embrace of opulence with a 70s twist create an inviting space for those not shy about a bit of swank.",
+            "prompt": "best quality, open space, very clean, clear floor, soft light and shadow, soft surfaces, 4K detail, 70s glamour style, chic, soft leopard print walls, brass lighting, tan leather furniture, with a large chandelier hanging from the ceiling",
+            "thumbnail": "glam.jpg",
+            "translations": [
+                {
+                    "name": "Блясък",
+                    "description": "Луксозни материали, ефектно осветление и прегръдка разкош с нотки на 70-те години създават приветливо пространство за тези, които не странят от малко шик.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Glamourös",
+                    "description": "Luxuriöse Materialien, stimmungsvolle Beleuchtung und ein Hauch von Opulenz mit einem 70er-Jahre-Touch schaffen einen einladenden Raum für alle, die ein bisschen Protz nicht scheuen.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Glamour",
+                    "description": "Materiais luxuosos, iluminação marcante e traços de opulência com um toque dos anos 70 criam um espaço convidativo para quem não liga para um pouco de ostentação.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luksuriøse materialer, kunstnerisk belysning og en omfavnelse av overdådighet med en 70-tallsvri, sørger for et innbydende rom for de som ikke er redde for å vise seg frem.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "華麗",
+                    "description": "這裡融合了奢華的材料、時尚的燈具以及 70 年代韻味的華麗風格，是專為那些不吝於展現高品味人式所打造的迷人空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Гламур",
+                    "description": "Дорогі матеріали, ефектне освітлення й розкіш у стилі 70-х років створюють привабливий простір для тих, хто обожнює шик.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Razkošje",
+                    "description": "Luksuzni materiali, izrazita osvetlitev in razkošje s pridihom 70. let ustvarijo vabljiv prostor za tiste, ki se ne ustrašijo zbujanja pozornosti.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "זוהר",
+                    "description": "חומרים יוקרתיים, תאורה מרהיבה ושפע עם טוויסט של שנות ה-70 יוצרים מרחב מזמין שנועד לכל מי שלא מתבייש מקצת פאר.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Гламур",
+                    "description": "Луксузни материјали, наглашено осветљење и прихватање раскоши са нотама 70-их стварају привлачан простор за оне који не зазиру од мало луксуза.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "화려한 스타일",
+                    "description": "호화로운 소재와 눈길을 끄는 조명, 70년대 풍의 럭셔리함을 가미하여, 드러내기를 좋아하는 이들에게 매력적인 공간을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Εντυπωσιακό",
+                    "description": "Πολυτελή υλικά, statement φωτισμός και μια πινελιά χλιδής με επιρροές από τη δεκαετία του 70, δημιουργούν έναν φιλόξενο χώρο για όσους δεν ντρέπονται για λίγη υπερβολή.",
+                    "lang": "el"
+                },
+                {
+                    "name": "แกลม",
+                    "description": "วัสดุหรูหรา การตกแต่งไฟที่โดดเด่น และการผสมผสานความหรูหราพร้อมกับกลิ่นอายของยุค 70 สร้างพื้นที่ที่น่าดึงดูดสำหรับผู้ที่ไม่กลัวที่จะโชว์ความสง่างามและความหรูหรา",
+                    "lang": "th"
+                },
+                {
+                    "name": "Glamour",
+                    "description": "Des matériaux luxueux, un éclairage d'exception et une touche d'opulence avec un zeste des années 70 créent un espace accueillant pour ceux qui n'ont pas peur d'un peu de chic.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luxurious materials, statement lighting and an embrace of opulence with a 70s twist create an inviting space for those not shy about a bit of swank.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Okúzľujúci",
+                    "description": "Luxusné materiály, výrazné osvetlenie a noblesa s nádychom 70. rokov vytvárajú príťažlivý priestor pre tých, ktorí sa nehanbia za trochu prepychu.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luksusowe materiały, stylowe oświetlenie i odrobina bogactwa z nutą lat 1970-tych tworzą razem przytulną przestrzeń dla osób niebojących się odrobiny przepychu.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Glamoroso",
+                    "description": "Os materiais luxuosos, a iluminação marcante e um abraço de opulência com um toque dos anos 70 criam um espaço convidativo para quem gosta de um pouco de ostentação.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Loisto",
+                    "description": "Loisteliaat materiaalit, tyylikäs valaistus ja 70-luvun ylellisyyden syleily luovat kutsuvan tilan niille, jotka eivät pelkää ylenpalttisuutta.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "華やかなスタイル",
+                    "description": "贅沢な素材と印象的な照明、そして70年代のひねりを効かせた華やかさが融合し、ちょっとした贅沢を楽しむ人々にとって魅力的な空間を演出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Glamur",
+                    "description": "Luksuzni materijali, naglašeno osvetljenje i prihvatanje raskoši s elementima 70-ih stvaraju primamljiv prostor za one kojima malo razmetanja nije strano.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Materialele luxoase, iluminat de impact și o notă de opulență în stilul anilor 70 creează un spațiu primitor pentru cei care nu se tem să fie șic.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "ग्लैम",
+                    "description": "शानदार सामग्रियां, आकर्षक प्रकाश व्यवस्था और 70 के दशक की झलक, ये सब भव्यता को दर्शाते हैं, उन लोगों के लिए एक आकर्षक स्थान बनाते हैं जो विलासिता का सुख लेना जानते हैं।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Glamuroso",
+                    "description": "Materiales lujosos y una iluminación llamativa con un toque de los años 70 que crean un espacio acogedor para aquellos que no tienen reparo en presumir un poco.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luksuriøse materialer, karakteristisk belysning og en omfavnelse af overdådighed med et 70'er-twist skaber et indbydende rum for dem, der ikke er bange for at være lidt fornemme.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luxurious materials, statement lighting and an embrace of opulence with a 70s twist create an inviting space for those not shy about a bit of swank.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Glamur",
+                    "description": "Luksuzni materijali, upečatljivo osvjetljenje i zagrljaj raskoši s prizvukom 70-ih stvaraju privlačan prostor za one koji se ne srame malo otmjenosti.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Glamūrs",
+                    "description": "Smalki materiāli, dizaina gaismekļi un grezna atmosfēra ar 70. gadu pieskaņu rada mājīgu telpu tiem, kas nekautrējas palielīties ar savu bagātību.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "بريق",
+                    "description": "لمسة فاخرة مستوحاة من السبعينيات، حيث يلتقي البريق مع الأناقة في مساحة ساحرة لمن يبحثون عن تجربة فريدة.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Lyxigt material och ljusarmaturer som omfamnar välstånd med en 70-talstvist vilket skapar ett inbjudande utrymme för alla som uppskattar det vräkiga.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "华丽",
+                    "description": "奢华的材料、引人注目的照明设计，并融入 70 年代韵味的华丽风格，专为那些不吝于展现优雅品味的人士打造的迷人空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Materiali di lusso, illuminazione sofisticata e un tocco di ricchezza in stile anni Settanta, il tutto crea uno spazio invitante per chi non disdegna un tocco di lusso.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Glamoroso",
+                    "description": "Materiales lujosos, iluminación decorativa y un llamado a la opulencia con un toque de los años 70 crean un espacio acogedor para aquellos que no temen lucir un poco ostentosos.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Glamúr",
+                    "description": "Luxusminőségű anyagok, meghatározó megvilágítás, és a fényűzés érzete 70-es évekbeli csavarral egy olyan teret hoz létre, ami csábító azok számára, akik nem félnek egy kicsit felvágni.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Půvab",
+                    "description": "Luxusní materiály, elegantní osvětlení a přepych s nádechem 70. let vytvářejí příjemný prostor pro ty, kteří se nestydí za trochu okázalosti.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Lüks malzemeler, iddialı bir aydınlatma ve 70'ler tarzında bir ihtişam, gösterişten kaçınmayanlar için davetkar bir alan oluşturuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Гламур",
+                    "description": "Люксовые материалы, акцентное освещение и нотки 70-х создают гостеприимное пространство элегантной роскоши.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Glam",
+                    "description": "Luxe materialen, opvallende verlichting en een vleugje weelde met een jaren '70-tintje creëren een uitnodigende ruimte voor iedereen die van een beetje verfijning houdt.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Glämm",
+                    "description": "Luksuslikud materjalid, pilkupüüdev valgustus ja külluslikkusest kantud atmosfäär, millele on lisatud 70ndate hõngu, loovad kutsuva ruumi neile, kes ei pelga mõningast glamuuri.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Žavesys",
+                    "description": "Prabangios medžiagos, dekoratyvinis apšvietimas ir puošnios aštuntojo dešimtmečio detalės sukuria svetingą bei ištaigingą erdvę mėgstantiems pasipuikuoti.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "bohemian",
+            "name": "Bohemian",
+            "description": "Patterns, textures and global influences converge to create an eclectic space full of personality and an earthy joie de vivre.",
+            "prompt": "best quality, very soft light and shadow, open space, order, clear floor, very clean, soft natural light, Bohemian style, Laurel Canyon home, plants, cushions, vibrant colours, bright wall hangings, folk style",
+            "thumbnail": "bohemian.jpg",
+            "translations": [
+                {
+                    "name": "Бохемски",
+                    "description": "Десени, текстури и глобални влияния се събират, за да създадат съживено пространство, пълно с индивидуалност и земна радост от живота.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Bohemian",
+                    "description": "Muster, Texturen und globale Einflüsse verschmelzen zu einem eklektischen Raum voller Persönlichkeit und erdiger Lebensfreude.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Boêmio",
+                    "description": "Padrões, texturas e influências globais convergem para criar um espaço eclético cheio de personalidade e uma joie de vivre terrena.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Bohem",
+                    "description": "Mønstre, teksturer og globale påvirkninger samles for å skape et eklektisk rom fullt av personlighet og en jordnær livsglede.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "波希米亞風",
+                    "description": "圖案、紋理和全球影響力互相融合下，打造出充滿個性和樸實生活趣味的折衷主義空間。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Богемність",
+                    "description": "Візерунки, текстури й розмаїття культур створюють еклектичний простір, сповнений індивідуалізму й земної радості буття.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Boemsko",
+                    "description": "Vzorci, teksture in globalni vplivi se združujejo v eklektičen prostor, poln osebnosti in zemeljskega veselja do življenja.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "בוהמה",
+                    "description": "דפוסים, מרקמים והשפעות גלובליים שיוצרים ביחד מרחב אקלקטי מלא באישיות ובשמחת חיים פשוטה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Боемски",
+                    "description": "Спој дезена, текстура и утицаја из разних делова света у еклектичном простору пуном карактера и радости живота.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "보헤미안",
+                    "description": "패턴과 질감, 글로벌한 분위기의 아이템이 어우러져 개성 있고 소박한 삶의 기쁨이 넘치는 독특한 공간을 조성합니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Βοημίας",
+                    "description": "Τα μοτίβα, οι υφές και οι παγκόσμιες επιρροές συγκλίνουν για να δημιουργήσουν έναν εκλεκτικό χώρο γεμάτο προσωπικότητα και ένα γήινο joie de vivre.",
+                    "lang": "el"
+                },
+                {
+                    "name": "โบฮีเมียน",
+                    "description": "ลวดลาย เนื้อผ้า และอิทธิพลจากทั่วโลกมาผสมผสานกันเพื่อสร้างพื้นที่ที่มีเอกลักษณ์ เต็มไปด้วยบุคลิกภาพและความมีชีวิตชีวาแบบธรรมชาติ",
+                    "lang": "th"
+                },
+                {
+                    "name": "Bohème",
+                    "description": "Motifs, textures et influences mondiales convergent pour créer un espace éclectique plein de personnalité et d’une joie de vivre terreuse.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Bohemian",
+                    "description": "Patterns, textures and global influences converge to create an eclectic space full of personality and an earthy joie de vivre.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Bohémsky",
+                    "description": "Vzory, textúry a globálne vplyvy sa spájajú a vytvárajú eklektický priestor plný osobitosti a zemitej radosti zo života.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Bohema",
+                    "description": "Wzory, tekstury i globalne wpływy łączą się, tworząc eklektyczną przestrzeń pełną osobowości i radości życia.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Boémio",
+                    "description": "Padrões, texturas e influências globais convergem para criar um espaço eclético cheio de personalidade e uma alegria de viver terrena.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Boheemi",
+                    "description": "Kuviot, tekstuurit ja globaalit vaikutteet yhdistyvät ja luovat eklektisen tilan, joka on täynnä persoonallisuutta ja maanläheistä elämäniloa.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "ボヘミアン",
+                    "description": "パターンと質感、そしてグローバルな影響が融合し、個性豊かで大地の生きる喜びに満ちた折衷的空間を創り出します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Boemski",
+                    "description": "Spoj šablona, tekstura i uticaja raznih delova sveta u eklektičnom prostoru punom karaktera i radosti života.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Boem",
+                    "description": "Modele, texturi și influențe globale converg pentru a crea un spațiu eclectic plin de personalitate și de viață.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "बोहेमियन",
+                    "description": "पैटर्न, टेक्स्चर और वैश्विक प्रभाव मिलकर एक अद्वितीय स्थान का निर्माण करते हैं जो व्यक्तित्व और सांसारिक जीवन के आनंद से परिपूर्ण होता है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Bohemio",
+                    "description": "Los patrones, las texturas y las influencias globales convergen para crear un espacio ecléctico lleno de personalidad y una alegría de vivir terrenal.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Bohemiansk",
+                    "description": "Mønstre, teksturer og globale påvirkninger konvergerer for at skabe et eklektisk rum fuld af personlighed og en jordnær livsglæde.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Bohemian",
+                    "description": "Patterns, textures and global influences converge to create an eclectic space full of personality and an earthy joie de vivre.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Boemski",
+                    "description": "Uzorci, teksture i globalni utjecaji spajaju se u stvaranju eklektičnog prostora, punog osobnosti i zemaljskog joie de vivre.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Bohēma",
+                    "description": "Raksti, faktūras un globālas ietekmes saplūst, radot eklektisku interjeru, kas pauž izteiksmīgu personību un dabas iedvesmotu dzīvesprieku.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "بوهيمي",
+                    "description": "يجتمع التنوع في الأنماط، والملمس، والتأثيرات العالمية لخلق مساحة انتقائية تعبر عن الشخصية وتفيض بالحيوية الطبيعية.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Bohemisk",
+                    "description": "Mönster, texturer och globala influenser strålar samman för att skapa ett eklektiskt utrymme fullt av personlighet och en jordnära livsglädje.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "波西米亚",
+                    "description": "图案、纹理和全球影响力相互交融，创造出一个充满个性且洋溢着质朴生活乐趣的折衷主义空间。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Bohémien",
+                    "description": "I motivi, le texture e le influenze globali convergono per creare uno spazio eclettico, ricco di personalità e pieno di vita.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Bohemio",
+                    "description": "Los patrones, las texturas y las influencias globales convergen para crear un espacio ecléctico lleno de personalidad y una alegría de vivir llena de vitalidad.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Bohém",
+                    "description": "Minták, textúrák és globális hatások mind afelé visznek, hogy egy eklektikus teret hozzanak létre, mely tele van személyiséggel és földhözragadt életörömmel.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Bohémský",
+                    "description": "Vzory, textury a globální trendy se spojují a vytvářejí eklektický prostor plný osobitosti a zemité radosti ze života.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Bohem",
+                    "description": "Desenler, dokular ve küresel etkiler bir araya gelerek kişilik ve doğal bir yaşam sevinci ile dolu eklektik bir alan oluşturuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Богемный дух свободы",
+                    "description": "Узоры, текстуры и мировые влияния переплетаются, создавая эклектичное пространство, полное индивидуальности и земной радости бытия.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Bohemien",
+                    "description": "Patronen, texturen en wereldwijde invloeden komen samen om een eclectische ruimte vol persoonlijkheid en aardse levensvreugde te creëren.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Boheemlane",
+                    "description": "Mustrid, tekstuurid ning globaalsed mõjud koonduvad, et luua eklektiline ruum, mis on täis isikupära ja maalähedast elurõõmu.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Bohemiškas stilius",
+                    "description": "Ornamentai, tekstūros ir pasaulinė įtaka susilieja ir sukuria eklektišką erdvę, kupiną individualybės bei žemiškojo gyvenimo džiaugsmo.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "urban_industrial",
+            "name": "Urban industrial",
+            "description": "Exposed brick, reclaimed wood and elements from the factory create a space that’s equal parts classic and edgy, an inheritance from the past artfully adapted for the present.",
+            "prompt": "best quality, open space, soft light and shadow, HDR, urban industrial style, converted warehouse, brick walls, iron fixtures, walnut furniture, tufted leather sofa, exposed beams and ductwork, persian carpet, framed photographic art",
+            "thumbnail": "urban_industrial.jpg",
+            "translations": [
+                {
+                    "name": "Градски индустриален",
+                    "description": "Открити тухли, реставрирано дърво и фабрични елементи създават пространство, което е едновременно класическо и остроумно, наследство от миналото, изкусно адаптирано към настоящето.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Städtisch-industriell",
+                    "description": "Freigelegte Ziegelsteine, aufbereitetes Holz und industrielle Elemente vereinen sich zu einem Raum, der sowohl klassisch als auch außergewöhnlich ist. Diese harmonische Verbindung von Tradition und Moderne bewahrt ein Erbe der Vergangenheit und interpretiert es auf kunstvolle Weise für die Gegenwart.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Industrial urbano",
+                    "description": "Tijolos aparentes, madeira recuperada e elementos da fábrica criam um espaço que é igualmente clássico e ousado, uma herança do passado artisticamente adaptada para o presente.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Urban industri",
+                    "description": "Eksponert murstein, gjenvunnet tre og fabrikkelementer skaper et rom som er like klassisk og som det er edgy – en arv fra fortiden tilpasset nåtiden.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "城市工業",
+                    "description": "利用裸露的磚塊、再生木材和工廠元素，打造出既經典又前衛的空間，將過去的傳承巧妙地融入到現在。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Індустріальне місто",
+                    "description": "Гола цегла, перероблена деревина й елементи промислового інтер’єру створюють класичний і водночас нетиповий простір – спадок минулого, дбайливо адаптований до сьогодення.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Urbano industrijsko",
+                    "description": "Izpostavljena opeka, obnovljen les in tovarniški elementi ustvarijo prostor, ki je v enaki meri klasičen in oster, dediščina iz preteklosti, ki je umetniško prilagojena sedanjosti.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "תעשייה עירונית",
+                    "description": "לבנים חשופות, עץ ממוחזר ואלמנטים מהמפעל יוצרים מרחב שהוא גם קלסי וגם נועז - אווירת העבר שהותאמה בצורה אומנותית להווה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Урбано индустријски",
+                    "description": "Гола цигла, рециклирано дрво и фабрички елементи креирају простор који је у под‌једнакој мери класичан и експерименталан, наслеђе прошлости вешто прилагођено садашњости.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "어반 인더스트리얼",
+                    "description": "노출된 벽돌, 재활용 목재와 공장 물품을 사용해, 과거의 유산을 현재에 맞게 예술적으로 변형한, 고전적이면서도 모던한 공간을 만들어냅니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Αστική βιομηχανική",
+                    "description": "Το εκτεθειμένο τούβλο, το αναπαλαιωμένο ξύλο και τα στοιχεία από το εργοστάσιο δημιουργούν έναν χώρο που είναι εξίσου κλασικός και μοντέρνος, μια κληρονομιά από το παρελθόν, προσαρμοσμένη περίτεχνα στο παρόν.",
+                    "lang": "el"
+                },
+                {
+                    "name": "อุตสาหกรรมเมือง",
+                    "description": "ผนังอิฐเปลือย ไม้รีเคลม และองค์ประกอบจากโรงงานสร้างพื้นที่ที่ผสมผสานความคลาสสิกและความดิบเท่ได้อย่างลงตัว โดยนับว่าเป็นมรดกจากอดีตที่ได้รับการปรับแต่งอย่างมีศิลปะให้เหมาะสมกับปัจจุบัน",
+                    "lang": "th"
+                },
+                {
+                    "name": "Industriel urbain",
+                    "description": "Des briques apparentes, du bois récupéré et des éléments industriels créent un espace à la fois classique et avant-gardiste, un héritage du passé astucieusement adapté au présent.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Urban industrial",
+                    "description": "Exposed brick, reclaimed wood and elements from the factory create a space that’s equal parts classic and edgy, an inheritance from the past artfully adapted for the present.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Mestský industriálny štýl",
+                    "description": "Odkryté tehly, regenerované drevo a prvky z továrne vytvárajú priestor, ktorý je rovnako klasický ako aj drsný, dedičstvo minulosti umne prispôsobené súčasnosti.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Miejski industrial",
+                    "description": "Odsłonięta cegła, drewno z odzysku i elementy prosto z fabryki tworzą przestrzeń równie klasyczną, co odważną, dzięki umiejętnemu połączeniu dziedzictwa przeszłości z teraźniejszością.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Industrial urbano",
+                    "description": "Tijolos expostos, madeira recuperada e elementos da fábrica criam um espaço clássico e arrojado, uma herança do passado artisticamente adaptada ao presente.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Urbaani industrialismi",
+                    "description": "Paljas tiili, kierrätetty puu ja tehtaalta saadut elementit luovat tilan, joka on sekä klassinen että edistyksellinen; taidokkaasti nykypäivään mukautettu perintö menneestä.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "工業的な都市型スタイル",
+                    "description": "むき出しの煉瓦にリクレイムドウッド、そして工場からの素材が組み合わさることで、クラシックかつエッジの効いた空間を創造します。過去の遺産を、現代に合わせて巧みに適応させました。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Urbano industrijski",
+                    "description": "Gola cigla, reciklirano drvo i fabrički elementi kreiraju prostor koji je u podjednakoj meri klasičan i eksperimentalan, nasleđe prošlosti vešto prilagođeno sadašnjosti.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Industrial urban",
+                    "description": "Cărămida expusă, lemnul recuperat și elementele ale fabricii creează un spațiu care este în egală măsură clasic și inovator, o moștenire din trecut adaptată cu talent pentru prezent.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "अर्बन इंडस्ट्रियल",
+                    "description": "साफ दिखती ईंटें, पुनः उपयोग में लाई जा रही लकड़ी और कारखाने की सामग्री का उपयोग करके, यह स्थान क्लासिक होते हुए भी आधुनिक है, जो अतीत की विरासत को वर्तमान के लिए कलात्मक रूप से अनुकूलित करता है।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Industrial urbano",
+                    "description": "Los ladrillos expuestos, la madera recuperada y los elementos de la fábrica crean un espacio que es a partes iguales clásico y vanguardista, una herencia del pasado adaptada ingeniosamente al presente.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Byindustri",
+                    "description": "Blottede mursten, genbrugstræ og elementer fra fabrikken skaber et rum, der er lige dele klassisk og edgy, en arv fra fortiden, der er kunstfærdigt tilpasset nutiden.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Urban industrial",
+                    "description": "Exposed brick, reclaimed wood and elements from the factory create a space that’s equal parts classic and edgy, an inheritance from the past artfully adapted for the present.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Urbano industrijski",
+                    "description": "Izložena cigla, obnovljeno drvo i tvornički elementi stvaraju prostor koji je u jednakoj mjeri klasičan i oštar, nasljeđe iz prošlosti vješto prilagođeno sadašnjosti.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Urbānā industrija",
+                    "description": "Atsegti ķieģeļi, pārstrādāta koksne un rūpnīcas elementi veido vienlīdz klasisku un aizraujošu interjeru, kurā pagātnes mantojums ir izveicīgi pieskaņots mūsdienām.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "الصناعة العصرية",
+                    "description": "يلتقي الطوب المكشوف مع الخشب المعاد تدويره، والعناصر الصناعية لخلق مساحةً تجمع بين الأناقة الكلاسيكية والحداثة العصرية، تراث من الماضي تم إعادة ابتكاره ببراعة في الحاضر.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Urbanindustriell",
+                    "description": "Öppna tegelstenar, återvunnet trä och delar från fabriken skapar ett utrymme som är lika klassiskt som coolt – ett arv från det förflutna som anpassar sig till nutiden på ett skickligt sätt.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "城市工业",
+                    "description": "裸露的砖块、再生木材以及源自工厂的元素，营造出一个既经典又不失前卫的空间，将过去的传承巧妙地融入当下。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Industriale urbano",
+                    "description": "Legno riciclato, elementi di fabbrica e mattoni a vista che creano uno spazio al tempo stesso classico e all'avanguardia, un'eredità del passato sapientemente adattata al presente.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Industrial urbano",
+                    "description": "Ladrillos expuestos, madera restaurada y elementos industriales crean un espacio que es a partes iguales clásico y vanguardista, una herencia del pasado adaptada artísticamente al presente.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Urbánus indusztriális",
+                    "description": "A gyári, látható téglák, újrahasznosított fa és egyéb elemek egy olyan teret hoznak létre, ami egyszerre klasszikus és egyszerre provokatív, a múlt örökségének művészi adaptációja a jelenben.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Městský industrialismus",
+                    "description": "Přiznané cihly, recyklované dřevo a tovární prvky vytvářejí prostor, který je zároveň klasický i neotřelý, odkaz minulosti umně upravený pro současnost.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Şehir - endüstriyel",
+                    "description": "Açığa çıkmış tuğlalar, dönüştürülmüş ahşap ve fabrika unsurları, geçmişten kalan mirasın ustalıkla günümüze uyarlandığı hem klasik hem de modern olan bir alan oluşturuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Промышленный урбанизм",
+                    "description": "Аутентичная кирпичная кладка, переработанная древесина и индустриальные детали формируют интерьер, в котором гармонично переплетаются винтажный шарм и современные элементы.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Stedelijk industrieel",
+                    "description": "Schoon metselwerk, hergebruikt hout en fabriekselementen creëren een ruimte die zowel klassiek als stoer is. Een erfenis uit het verleden, op kunstzinnige wijze aangepast aan het heden.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Linnatööstus",
+                    "description": "Säritatud tellis, taastatud puit ja tehasest pärit elemendid loovad ruumi, mis on samaaegselt nii klassikaline kui ka äärmuslik, pärand minevikust, mis on kunstiliselt olevikuks kohandatud.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Pramoninis urbanizmas",
+                    "description": "Autentiškas plytų mūras, perdirbta mediena ir pramoniniai elementai sukuria erdvę, kurioje susipina klasika bei veržlumas – paveldas, atėjęs iš praeities ir meniškai pritaikytas dabarčiai.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "maximalist",
+            "name": "Maximalist",
+            "description": "A curated collection of objects and art offers a quirky haven to those who take the road less traveled.",
+            "prompt": "best quality, open space, soft light and shadow, natural light, HDR, maximalist style, browstone townhouse interior, wallpaper, maps and pictures on the wall, order, stacks of books, danish furniture, order, persian rug, brooklyn view",
+            "thumbnail": "maximalist.jpg",
+            "translations": [
+                {
+                    "name": "Максималист",
+                    "description": "Подбрана колекция от предмети и изкуство предлага причудлово убежище за онези, които предпочитат по-малко утъпкания път.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Maximalistisch",
+                    "description": "Eine kuratierte Sammlung von Objekten und Kunst bietet ausgefallenen Persönlichkeiten eine ungewöhnliche Oase.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Maximalista",
+                    "description": "Uma coleção de objetos e arte com curadoria oferece um refúgio peculiar para aqueles que preferem caminhos incomuns.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Maksimalist",
+                    "description": "En kuratert samling av gjenstander og kunst som tilbyr et eksentrisk fristed for de som foretrekker det særegne.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "極繁主義",
+                    "description": "一系列精心挑選的物品和藝術品，為那些獨闢蹊徑的人提供了一個奇特避風港。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Максималізм",
+                    "description": "Унікальна колекція предметів і творів мистецтва задовольнить потреби тих, хто мислить нестандартно.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Maksimalistično",
+                    "description": "Izbrana zbirka predmetov in umetnin ponuja nenavadno zatočišče tistim, ki se odpravijo na manj znane poti.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "מקסימליזם",
+                    "description": "אוסף של חפצים ויצירות אומנות המציע מקלט ייחודי לאנשים שמעזים לחשוב מחוץ לקופסה.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Максималистички",
+                    "description": "Пажљиво одабрана збирка предмета и уметнина, права оаза мира за неконвенционалне људе.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "맥시멀리스트",
+                    "description": "엄선된 물건과 예술 작품으로 이루어진 이 공간은 남들과는 다른 길을 선택하는 이들의 독특한 안식처가 됩니다.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μαξιμαλιστικό",
+                    "description": "Μια επιμελημένη συλλογή αντικειμένων και έργων τέχνης που προσφέρει ένα ιδιόρρυθμο καταφύγιο σε όσους ακολουθούν τον λιγότερο ταξιδεμένο δρόμο.",
+                    "lang": "el"
+                },
+                {
+                    "name": "แม็กซิมัลลิสต์",
+                    "description": "คอลเลกชันที่คัดสรรมาอย่างดีของวัตถุและศิลปะ เสนอพื้นที่หลบภัยแสนแปลกตาให้กับผู้ที่เลือกเดินบนเส้นทางที่ไม่ค่อยมีใครเดิน",
+                    "lang": "th"
+                },
+                {
+                    "name": "Maximaliste",
+                    "description": "Une collection organisée d’objets et d’œuvres d’art offre un havre de paix insolite à ceux qui empruntent la route la moins fréquentée.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "A curated collection of objects and art offers a quirky haven to those who take the road less traveled.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Maximalizmus",
+                    "description": "Kurátorská zbierka predmetov a umenia ponúka nepredvídateľné útočisko pre tých, ktorí sa vydali na menej vydláždené cesty.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Maksymalizm",
+                    "description": "Starannie wyselekcjonowana kolekcja przedmiotów i dzieł sztuki, tworząca niecodzienną przystań dla osób wybierających mniej uczęszczane drogi.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Maximalista",
+                    "description": "Uma coleção de objetos e arte com curadoria oferece um refúgio peculiar para aqueles que não seguem padrões.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Maksimalisti",
+                    "description": "Esineiden ja taiteen kokoelma tarjoaa erikoisen turvapaikan niille, jotka tavoittelevat omaperäisyyttä.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "マキシマリスト",
+                    "description": "厳選されたオブジェクトとアートのコレクションが、型にはまらない人々に予想外の安らぎの場を提供します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Maksimalistički",
+                    "description": "Pažljivo odabran skup predmeta i umetnina pruža neobično utočište onima koji idu putem kojim se ređe prolazi.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "O colecție organizată de obiecte și artă oferă un refugiu inedit celor care aleg calea mai puțin bătută.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "मैक्सिमलिस्ट",
+                    "description": "सावधानी से चयनित वस्तुओं और कलाकृतियों से भरा यह स्थान उन लोगों के लिए एक अनूठा आश्रय स्थल बन जाता है जो दूसरों से अलग राह चुनते हैं।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Maximalista",
+                    "description": "Una colección selecta de objetos y arte ofrece un refugio peculiar a aquellos que toman el camino menos transitado.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "En kurateret samling af genstande og kunst tilbyder et finurligt tilflugtssted for dem, der tager den mindre rejste vej.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "A curated collection of objects and art offers a quirky haven to those who take the road less traveled.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Maksimalist",
+                    "description": "Odabrana zbirka predmeta i umjetnosti nudi neobično utočište onima koji manje idu na put.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Maksimālisms",
+                    "description": "Rūpīgi atlasīta priekšmetu un mākslas kolekcija ieskauj tos, kuri izvēlas mīt paši savas takas.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "الفخامة",
+                    "description": "مجموعة مختارة تجمع بين القطع الفنية والأشياء النادرة، مثالية لمن يبحثون عن تجارب فريدة.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "En utvald samling med föremål och konst som erbjuder en annorlunda tillflyktsort för de som följer vägar som färre väljer att ta.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "极繁主义",
+                    "description": "一系列精心挑选的物品与艺术品，为那些不走寻常路的人提供了一个别具一格的避风港。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Massimalista",
+                    "description": "Una collezione curata di oggetti e quadri, una vera oasi di pace per le persone fuori dal comune.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Maximalista",
+                    "description": "Una colección seleccionada de objetos y arte ofrece un paraíso extravagante para aquellos que toman el camino menos recorrido.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Maximalista",
+                    "description": "A gondosan kiválogatott tárgyak és műalkotások gyűjteménye szeszélyes menedékhelye lesz azoknak, akik szeretik a járatlan utakat.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Maximalismus",
+                    "description": "Sbírka vybraných předmětů a uměleckých děl nabízí svérázné útočiště těm, kteří se vydávají na méně prochozené stezky.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Maksimalist",
+                    "description": "Özenle seçilen nesnelerden ve sanat eserlerinden oluşan bir koleksiyon, az kullanılan yolları tercih edenler için ilginç bir sığınma yeri sunuyor.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Максимализм",
+                    "description": "Оригинально подобранная коллекция предметов и произведений искусства предлагает уютное пространство для тех, кто мыслит нестандартно.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Maximalist",
+                    "description": "Een samengestelde collectie objecten en kunst biedt een eigenzinnig toevluchtsoord voor hen die de minder bewandelde paden nemen.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Maksimalistlik",
+                    "description": "Kureeritud esemete ja kunsti kollektsioon pakub ägedat valikut neile, kes eelistavad masse mitte järgida.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Maksimalizmas",
+                    "description": "Originaliai parinkta objektų ir meno kūrinių kolekcija suteikia jaukią erdvę tiems, kurie mąsto nestandartiškai.",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "custom",
+            "name": "Custom",
+            "description": "Write a custom prompt.",
+            "prompt": "",
+            "thumbnail": "custom.png",
+            "translations": [
+                {
+                    "name": "По избор",
+                    "description": "Напишете персонализирана подкана.",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Benutzerdefiniert",
+                    "description": "Verfassen Sie eine eigene Prompt.",
+                    "lang": "de"
+                },
+                {
+                    "name": "Personalizado",
+                    "description": "Escreva um prompt personalizado.",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Tilpasset",
+                    "description": "Skriv en egendefinert ledetekst.",
+                    "lang": "nb"
+                },
+                {
+                    "name": "自訂",
+                    "description": "撰寫自訂提示。",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Користувацькі",
+                    "description": "Напишіть власний запит.",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Po meri",
+                    "description": "Napišite poziv po meri.",
+                    "lang": "sl"
+                },
+                {
+                    "name": "התאמה אישית",
+                    "description": "כתבו הנחיה מותאמת אישית.",
+                    "lang": "he"
+                },
+                {
+                    "name": "Прилагођено",
+                    "description": "Напишите прилагођени упит.",
+                    "lang": "sr"
+                },
+                {
+                    "name": "사용자 지정",
+                    "description": "사용자 설정 프롬프트를 작성하세요.",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Εξατομικευμένο",
+                    "description": "Γράψτε μια προσαρμοσμένη προτροπή.",
+                    "lang": "el"
+                },
+                {
+                    "name": "กำหนดเอง",
+                    "description": "เขียนพรอมต์แบบกำหนดเอง",
+                    "lang": "th"
+                },
+                {
+                    "name": "Personnalisé",
+                    "description": "Écrivez une invite personnalisée.",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Custom",
+                    "description": "Write a custom prompt.",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Vlastné",
+                    "description": "Napíšte vlastný podnet.",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Niestandardowe",
+                    "description": "Napisz własny prompt.",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Personalizado",
+                    "description": "Escreva uma instrução personalizada.",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Mukautettu",
+                    "description": "Kirjoita mukautettu kehote.",
+                    "lang": "fi"
+                },
+                {
+                    "name": "カスタム",
+                    "description": "カスタムプロンプトを作成します。",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Prilagođeno",
+                    "description": "Napišite prilagođeni upit.",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Personalizat",
+                    "description": "Scrieți o indicație personalizată.",
+                    "lang": "ro"
+                },
+                {
+                    "name": "अपने मुताबिक",
+                    "description": "कस्टम प्रॉम्प्ट लिखें।",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Personalizado",
+                    "description": "Escribe un prompt personalizado.",
+                    "lang": "es"
+                },
+                {
+                    "name": "Tilpasset",
+                    "description": "Skriv en brugerdefineret besked.",
+                    "lang": "da"
+                },
+                {
+                    "name": "Custom",
+                    "description": "Write a custom prompt.",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Prilagođeno",
+                    "description": "Napišite prilagođeni upit.",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Pielāgots",
+                    "description": "Sastādiet pielāgotu uzvedni.",
+                    "lang": "lv"
+                },
+                {
+                    "name": "مخصَّص",
+                    "description": "كتابة أمر مخصص.",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Anpassad",
+                    "description": "Skriv en anpassad uppmaning.",
+                    "lang": "sv"
+                },
+                {
+                    "name": "自定义",
+                    "description": "编写自定义提示。",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Personalizzate",
+                    "description": "Scrivi un prompt personalizzato.",
+                    "lang": "it"
+                },
+                {
+                    "name": "Personalizado",
+                    "description": "Escribe un mensaje personalizado.",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Egyéni",
+                    "description": "Írj egy egyedi promptot.",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Vlastní",
+                    "description": "Napište vlastní výzvu.",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Özel",
+                    "description": "Özel bir istem yaz.",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Свои настройки",
+                    "description": "Напишите свой запрос.",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Aangepast",
+                    "description": "Schrijf een aangepaste prompt.",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kohandatud",
+                    "description": "Kirjuta kohandatud juhis.",
+                    "lang": "et"
+                },
+                {
+                    "name": "Pasirinktinės nuostatos",
+                    "description": "Parašykite pasirinktinį raginimą.",
+                    "lang": "lt"
+                }
+            ]
+        }
+    ]
+}

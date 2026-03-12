@@ -1,0 +1,282 @@
+[
+    {
+        "id": "stock:satup",
+        "name": "Saturation buff",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": false
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": false
+            },
+            "saturation": {
+                "o": true,
+                "v": 1.25
+            },
+            "contrast": {
+                "o": false
+            },
+            "gamma": {
+                "o": false
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:satdown",
+        "name": "Saturation nerf",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": false
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": false
+            },
+            "saturation": {
+                "o": true,
+                "v": 0.85
+            },
+            "contrast": {
+                "o": false
+            },
+            "gamma": {
+                "o": false
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:mono",
+        "name": "Mono",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": false
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": false
+            },
+            "saturation": {
+                "o": true,
+                "v": 0
+            },
+            "contrast": {
+                "o": false
+            },
+            "gamma": {
+                "o": false
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:synth80s",
+        "name": "Synthwave 1980s",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": true,
+                "v": {
+                    "temperature": 3000,
+                    "tint": 150
+                }
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": true,
+                "v": -84
+            },
+            "saturation": {
+                "o": true,
+                "v": 2.00
+            },
+            "contrast": {
+                "o": true,
+                "v": 1.10
+            },
+            "gamma": {
+                "o": false
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:tropical",
+        "name": "Tropical Hawaii 🍍",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": true,
+                "v": {
+                    "temperature": 5170,
+                    "tint": -76
+                }
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": true,
+                "v": -39
+            },
+            "saturation": {
+                "o": true,
+                "v": 1.54
+            },
+            "contrast": {
+                "o": true,
+                "v": 1.15
+            },
+            "gamma": {
+                "o": true,
+                "v": 1.26
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:orkattack",
+        "name": "Ork Attack",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": false
+            },
+            "brightness": {
+                "o": true,
+                "v": -0.05
+            },
+            "hue": {
+                "o": true,
+                "v": 85
+            },
+            "saturation": {
+                "o": true,
+                "v": 0.82
+            },
+            "contrast": {
+                "o": false
+            },
+            "gamma": {
+                "o": true,
+                "v": 1.40
+            },
+            "sharpness": {
+                "o": true,
+                "v": 10.00
+            }
+        }
+    },
+    {
+        "id": "stock:lemonionia",
+        "name": "Lemonionia 🍋",
+        "settings": {
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": true,
+                "v": {
+                    "temperature": 8000,
+                    "tint": -51
+                }
+            },
+            "brightness": {
+                "o": false
+            },
+            "hue": {
+                "o": true,
+                "v": 25
+            },
+            "saturation": {
+                "o": true,
+                "v": 1.15
+            },
+            "contrast": {
+                "o": true,
+                "v": 1.05
+            },
+            "gamma": {
+                "o": true,
+                "v": 1.30
+            },
+            "sharpness": {
+                "o": false
+            }
+        }
+    },
+    {
+        "id": "stock:none",
+        "name": "EMPTY_PLACEHOLDER:Menu",
+        "hasLocalisedName": true,
+        "isHiddenFromListing": true,
+        "settings": {
+            "mode": 0,
+            "exposure": {
+                "o": false
+            },
+            "whiteBalance": {
+                "o": false
+            },
+            "scale": 1,
+            "rotation": 0,
+            "panOrigin": [0, 0],
+            "hue": {
+                "o": false
+            },
+            "contrast": {
+                "o": false
+            },
+            "saturation": {
+                "o": false
+            },
+            "vibrance": {
+                "o": false
+            },
+            "brightness": {
+                "o": false
+            },
+            "sharpness": {
+                "o": false
+            },
+            "gamma": {
+                "o": false
+            }
+        }
+    }
+]

@@ -1,0 +1,14 @@
+# Ignore datasets
+datasets/
+WOTR/
+WOTR_YOLO/
+# Ignore runs (training outputs)
+runs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# VS Code
+.vscode/

@@ -1,0 +1,14 @@
+path: datasets/openimages_v6
+train: train/images
+val: val/images
+names:
+  - person
+  - dog
+  - cat
+  - car
+  - bus
+  - truck
+  - bicycle
+  - motorcycle
+  - cell phone
+  - laptop

@@ -1,0 +1,5 @@
+train: WOTR_YOLO/train/images
+val: WOTR_YOLO/val/images
+
+nc: 20
+names: ['ashcan', 'bicycle', 'blind_road', 'bus', 'car', 'crosswalk', 'dog', 'fire_hydrant', 'green_light', 'motorcycle', 'person', 'pole', 'red_light', 'reflective_cone', 'roadblock', 'sign', 'tree', 'tricycle', 'truck', 'warning_column']

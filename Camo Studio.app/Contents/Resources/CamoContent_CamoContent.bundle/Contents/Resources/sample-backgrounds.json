@@ -1,0 +1,1308 @@
+{
+    "prompts": [
+        {
+            "uid": "bright_flat",
+            "name": "Bright flat",
+            "thumbnail": "bright_flat.jpg",
+            "translations": [
+                {
+                    "name": "Светъл апартамент",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Helle Wohnung",
+                    "lang": "de"
+                },
+                {
+                    "name": "Apartamento luminoso",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Lys leilighet",
+                    "lang": "nb"
+                },
+                {
+                    "name": "明亮公寓",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Світла квартира",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Svetlo stanovanje",
+                    "lang": "sl"
+                },
+                {
+                    "name": "דירה מוארת",
+                    "lang": "he"
+                },
+                {
+                    "name": "Светао стан",
+                    "lang": "sr"
+                },
+                {
+                    "name": "밝은 아파트",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Φωτεινό διαμέρισμα",
+                    "lang": "el"
+                },
+                {
+                    "name": "แฟลตสว่างสดใส",
+                    "lang": "th"
+                },
+                {
+                    "name": "Appartement lumineux",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Bright flat",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Svetlý byt",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Jasne mieszkanie",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Apartamento luminoso",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Kirkas asunto",
+                    "lang": "fi"
+                },
+                {
+                    "name": "明るい部屋",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Osunčani stan",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Apartament luminos",
+                    "lang": "ro"
+                },
+                {
+                    "name": "ब्राइट फ्लैट",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Piso luminoso",
+                    "lang": "es"
+                },
+                {
+                    "name": "Lys lejlighed",
+                    "lang": "da"
+                },
+                {
+                    "name": "Bright flat",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Svijetao stan",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Gaišs dzīvoklis",
+                    "lang": "lv"
+                },
+                {
+                    "name": "شقة مشرقة",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Ljust platt",
+                    "lang": "sv"
+                },
+                {
+                    "name": "明亮公寓",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Appartamento luminoso",
+                    "lang": "it"
+                },
+                {
+                    "name": "Departamento luminoso",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Világos lakás",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Světlý byt",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Parlak daire",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Светлая квартира",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Heldere flat",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Ere ja lame",
+                    "lang": "et"
+                },
+                {
+                    "name": "Šviesus butas",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "modern_livingroom",
+            "name": "Modern livingroom",
+            "thumbnail": "modern_livingroom.jpg",
+            "translations": [
+                {
+                    "name": "Модерна всекидневна",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Modernes Wohnzimmer",
+                    "lang": "de"
+                },
+                {
+                    "name": "Sala de estar moderna",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Moderne stue",
+                    "lang": "nb"
+                },
+                {
+                    "name": "現代客廳",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Сучасна вітальня",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Sodobna dnevna soba",
+                    "lang": "sl"
+                },
+                {
+                    "name": "סלון מודרני",
+                    "lang": "he"
+                },
+                {
+                    "name": "Модерна дневна соба",
+                    "lang": "sr"
+                },
+                {
+                    "name": "모던한 거실",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μοντέρνο καθιστικό",
+                    "lang": "el"
+                },
+                {
+                    "name": "ห้องนั่งเล่นสไตล์โมเดิร์น",
+                    "lang": "th"
+                },
+                {
+                    "name": "Salon moderne",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Modern livingroom",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Moderná obývačka",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Nowoczesny salon",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Sala de estar moderna",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Moderni olohuone",
+                    "lang": "fi"
+                },
+                {
+                    "name": "モダンなリビングルーム",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Moderna dnevna soba",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Cameră de zi modernă",
+                    "lang": "ro"
+                },
+                {
+                    "name": "मॉडर्न लिविंग रूम",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Sala de estar moderna",
+                    "lang": "es"
+                },
+                {
+                    "name": "Moderne stue",
+                    "lang": "da"
+                },
+                {
+                    "name": "Modern livingroom",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Moderni dnevni boravak",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Mūsdienīga viesistaba",
+                    "lang": "lv"
+                },
+                {
+                    "name": "غرفة معيشة عصرية",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Modernt vardagsrum",
+                    "lang": "sv"
+                },
+                {
+                    "name": "现代客厅",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Soggiorno moderno",
+                    "lang": "it"
+                },
+                {
+                    "name": "Sala moderna",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Modern nappali",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Moderní obývací pokoj",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Modern oturma odası",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Современная гостиная",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Moderne woonkamer",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kaasaegne elutuba",
+                    "lang": "et"
+                },
+                {
+                    "name": "Šiuolaikinė svetainė",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "open_office",
+            "name": "Open office",
+            "thumbnail": "open_office.jpg",
+            "translations": [
+                {
+                    "name": "Просторен офис",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Offenes Büro",
+                    "lang": "de"
+                },
+                {
+                    "name": "Escritório aberto",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Åpent kontor",
+                    "lang": "nb"
+                },
+                {
+                    "name": "開放式辦公室",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Відкритий простір",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Odprta pisarna",
+                    "lang": "sl"
+                },
+                {
+                    "name": "משרד פתוח",
+                    "lang": "he"
+                },
+                {
+                    "name": "Отворена канцеларија",
+                    "lang": "sr"
+                },
+                {
+                    "name": "개방형 사무실",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Ανοιχτό γραφείο",
+                    "lang": "el"
+                },
+                {
+                    "name": "สำนักงานเปิด",
+                    "lang": "th"
+                },
+                {
+                    "name": "Bureau ouvert",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Open office",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Otvorená kancelária",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Open office",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Escritório open space",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Avoin toimisto",
+                    "lang": "fi"
+                },
+                {
+                    "name": "開放感あふれるオフィス",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Otvorena kancelarija",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Birou deschis",
+                    "lang": "ro"
+                },
+                {
+                    "name": "ओपन ऑफिस",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Oficina abierta",
+                    "lang": "es"
+                },
+                {
+                    "name": "Åbent kontor",
+                    "lang": "da"
+                },
+                {
+                    "name": "Open office",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Otvoreni ured",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Atvērtais birojs",
+                    "lang": "lv"
+                },
+                {
+                    "name": "مكتب مفتوح",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Öppet kontor",
+                    "lang": "sv"
+                },
+                {
+                    "name": "开放式办公室",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Ufficio open space",
+                    "lang": "it"
+                },
+                {
+                    "name": "Oficina independiente",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Nyitott légterű iroda",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Otevřená kancelář",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Manzaralı ofis",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Офис с открытым доступом",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Open kantoor",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Avatud kontor",
+                    "lang": "et"
+                },
+                {
+                    "name": "Atviros erdvės biuras",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "afternoon_lounge",
+            "name": "Afternoon lounge",
+            "thumbnail": "afternoon_lounge.jpg",
+            "translations": [
+                {
+                    "name": "Следобедна почивка",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Lounge am Nachmittag",
+                    "lang": "de"
+                },
+                {
+                    "name": "Salão da tarde",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Ettermiddagslounge",
+                    "lang": "nb"
+                },
+                {
+                    "name": "午後休息室",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Післяобідній відпочинок",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Prostor za popoldanski počitek",
+                    "lang": "sl"
+                },
+                {
+                    "name": "טרקלין אחר הצהריים",
+                    "lang": "he"
+                },
+                {
+                    "name": "Салон за поподневни боравак",
+                    "lang": "sr"
+                },
+                {
+                    "name": "오후의 라운지",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Απογευματινό σαλόνι",
+                    "lang": "el"
+                },
+                {
+                    "name": "ห้องนั่งเล่นตอนบ่าย",
+                    "lang": "th"
+                },
+                {
+                    "name": "Salon d'après-midi",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Afternoon lounge",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Popoludňajší salónik",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Salon po południu",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Salão da tarde",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Olohuone iltapäivällä",
+                    "lang": "fi"
+                },
+                {
+                    "name": "アフタヌーンラウンジ",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Soba za popodnevni odmor",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Salon de după-amiază",
+                    "lang": "ro"
+                },
+                {
+                    "name": "आफ्टरनून लाउंज",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Salón de la tarde",
+                    "lang": "es"
+                },
+                {
+                    "name": "Eftermiddags lounge",
+                    "lang": "da"
+                },
+                {
+                    "name": "Afternoon lounge",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Poslijepodnevni boravak",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Laiska pēcpusdiena",
+                    "lang": "lv"
+                },
+                {
+                    "name": "وقت الظهيرة",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Eftermiddagslounge",
+                    "lang": "sv"
+                },
+                {
+                    "name": "午后休息室",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Salotto nel pomeriggio",
+                    "lang": "it"
+                },
+                {
+                    "name": "Lounge vespertino",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Délutáni szoba",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Odpolední salonek",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Öğle vakti oturma salonu",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Зона для послеобеденного отдыха",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Middaglounge",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Pärastlõunane puhkeruum",
+                    "lang": "et"
+                },
+                {
+                    "name": "Popiečio poilsio kambarys",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "home_office",
+            "name": "Home office",
+            "thumbnail": "home_office.jpg",
+            "translations": [
+                {
+                    "name": "Домашен офис",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Home-Office",
+                    "lang": "de"
+                },
+                {
+                    "name": "Home office",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Hjemmekontor",
+                    "lang": "nb"
+                },
+                {
+                    "name": "居家辦公室",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Домашній офіс",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Domača pisarna",
+                    "lang": "sl"
+                },
+                {
+                    "name": "משרד ביתי",
+                    "lang": "he"
+                },
+                {
+                    "name": "Кућна канцеларија",
+                    "lang": "sr"
+                },
+                {
+                    "name": "홈 오피스",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Οικιακό γραφείο",
+                    "lang": "el"
+                },
+                {
+                    "name": "สำนักงานที่บ้าน",
+                    "lang": "th"
+                },
+                {
+                    "name": "Bureau à domicile",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Home office",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Home office",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Home office",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Escritório em casa",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Kotitoimisto",
+                    "lang": "fi"
+                },
+                {
+                    "name": "ホームオフィス",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Kućna kancelarija",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Birou de acasă",
+                    "lang": "ro"
+                },
+                {
+                    "name": "होम ऑफिस",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Oficina en casa",
+                    "lang": "es"
+                },
+                {
+                    "name": "Hjemmekontor",
+                    "lang": "da"
+                },
+                {
+                    "name": "Home office",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Ured u kući",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Mājas birojs",
+                    "lang": "lv"
+                },
+                {
+                    "name": "المكتب المنزلي",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Hemmakontor",
+                    "lang": "sv"
+                },
+                {
+                    "name": "居家办公",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Ufficio di casa",
+                    "lang": "it"
+                },
+                {
+                    "name": "Oficina en casa",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Otthoni iroda",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Home Office",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Ev ofisi",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Домашний офис",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Thuiskantoor",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kodukontor",
+                    "lang": "et"
+                },
+                {
+                    "name": "Namų biuras",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "cosy_livingroom",
+            "name": "Cosy livingroom",
+            "thumbnail": "cosy_livingroom.jpg",
+            "translations": [
+                {
+                    "name": "Уютна всекидневна",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Gemütliches Wohnzimmer",
+                    "lang": "de"
+                },
+                {
+                    "name": "Sala de estar aconchegante",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Koselig stue",
+                    "lang": "nb"
+                },
+                {
+                    "name": "舒適客廳",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Затишна вітальня",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Udobna dnevna soba",
+                    "lang": "sl"
+                },
+                {
+                    "name": "סלון נעים ונוח",
+                    "lang": "he"
+                },
+                {
+                    "name": "Удобна дневна соба",
+                    "lang": "sr"
+                },
+                {
+                    "name": "아늑한 거실",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Άνετο καθιστικό",
+                    "lang": "el"
+                },
+                {
+                    "name": "ห้องนั่งเล่นที่แสนอบอุ่น",
+                    "lang": "th"
+                },
+                {
+                    "name": "Salon confortable",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Cosy livingroom",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Útulná obývačka",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Przytulny salon",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Sala de estar acolhedora",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Mukava olohuone",
+                    "lang": "fi"
+                },
+                {
+                    "name": "快適なリビングルーム",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Udobna dnevna soba",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Cameră de zi intimă",
+                    "lang": "ro"
+                },
+                {
+                    "name": "आरामदेह लिविंग रूम",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Acogedora sala de estar",
+                    "lang": "es"
+                },
+                {
+                    "name": "Hyggelig stue",
+                    "lang": "da"
+                },
+                {
+                    "name": "Cosy livingroom",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Udoban dnevni boravak",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Mājīga viesistaba",
+                    "lang": "lv"
+                },
+                {
+                    "name": "غرفة معيشة مريحة",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Mysigt vardagsrum",
+                    "lang": "sv"
+                },
+                {
+                    "name": "舒适客厅",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Soggiorno accogliente",
+                    "lang": "it"
+                },
+                {
+                    "name": "Sala acogedora",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Otthonos nappali",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Útulný obývací pokoj",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Rahat oturma odası",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Уютная гостиная",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Gezellige woonkamer",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Hubane elutuba",
+                    "lang": "et"
+                },
+                {
+                    "name": "Jauki svetainė",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "modern_home",
+            "name": "Modern home",
+            "thumbnail": "modern_home.jpg",
+            "translations": [
+                {
+                    "name": "Модерен дом",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Modernes Eigenheim",
+                    "lang": "de"
+                },
+                {
+                    "name": "Casa moderna",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Moderne hjem",
+                    "lang": "nb"
+                },
+                {
+                    "name": "現代家居",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Сучасний будинок",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Sodoben dom",
+                    "lang": "sl"
+                },
+                {
+                    "name": "בית מודרני",
+                    "lang": "he"
+                },
+                {
+                    "name": "Модеран дом",
+                    "lang": "sr"
+                },
+                {
+                    "name": "모던 홈",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Μοντέρνο σπίτι",
+                    "lang": "el"
+                },
+                {
+                    "name": "บ้านสไตล์โมเดิร์น",
+                    "lang": "th"
+                },
+                {
+                    "name": "Maison moderne",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Modern home",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Moderný domov",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Współczesny dom",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Casa moderna",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Moderni koti",
+                    "lang": "fi"
+                },
+                {
+                    "name": "モダンな家",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Moderan dom",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Casă modernă",
+                    "lang": "ro"
+                },
+                {
+                    "name": "मॉडर्न घर",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Hogar moderno",
+                    "lang": "es"
+                },
+                {
+                    "name": "Moderne hjem",
+                    "lang": "da"
+                },
+                {
+                    "name": "Modern home",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Moderan dom",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Moderna māja",
+                    "lang": "lv"
+                },
+                {
+                    "name": "منزل عصري",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Modernt hem",
+                    "lang": "sv"
+                },
+                {
+                    "name": "现代家居",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Casa moderna",
+                    "lang": "it"
+                },
+                {
+                    "name": "Hogar moderno",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Modern otthon",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Moderní domov",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Modern ev",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Современный дом",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Moderne woning",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Kaasaegne kodu",
+                    "lang": "et"
+                },
+                {
+                    "name": "Šiuolaikiniai namai",
+                    "lang": "lt"
+                }
+            ]
+        },
+        {
+            "uid": "country_livingroom",
+            "name": "Country livingroom",
+            "thumbnail": "country_livingroom.jpg",
+            "translations": [
+                {
+                    "name": "Провинциална всекидневна",
+                    "lang": "bg"
+                },
+                {
+                    "name": "Landhaus-Wohnzimmer",
+                    "lang": "de"
+                },
+                {
+                    "name": "Sala de estar campestre",
+                    "lang": "pt-BR"
+                },
+                {
+                    "name": "Landlig stue",
+                    "lang": "nb"
+                },
+                {
+                    "name": "鄉村客廳",
+                    "lang": "zh-TW"
+                },
+                {
+                    "name": "Сільська вітальня",
+                    "lang": "uk"
+                },
+                {
+                    "name": "Podeželska dnevna soba",
+                    "lang": "sl"
+                },
+                {
+                    "name": "סלון כפרי",
+                    "lang": "he"
+                },
+                {
+                    "name": "Сеоска дневна соба",
+                    "lang": "sr"
+                },
+                {
+                    "name": "컨트리풍의 거실",
+                    "lang": "ko"
+                },
+                {
+                    "name": "Καθιστικό εξοχικού",
+                    "lang": "el"
+                },
+                {
+                    "name": "ห้องนั่งเล่นสไตล์คันทรี่",
+                    "lang": "th"
+                },
+                {
+                    "name": "Salon de campagne",
+                    "lang": "fr"
+                },
+                {
+                    "name": "Country livingroom",
+                    "lang": "en-US"
+                },
+                {
+                    "name": "Vidiecka obývačka",
+                    "lang": "sk"
+                },
+                {
+                    "name": "Podmiejski salon",
+                    "lang": "pl"
+                },
+                {
+                    "name": "Sala de estar campestre",
+                    "lang": "pt-PT"
+                },
+                {
+                    "name": "Olohuone maalla",
+                    "lang": "fi"
+                },
+                {
+                    "name": "カントリー風のリビングルーム",
+                    "lang": "ja"
+                },
+                {
+                    "name": "Seoska dnevna soba",
+                    "lang": "sr-Latn-RS"
+                },
+                {
+                    "name": "Cameră de zi rurală",
+                    "lang": "ro"
+                },
+                {
+                    "name": "देशज लिविंग रूम",
+                    "lang": "hi"
+                },
+                {
+                    "name": "Salón de campo",
+                    "lang": "es"
+                },
+                {
+                    "name": "Landlig stue",
+                    "lang": "da"
+                },
+                {
+                    "name": "Country livingroom",
+                    "lang": "en-GB"
+                },
+                {
+                    "name": "Seoski dnevni boravak",
+                    "lang": "hr"
+                },
+                {
+                    "name": "Lauku viesistaba",
+                    "lang": "lv"
+                },
+                {
+                    "name": "غرفة معيشة ريفية",
+                    "lang": "ar"
+                },
+                {
+                    "name": "Vardagsrum på landet",
+                    "lang": "sv"
+                },
+                {
+                    "name": "乡村客厅",
+                    "lang": "zh-CN"
+                },
+                {
+                    "name": "Soggiorno di una casa di campagna",
+                    "lang": "it"
+                },
+                {
+                    "name": "Sala Country",
+                    "lang": "es-MX"
+                },
+                {
+                    "name": "Vidéki nappali",
+                    "lang": "hu"
+                },
+                {
+                    "name": "Venkovský obývací pokoj",
+                    "lang": "cs"
+                },
+                {
+                    "name": "Kırsal bölge oturma odası",
+                    "lang": "tr"
+                },
+                {
+                    "name": "Уютная загородная гостиная",
+                    "lang": "ru"
+                },
+                {
+                    "name": "Landelijke woonkamer",
+                    "lang": "nl"
+                },
+                {
+                    "name": "Maamaja elutuba",
+                    "lang": "et"
+                },
+                {
+                    "name": "Užmiesčio svetainė",
+                    "lang": "lt"
+                }
+            ]
+        }
+    ]
+}

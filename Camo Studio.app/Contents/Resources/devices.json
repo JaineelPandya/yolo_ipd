@@ -1,0 +1,564 @@
+[
+    {
+        "uid": "Razer Kiyo V2 Pro",
+        "vid": 5426,
+        "pid": 3594,
+        "name": "Razer Kiyo V2 Pro",
+        "category": "1",
+        "diameter": "16.00",
+        "focal_length": "4.80",
+        "aperture": "1.90",
+        "desired_speed": 3,
+        "enables_addon": "razer",
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo V2 X",
+        "vid": 5426,
+        "pid": 3596,
+        "name": "Razer Kiyo V2 X",
+        "category": "1",
+        "diameter": "10.00",
+        "focal_length": "3.40",
+        "aperture": "2.20",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo V2",
+        "vid": 5426,
+        "pid": 3595,
+        "name": "Razer Kiyo V2",
+        "category": "1",
+        "diameter": "10.00",
+        "focal_length": "3.00",
+        "aperture": "2.00",
+        "desired_speed": 2,
+        "enables_addon": "razer",
+        "related_devices": []
+    },
+    {
+        "uid": "Elgato 4K X",
+        "vid": 4057,
+        "pid": 155,
+        "name": "Elgato 4K X",
+        "category": "2",
+        "related_devices": []
+    },
+    {
+        "uid": "Poly Studio P5",
+        "vid": 1008,
+        "pid": 37526,
+        "name": "Poly Studio P5",
+        "category": "1",
+        "focal_length": "2.00",
+        "fov": "80.00",
+        "desired_speed": 2,
+        "related_devices": [
+            {
+                "uid": "Poly Studio P5 webcam",
+                "vid": 2397,
+                "pid": 37526
+            }
+        ]
+    },
+    {
+        "uid": "HyperX Vision S",
+        "vid": 1008,
+        "pid": 1438,
+        "name": "HyperX Vision S",
+        "category": "1",
+        "fov": "90.00",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Cam Link",
+        "vid": 4057,
+        "pid": 97,
+        "name": "Cam Link",
+        "category": "2",
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Ripsaw X",
+        "vid": 5426,
+        "pid": 3333,
+        "name": "Razer Ripsaw X",
+        "category": "2",
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Ripsaw HD HDMI",
+        "vid": 5426,
+        "pid": 3329,
+        "name": "Razer Ripsaw HD",
+        "category": "2",
+        "related_devices": []
+    },
+    {
+        "uid": "USB3.0 HD Video Capture",
+        "vid": 60324,
+        "pid": 30088,
+        "name": "Capture Card (USB 3)",
+        "category": "2",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Game Capture HD60 X",
+        "vid": 4057,
+        "pid": 130,
+        "name": "Game Capture HD60 X",
+        "category": "2",
+        "related_devices": [
+            {
+                "uid": "Elgato HD60 X",
+                "vid": 4057,
+                "pid": 138
+            },
+            {
+                "uid": "Game Capture HD60 X",
+                "vid": 4057,
+                "pid": 131
+            }
+        ]
+    },
+    {
+        "uid": "Game Capture HD60 S+",
+        "vid": 4057,
+        "pid": 106,
+        "name": "Game Capture HD60 S+",
+        "category": "2",
+        "related_devices": [
+            {
+                "uid": "Game Capture HD60 S+",
+                "vid": 4057,
+                "pid": 107
+            }
+        ]
+    },
+    {
+        "uid": "Cisco Webex Desk Camera 4K",
+        "vid": 1446,
+        "pid": 35,
+        "name": "Cisco Webex Desk Camera 4K",
+        "category": "1",
+        "fov": "81.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Opal C1",
+        "vid": 999,
+        "pid": 63035,
+        "name": "Opal C1",
+        "category": "1",
+        "focal_length": "3.30",
+        "aperture": "1.80",
+        "fov": "78.00",
+        "desired_speed": 3,
+        "disabled_features": [
+            "whiteBalanceTemp",
+            "hue",
+            "saturation",
+            "brightness",
+            "contrast",
+            "sharpness",
+            "gamma"
+        ],
+        "related_devices": [
+            {
+                "uid": "Opal C1",
+                "vid": 999,
+                "pid": 63037
+            }
+        ]
+    },
+    {
+        "uid": "Dell UltraSharp WB7022",
+        "vid": 16700,
+        "pid": 49173,
+        "name": "Dell UltraSharp WB7022",
+        "category": "1",
+        "aperture": "2.70",
+        "fov": "90.00",
+        "related_devices": []
+    },
+    {
+        "uid": "Logitech StreamCam",
+        "vid": 1133,
+        "pid": 2195,
+        "name": "Logitech StreamCam",
+        "category": "1",
+        "focal_length": "3.70",
+        "aperture": "2.00",
+        "fov": "78.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Elgato Facecam Pro",
+        "vid": 4057,
+        "pid": 121,
+        "name": "Elgato Facecam Pro",
+        "category": "1",
+        "focal_length": "24.00",
+        "aperture": "2.00",
+        "fov": "82.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Multifunction Composite Gadget",
+        "vid": 7531,
+        "pid": 260,
+        "name": "Multifunction Composite Gadget",
+        "category": "1",
+        "related_devices": []
+    },
+    {
+        "uid": "HDMI Video Capture",
+        "vid": 21325,
+        "pid": 8457,
+        "name": "Capture Card",
+        "category": "2",
+        "related_devices": []
+    },
+    {
+        "uid": "Cam Link 4K",
+        "vid": 4057,
+        "pid": 103,
+        "name": "Cam Link 4K",
+        "category": "2",
+        "desired_speed": 3,
+        "related_devices": [
+            {
+                "uid": "Cam Link 4K",
+                "vid": 4057,
+                "pid": 102
+            },
+            {
+                "uid": "Cam Link 4K",
+                "vid": 4057,
+                "pid": 123
+            },
+            {
+                "uid": "Cam Link 4K",
+                "vid": 4057,
+                "pid": 133
+            }
+        ]
+    },
+    {
+        "uid": "Microsoft Modern Webcam",
+        "vid": 1118,
+        "pid": 2112,
+        "name": "Microsoft Modern Webcam",
+        "category": "1",
+        "fov": "78.00",
+        "related_devices": []
+    },
+    {
+        "uid": "Microsoft LifeCam VX-5000",
+        "vid": 1118,
+        "pid": 1832,
+        "name": "Microsoft LifeCam VX-5000",
+        "category": "1",
+        "fov": "55.00",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Microsoft LifeCam HD-3000",
+        "vid": 1118,
+        "pid": 1913,
+        "name": "Microsoft LifeCam HD-3000",
+        "category": "1",
+        "focal_length": "20.00",
+        "fov": "68.50",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Microsoft LifeCam Cinema",
+        "vid": 1118,
+        "pid": 1885,
+        "name": "Microsoft LifeCam Cinema",
+        "category": "1",
+        "focal_length": "20.00",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Lumina Camera - Raw",
+        "vid": 1045,
+        "pid": 3141,
+        "name": "Lumina",
+        "category": "1",
+        "focal_length": "3.00",
+        "aperture": "2.00",
+        "fov": "95.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "HD Pro Webcam C920",
+        "vid": 1133,
+        "pid": 2194,
+        "name": "Logitech C920",
+        "category": "1",
+        "focal_length": "3.67",
+        "fov": "78.00",
+        "related_devices": [
+            {
+                "uid": "HD Pro Webcam C920",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920",
+                "vid": 1133,
+                "pid": 2277
+            },
+            {
+                "uid": "Logitech HD Pro Webcam C920",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #2",
+                "vid": 1133,
+                "pid": 2277
+            },
+            {
+                "uid": "HD Pro Webcam C920 #2",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #3",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #4",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #5",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #9",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #6",
+                "vid": 1133,
+                "pid": 2093
+            },
+            {
+                "uid": "HD Pro Webcam C920 #12",
+                "vid": 1133,
+                "pid": 2277
+            },
+            {
+                "uid": "HD Pro Webcam C920 #7",
+                "vid": 1133,
+                "pid": 2093
+            }
+        ]
+    },
+    {
+        "uid": "Logitech C310",
+        "vid": 1133,
+        "pid": 2075,
+        "name": "Logitech C310",
+        "category": "1",
+        "focal_length": "4.40",
+        "fov": "60.00",
+        "related_devices": []
+    },
+    {
+        "uid": "Logitech Brio 4K",
+        "vid": 1133,
+        "pid": 2142,
+        "name": "Logitech Brio 4K",
+        "category": "1",
+        "fov": "90.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Logitech Brio 4K SE",
+        "vid": 1133,
+        "pid": 2155,
+        "name": "Logitech Brio 4K SE",
+        "category": "1",
+        "fov": "90.00",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Elgato Facecam",
+        "vid": 4057,
+        "pid": 120,
+        "name": "Elgato Facecam",
+        "category": "1",
+        "focal_length": "24.00",
+        "aperture": "2.40",
+        "fov": "82.00",
+        "desired_speed": 3,
+        "disabled_features": [
+            "focusManual",
+            "shutterSpeed",
+            "gain",
+            "exposureMode",
+            "whiteBalanceTemp"
+        ],
+        "related_devices": [
+            {
+                "uid": "Elgato Facecam #2",
+                "vid": 4057,
+                "pid": 119
+            }
+        ]
+    },
+    {
+        "uid": "Studio Display Camera",
+        "vid": 1452,
+        "pid": 4372,
+        "name": "Studio Display Camera",
+        "category": "1",
+        "aperture": "2.40",
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo X",
+        "vid": 5426,
+        "pid": 3590,
+        "name": "Razer Kiyo X",
+        "category": "1",
+        "fov": "74.00",
+        "desired_speed": 2,
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo",
+        "vid": 5426,
+        "pid": 3587,
+        "name": "Razer Kiyo",
+        "category": "1",
+        "focal_length": "30.00",
+        "fov": "81.60",
+        "desired_speed": 2,
+        "disabled_features": [
+            "shutterSpeed",
+            "gain",
+            "exposureMode"
+        ],
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo Pro",
+        "vid": 5426,
+        "pid": 3589,
+        "name": "Razer Kiyo Pro",
+        "category": "1",
+        "diameter": "14.00",
+        "focal_length": "3.80",
+        "aperture": "2.00",
+        "fov": "103.00",
+        "desired_speed": 3,
+        "disabled_features": [
+            "shutterSpeed",
+            "gain",
+            "exposureMode"
+        ],
+        "related_devices": []
+    },
+    {
+        "uid": "Razer Kiyo Pro Ultra",
+        "vid": 5426,
+        "pid": 3592,
+        "name": "Razer Kiyo Pro Ultra",
+        "category": "1",
+        "diameter": "20.00",
+        "focal_length": "8.50",
+        "aperture": "1.70",
+        "fov": "73.40",
+        "desired_speed": 3,
+        "related_devices": []
+    },
+    {
+        "uid": "Insta360 Link",
+        "vid": 11802,
+        "pid": 19457,
+        "name": "Insta360 Link",
+        "category": "1",
+        "focal_length": "26.00",
+        "aperture": "1.80",
+        "fov": "79.50",
+        "desired_speed": 2,
+        "disabled_features": [
+            "hue"
+        ],
+        "related_devices": []
+    },
+    {
+        "uid": "Generaplus Webcam",
+        "vid": 6975,
+        "pid": 4455,
+        "name": "Generaplus Webcam",
+        "category": "1",
+        "related_devices": []
+    },
+    {
+        "uid": "Logi C270 HD WebCam",
+        "vid": 1133,
+        "pid": 2074,
+        "name": "Logitech C270",
+        "category": "1",
+        "focal_length": "4.00",
+        "fov": "60.00",
+        "related_devices": [
+            {
+                "uid": "Logi C270 HD WebCam",
+                "vid": 1133,
+                "pid": 2085
+            }
+        ]
+    },
+    {
+        "slug": "cisco-desk-pro",
+        "name": "Cisco Desk Pro",
+        "vid": 1446,
+        "pid": 2820,
+        "aperture": "2.0",
+        "fov": "71.00",
+        "enableUVC": false
+    },
+    {
+        "slug": "huddle-cam-hd",
+        "name": "HuddleCamHD Pro",
+        "vid": 12866,
+        "pid": 4096,
+        "enableUVC": false
+    },
+    {
+        "slug": "fifine-k669",
+        "name": "FIFINE K669",
+        "vid": 3190,
+        "pid": 5662
+    },
+    {
+        "slug": "rode-xcm-50",
+        "name": "RØDE XCM-50",
+        "vid": 6647,
+        "pid": 62
+    }
+]
