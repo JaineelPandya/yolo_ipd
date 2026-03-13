@@ -1,14 +1,72 @@
-# Ignore datasets
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# YOLO & Machine Learning Models (ignore model subdirectories outputs usually)
+yolov8n.pt
+yolov8n.tflite
+models/*.pt
+models/*.tflite
+models/*.onnx
+
+# Datasets and training outputs
 datasets/
 WOTR/
 WOTR_YOLO/
-# Ignore runs (training outputs)
 runs/
+outputs/
 
-# Python
-__pycache__/
-*.pyc
-.venv/
+# Project specific data & logs
+logs/
+data/
+*.db
+*.sqlite
+*.sqlite3
 
-# VS Code
-.vscode/
+# Streamlit
+# .streamlit/secrets.toml
