@@ -29,6 +29,9 @@ outputs/
 # Secrets
 .env
 
+# Documentation
+*.md
+
 # IDE
 .vscode/
 .idea/
