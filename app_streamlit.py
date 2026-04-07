@@ -3,6 +3,12 @@ Streamlit web interface for Object Memory Assistant
 Run with: streamlit run app_streamlit.py
 """
 
+# CRITICAL: Load .env FIRST before importing config!
+import os
+from dotenv import load_dotenv
+load_dotenv(override=True)  # Force reload .env on every Streamlit run
+print(f"🔑 API Key loaded from .env: {bool(os.getenv('GEMINI_API_KEY'))}")
+
 import streamlit as st
 import cv2
 import numpy as np
@@ -15,7 +21,7 @@ from detection.detector import create_detector
 from tracking.tracker import create_tracker
 from utils.deduplicator import create_deduplicator
 from memory.storage import create_memory
-from gemini_api.descriptor import create_scene_descriptor
+from gemini_api.descriptor import create_scene_descriptor, GeminiSceneDescriptor
 from query.engine import create_query_engine
 from utils.helpers import FrameProcessor, PerformanceMonitor, setup_logging, RaspberryPiOptimizer
 
@@ -61,10 +67,10 @@ st.sidebar.title("⚙️ Configuration")
 # Model selection
 model_option = st.sidebar.radio(
     "Model Type",
-    ("PyTorch (Full Quality)", "TensorFlow Lite (Fast - RPi)"),
-    help="Choose based on your hardware"
+    ("PyTorch (.pt — Desktop/CUDA)", "TFLite (.tflite — RPi/Lightweight)"),
+    help="TFLite is required on Raspberry Pi. Download model first: python download_model.py"
 )
-use_tflite = model_option == "TensorFlow Lite (Fast - RPi)"
+use_tflite = "TFLite" in model_option
 
 # Confidence threshold - DEFAULT TO 0.25 for better detection
 conf_threshold = st.sidebar.slider(
@@ -79,7 +85,7 @@ conf_threshold = st.sidebar.slider(
 # Enable Gemini API
 enable_gemini = st.sidebar.checkbox(
     "Enable Scene Description (Requires API Key)",
-    value=False,
+    value=True,
     help="Generate scene descriptions using Gemini Vision API"
 )
 
@@ -135,18 +141,37 @@ def load_components(_use_tflite, _enable_gemini):
     """Load all required components for the system"""
     with st.spinner("Loading components..."):
         try:
+            # Fresh reload of config to get latest API key
+            import importlib
+            importlib.reload(config)
+            
             detector = create_detector(use_tflite=_use_tflite)
             tracker = create_tracker("bytetrack")
             memory = create_memory()
             deduplicator = create_deduplicator()
-            scene_descriptor = create_scene_descriptor() if _enable_gemini else None
-            query_engine = create_query_engine(memory)
+            
+            # Pass API key explicitly
+            from gemini_api.descriptor import GeminiSceneDescriptor
+            scene_descriptor = None
+            if _enable_gemini:
+                api_key = os.getenv("GEMINI_API_KEY", "").strip() or config.GEMINI_API_KEY
+                print(f"🔑 Creating descriptor with API key: {bool(api_key)}")
+                scene_descriptor = GeminiSceneDescriptor(api_key=api_key)
+                if scene_descriptor.client:
+                    logger.info("✅ Gemini client initialized successfully")
+                else:
+                    logger.warning("⚠️ Gemini client NOT initialized - check API key")
+            
+            # Pass scene_descriptor to query engine for on-demand description generation
+            query_engine = create_query_engine(memory, scene_descriptor=scene_descriptor)
             perf_monitor = PerformanceMonitor()
             
-            logger.info(f"✓ Components loaded successfully (TFLite: {_use_tflite}, Gemini: {_enable_gemini})")
+            logger.info(f"✓ Components loaded (TFLite: {_use_tflite}, Gemini: {_enable_gemini})")
             return detector, tracker, memory, deduplicator, scene_descriptor, query_engine, perf_monitor
         except Exception as e:
-            logger.error(f"Error loading components: {e}")
+            logger.error(f"❌ Error loading components: {e}")
+            import traceback
+            traceback.print_exc()
             st.error(f"❌ Error loading components: {e}")
             return None, None, None, None, None, None, None
 
@@ -247,7 +272,7 @@ with tab1:
                     st.session_state.perf_monitor.add_frame_time(elapsed_time)
                     
                     # Display frame directly (no file cache issues)
-                    frame_placeholder.image(display_frame, use_container_width=True)
+                    frame_placeholder.image(display_frame, width="stretch")
                     
                     # Display detection info
                     with detection_info.container():
@@ -277,24 +302,20 @@ with tab1:
                             frame, prefix="important"
                         )
                         
-                        # Generate scene description if enabled
-                        scene_desc = None
-                        if st.session_state.scene_descriptor and enable_gemini and len(detections) > 0:
-                            try:
-                                scene_desc = st.session_state.scene_descriptor.describe_scene(
-                                    frame, detections
-                                )
-                            except Exception as e:
-                                logger.warning(f"Scene description error: {e}")
-                        
-                        # Store ALL detections in memory (not just small objects)
+                        gemini_enabled = (
+                            st.session_state.scene_descriptor is not None
+                            and enable_gemini
+                            and len(detections) > 0
+                        )
+
+                        # Store ALL detections; scene descriptions generated on-demand during queries
                         for det in detections:
                             try:
-                                obj_id = st.session_state.memory.store_object(
+                                st.session_state.memory.store_object(
                                     object_name=det['class_name'],
                                     bbox=det['bbox'],
                                     confidence=det['confidence'],
-                                    scene_description=scene_desc,
+                                    scene_description=None,  # Set to None initially - generated on-demand
                                     image_path=frame_path,
                                     class_id=det['class_id']
                                 )
@@ -318,6 +339,48 @@ with tab1:
 with tab2:
     st.subheader("🔍 Find Your Objects")
     
+    # Show Gemini status
+    gemini_status = "✅ Enabled" if enable_gemini else "❌ Disabled"
+    col_status1, col_status2 = st.columns([1, 1])
+    with col_status1:
+        st.metric("Scene Description", gemini_status)
+    with col_status2:
+        st.metric("API Key Set", "✅ Yes" if config.GEMINI_API_KEY else "❌ No")
+    
+    # Show action buttons
+    col_btn1, col_btn2, col_btn3 = st.columns(3)
+    with col_btn1:
+        if st.button("🧹 Clear Old Data", help="Delete data without descriptions. Run detection again to repopulate."):
+            if st.session_state.memory:
+                count = st.session_state.memory.clear_records_without_descriptions()
+                st.success(f"✅ Deleted {count} records without descriptions. Run detection to capture fresh data with Gemini!")
+    
+    with col_btn2:
+        if st.button("📊 View Database Stats"):
+            if st.session_state.memory:
+                stats = st.session_state.memory.get_statistics()
+                st.json({
+                    "Total Objects": stats.get('total_objects', 0),
+                    "Unique Objects": stats.get('unique_objects', 0),
+                    "Total Frames": stats.get('total_frames', 0),
+                    "Avg Confidence": f"{float(stats.get('avg_confidence', 0)):.2f}"
+                })
+    
+    with col_btn3:
+        if st.button("🔄 Refresh Detection List"):
+            st.rerun()
+    
+    st.markdown("---")
+    
+    if not enable_gemini and config.GEMINI_API_KEY:
+        st.warning(
+            "⚠️ **Scene Description is DISABLED**\n\n"
+            "To see detailed location info for objects:\n"
+            "1. Check '**Enable Scene Description**' in the sidebar ☑️\n"
+            "2. Run camera detection again in **Live Detection** tab\n"
+            "3. Your phone will detect objects AND Gemini will describe where they are!"
+        )
+    
     # Query method selection
     query_method = st.radio(
         "How do you want to search?",
@@ -325,32 +388,45 @@ with tab2:
     )
     
     if query_method == "By Object Name":
-        object_name = st.text_input("Enter object name (e.g., phone, keys):")
+        object_name = st.text_input("Enter object name (e.g., phone, keys, teddy bear):")
         
-        if st.button("Search"):
-            if object_name:
+        if st.button("🔍 Search"):
+            if object_name and st.session_state.query_engine:
                 response = st.session_state.query_engine.get_last_seen(object_name)
-                st.info(response)
+                st.markdown(response)
+                
+                # Show additional context
+                history = st.session_state.memory.get_last_seen(object_name, config.RECENT_SEARCH_RANGE)
+                if history and history.get('scene_description'):
+                    st.success(f"✅ Scene description available for this sighting")
+                elif history and not enable_gemini:
+                    st.warning(f"💡 Enable Scene Description in sidebar for location details")
+            elif not st.session_state.query_engine:
+                st.error("❌ System not initialized. Please start camera first to track objects.")
             else:
                 st.warning("Please enter an object name")
     
     elif query_method == "By Voice":
-        st.info("🎤 Voice input feature (requires speech-to-text integration)")
-        voice_query = st.text_area("Or type your query:")
+        st.info("🎤 Type your question naturally — e.g. 'Where is my phone?' or 'Find my teddy bear'")
+        voice_query = st.text_area("Ask a question:", placeholder="Where is my teddy bear?")
         
-        if st.button("Ask"):
-            if voice_query:
+        if st.button("💬 Ask"):
+            if voice_query and st.session_state.query_engine:
                 response = st.session_state.query_engine.process_voice_query(voice_query)
-                st.info(response)
+                st.markdown(response)
+            elif not st.session_state.query_engine:
+                st.error("❌ System not initialized. Please start camera first.")
     
     elif query_method == "By Location":
         location = st.text_input("Enter location (e.g., cupboard, table, shelf):")
         
-        if st.button("Search"):
-            if location:
+        if st.button("🔍 Search"):
+            if location and st.session_state.query_engine:
                 results = st.session_state.query_engine.find_by_location(location)
                 for result in results:
-                    st.success(result)
+                    st.markdown(result)
+            elif not st.session_state.query_engine:
+                st.error("❌ System not initialized. Please start camera first.")
             else:
                 st.warning("Please enter a location")
     

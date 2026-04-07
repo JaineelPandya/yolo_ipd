@@ -1,37 +1,21 @@
-"""
-Raspberry Pi specific requirements
-Install with: pip install -r requirements_rpi.txt
-"""
+# ==========================================================
+# Raspberry Pi requirements - minimal, no PyTorch/TensorFlow
+# Install with: pip install -r requirements_rpi.txt
+# ==========================================================
 
-# Core ML/Vision
-ultralytics==8.0.0
-opencv-python==4.8.0.74
-opencv-contrib-python==4.8.0.74
-numpy==1.24.3
-Pillow==10.0.0
+# Vision (headless for RPi)
+opencv-python-headless>=4.8.0
+numpy>=1.21.0
 
-# Deep Learning (lightweight for RPi)
-torch==2.0.0
-torchvision==0.15.0
-tflite-runtime==2.13.0
+# TFLite (arm64 wheel - much lighter than full tensorflow)
+tflite-runtime>=2.13.0
 
-# API & Web
-google-generativeai==0.3.0
-streamlit==1.28.0
-requests==2.31.0
+# Gemini Vision API
+google-genai>=1.0.0
+
+# Web UI
+streamlit>=1.28.0
 
 # Utilities
-pyyaml==6.0
-tqdm==4.66.1
-matplotlib==3.7.2
-pandas==2.0.3
-
-# System monitoring
-psutil==5.9.5
-
-# Optional: For voice input
-pyaudio==0.2.13
-SpeechRecognition==3.10.0
-
-# Optional: For cloud features
-firebase-admin==6.2.0
+Pillow>=10.0.0
+psutil>=5.9.5

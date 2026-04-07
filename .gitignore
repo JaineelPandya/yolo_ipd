@@ -1,72 +1,49 @@
-# Byte-compiled / optimized / DLL files
+# Object Memory Assistant — .gitignore
+
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
+*.pyo
+*.pyd
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+dist/
+build/
 
 # Virtual environments
 venv/
 .venv/
 env/
-.env/
 
-# Environment variables
-.env
-.env.local
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# VS Code / IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# YOLO & Machine Learning Models (ignore model subdirectories outputs usually)
-yolov8n.pt
-yolov8n.tflite
+# Model files (large — download via download_model.py)
 models/*.pt
 models/*.tflite
 models/*.onnx
 
-# Datasets and training outputs
-datasets/
-WOTR/
-WOTR_YOLO/
-runs/
+# Runtime data
+data/frames/
+data/database/
+logs/
 outputs/
 
-# Project specific data & logs
-logs/
-data/
-*.db
-*.sqlite
-*.sqlite3
+# Secrets
+.env
 
-# Streamlit
-# .streamlit/secrets.toml
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Training artefacts (do not commit)
+WOTR/
+WOTR_YOLO/
+datasets/
+runs/

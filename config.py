@@ -1,10 +1,15 @@
 """
-Configuration settings for the assistive memory system
+Configuration settings for the Object Memory Assistant
+Optimized for both Raspberry Pi (TFLite) and Desktop (PyTorch/CUDA)
 """
 
 import os
-import platform
 from pathlib import Path
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass   # python-dotenv optional; set GEMINI_API_KEY in your shell env
 
 # ========================= PROJECT PATHS =========================
 PROJECT_ROOT = Path(__file__).parent
@@ -13,36 +18,32 @@ DATABASE_DIR = PROJECT_ROOT / "data" / "database"
 FRAMES_DIR = PROJECT_ROOT / "data" / "frames"
 LOGS_DIR = PROJECT_ROOT / "logs"
 
-# Create directories
-for dir_path in [MODELS_DIR, DATABASE_DIR, FRAMES_DIR, LOGS_DIR]:
-    dir_path.mkdir(parents=True, exist_ok=True)
+# Create required directories on startup
+for _dir in [MODELS_DIR, DATABASE_DIR, FRAMES_DIR, LOGS_DIR]:
+    _dir.mkdir(parents=True, exist_ok=True)
 
 # ========================= HARDWARE DETECTION =========================
-def detect_device():
-    """Detect device type (Raspberry Pi, Desktop, etc.)"""
+def detect_device() -> str:
+    """Detect device type: 'raspberry_pi' or 'desktop'"""
     try:
         with open('/proc/device-tree/model', 'r') as f:
-            model = f.read().strip()
-            if 'Raspberry Pi' in model:
+            if 'Raspberry Pi' in f.read():
                 return 'raspberry_pi'
-    except:
+    except Exception:
         pass
-    
     return 'desktop'
 
 DEVICE_TYPE = detect_device()
 IS_RASPBERRY_PI = DEVICE_TYPE == 'raspberry_pi'
 
 # ========================= MODEL SETTINGS =========================
-# Model paths
-YOLOV8_PT_MODEL = str(MODELS_DIR / "yolov8n.pt")
-YOLOV8_TFLITE_MODEL = str(MODELS_DIR / "yolov8n.tflite")
+YOLOV8_PT_MODEL    = str(MODELS_DIR / "yolov8n.pt")
+YOLOV8_TFLITE_MODEL = str(MODELS_DIR / "yolov8n_float32.tflite")
 
-# Use TensorFlow Lite on Raspberry Pi for better performance
+# Use TFLite on Raspberry Pi; PyTorch on desktop
 USE_TFLITE = IS_RASPBERRY_PI
 
-# Device selection: check for CUDA availability on desktop
-def _get_inference_device():
+def _get_inference_device() -> str:
     if IS_RASPBERRY_PI:
         return "cpu"
     try:
@@ -55,83 +56,88 @@ def _get_inference_device():
 
 INFERENCE_DEVICE = _get_inference_device()
 
-# Model configuration
-MODEL_INPUT_SIZE = (640, 640)
-CONFIDENCE_THRESHOLD = 0.25  # Default 0.25 - lower for better detection coverage
-IOU_THRESHOLD = 0.45
+# Detection parameters
+MODEL_INPUT_SIZE           = (640, 640)
+CONFIDENCE_THRESHOLD       = 0.25
+IOU_THRESHOLD              = 0.45
+INFERENCE_SKIP_FRAMES      = 3 if IS_RASPBERRY_PI else 1
 
-# Small objects to track (assistive tracking focus)
+# ========================= TRACKING SETTINGS =========================
+TRACKER_TYPE = "bytetrack"
+MAX_AGE      = 30    # frames to keep a lost track alive
+MIN_HITS     = 2     # detections needed to confirm a track
+MAX_TRACKS   = 50
+
+# ========================= FRAME DEDUPLICATION =========================
+# Lightweight histogram-based similarity (no ResNet50 needed!)
+SIMILARITY_THRESHOLD           = 0.92   # 0-1, higher = stricter dedup
+LOCATION_CHANGE_THRESHOLD      = 60     # pixels — store if object moved this far
+CONFIDENCE_IMPROVEMENT_THRES   = 0.10   # store if confidence jumped by 10%
+
+# ========================= MEMORY / DATABASE =========================
+DATABASE_PATH          = str(DATABASE_DIR / "object_memory.db")
+MAX_STORED_FRAMES      = 500 if IS_RASPBERRY_PI else 1000
+FRAME_COMPRESSION_QUALITY = 70 if IS_RASPBERRY_PI else 85
+COMPRESSED_FRAME_SIZE  = (240, 180) if IS_RASPBERRY_PI else (320, 240)
+
+# ========================= GEMINI API =========================
+# Load from .env file or environment
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+GEMINI_MODEL   = "gemini-2.0-flash"          # fast + cheap model
+
+# Rate-limiting: minimum seconds between Gemini calls (reduced for better coverage)
+GEMINI_MIN_INTERVAL_SECONDS = 2  # Was 10, now 2 seconds for faster descriptions
+
+GEMINI_OBJECT_PROMPT_TEMPLATE = """\
+Look at this image. There is a '{object_name}' visible.
+
+In 1-2 sentences, describe WHERE the {object_name} is located. Include:
+- the room or environment type (bedroom, kitchen, desk area, etc.)
+- the surface or furniture it's on/near
+- its position (left side, top shelf, etc.)
+
+Reply in second person as if telling the user where they left it.
+Example: "You left your {object_name} on the wooden shelf in the bedroom, near the lamp."
+Do NOT use bullet points. Just 1-2 natural sentences."""
+
+# ========================= EMBEDDING & RAG SETTINGS =========================
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"        # Fast model (22MB) - good for RPi
+# EMBEDDING_MODEL = "all-mpnet-base-v2"    # Better quality (420MB) - slower
+EMBEDDING_DIM = 384                         # Output dimension of embeddings
+
+# RAG Settings
+ENABLE_RAG = True                           # Enable Retrieval-Augmented Generation
+SEMANTIC_SIMILARITY_THRESHOLD = 0.65        # Min similarity (0-1) for RAG search
+SEMANTIC_SEARCH_TOP_K = 5                   # Return top 5 similar results
+
+# FAISS Vector Store
+ENABLE_FAISS = True                         # Use FAISS for fast vector search
+FAISS_INDEX_PATH = str(DATABASE_DIR / "faiss_index.bin")
+
+# ========================= QUERY SETTINGS =========================
+RECENT_SEARCH_RANGE = 60   # minutes to look back by default
+
+# ========================= STREAMLIT UI =========================
+STREAMLIT_PAGE_TITLE          = "👁️ Object Memory Assistant"
+STREAMLIT_LAYOUT              = "wide"
+STREAMLIT_INITIAL_SIDEBAR_STATE = "expanded"
+
+# ========================= LOGGING =========================
+LOG_LEVEL  = "INFO"
+LOG_FORMAT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+# ========================= SMALL OBJECTS TO TRACK =========================
 SMALL_OBJECTS_TO_TRACK = [
     'cell phone', 'phone', 'keys', 'wallet', 'glasses', 'watch',
     'earbuds', 'headphones', 'pen', 'pencil', 'notebook', 'book',
-    'cup', 'glass', 'bottle', 'remote', 'controller', 'mouse',
-    'keyboard', 'laptop', 'tablet', 'passport', 'credit card',
-    'coin', 'ring', 'necklace', 'bracelet', 'hat', 'gloves',
-    'shoe', 'sock', 'tie', 'scarf', 'bag', 'purse'
+    'cup', 'bottle', 'remote', 'mouse', 'keyboard', 'laptop',
+    'tablet', 'coin', 'ring', 'bag', 'purse', 'umbrella', 'scissors',
+    'toothbrush', 'clock', 'vase', 'backpack', 'suitcase'
 ]
 
-# ========================= TRACKING SETTINGS =========================
-TRACKER_TYPE = "bytetrack"  # 'bytetrack' or 'deepsort'
-TRACKER_CONFIDENCE = 0.5
-MAX_AGE = 30  # Maximum frames to keep track without detection
-MIN_HITS = 3  # Minimum detections to start tracking
-MAX_TRACKS = 100  # Maximum simultaneous tracks
+# ========================= PERFORMANCE (RPi) =========================
+BATCH_SIZE   = 1 if IS_RASPBERRY_PI else 4
+NUM_THREADS  = 2 if IS_RASPBERRY_PI else 4
 
-# ========================= FRAME DEDUPLICATION SETTINGS =========================
-EMBEDDING_MODEL = "resnet50"  # For frame similarity comparison
-SIMILARITY_THRESHOLD = 0.85  # Threshold for considering frames as duplicates (0-1)
-VIDEO_FPS = 30  # Expected webcam FPS
-
-# Store frame if:
-# - Object location moved more than LOCATION_CHANGE_THRESHOLD pixels
-# - Confidence improved by CONFIDENCE_IMPROVEMENT_THRESHOLD
-# - Scene changed (detected via embedding similarity)
-LOCATION_CHANGE_THRESHOLD = 50  # pixels
-CONFIDENCE_IMPROVEMENT_THRESHOLD = 0.1  # 10% improvement
-
-# ========================= MEMORY/DATABASE SETTINGS =========================
-DATABASE_PATH = str(DATABASE_DIR / "object_memory.db")
-MAX_STORED_FRAMES = 1000  # Limit stored frames for memory efficiency
-FRAME_COMPRESSION_QUALITY = 85  # JPEG quality (0-100)
-COMPRESSED_FRAME_SIZE = (320, 240)  # Resize for storage
-
-# ========================= GEMINI API SETTINGS =========================
-GEMINI_API_KEY = "AIzaSyAoE9gpy6QB2__OqNqfiXTeu6qFQ7_idjc"
-GEMINI_MODEL = "gemini-1.5-vision"
-GEMINI_SCENE_PROMPT = """Describe the environment and where objects are placed so a visually impaired person can understand the location. 
-Be concise, specific, and focus on spatial relationships. 
-Format: "The scene shows [main objects], with [small object] positioned at [location relative to main objects/furniture]."
-"""
-
-# ========================= QUERY SETTINGS =========================
-# Recent search range (in minutes)
-RECENT_SEARCH_RANGE = 60  # Last 1 hour by default
-
-# ========================= STREAMLIT SETTINGS =========================
-STREAMLIT_PAGE_TITLE = "Object Memory Assistant"
-STREAMLIT_LAYOUT = "wide"
-STREAMLIT_INITIAL_SIDEBAR_STATE = "expanded"
-
-# ========================= LOGGING SETTINGS =========================
-LOG_LEVEL = "INFO"
-LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-
-# ========================= PERFORMANCE SETTINGS =========================
-# Memory optimization for Raspberry Pi
-if IS_RASPBERRY_PI:
-    # Reduce quality and size for RPi
-    FRAME_COMPRESSION_QUALITY = 70
-    COMPRESSED_FRAME_SIZE = (240, 180)
-    MAX_STORED_FRAMES = 500
-    BATCH_SIZE = 1
-    NUM_THREADS = 2
-else:
-    BATCH_SIZE = 4
-    NUM_THREADS = 4
-
-# Inference skip frames for faster processing
-INFERENCE_SKIP_FRAMES = 2 if IS_RASPBERRY_PI else 1
-
-print(f"[CONFIG] Device Type: {DEVICE_TYPE}")
-print(f"[CONFIG] Using TensorFlow Lite: {USE_TFLITE}")
-print(f"[CONFIG] Inference Device: CPU" if USE_TFLITE else f"GPU {INFERENCE_DEVICE}")
+# ========================= DEBUG =========================
+print(f"[CONFIG] Device: {DEVICE_TYPE} | TFLite: {USE_TFLITE} | Inference: {INFERENCE_DEVICE}")

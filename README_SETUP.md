@@ -427,8 +427,8 @@ SELECT * FROM objects WHERE timestamp > datetime('now', '-1 hour');  # Last hour
 2. **Set in Configuration**
    ```python
    # In config.py
-   GEMINI_API_KEY = "Your_API_Key_Here"
-   GEMINI_MODEL = "gemini-1.5-vision"
+   GEMINI_API_KEY = "AIzaSyAoE9gpy6QB2__OqNqfiXTeu6qFQ7_idjc"
+   GEMINI_MODEL = "gemini-2.5-flash"
    ```
 
 3. **Verify It Works**

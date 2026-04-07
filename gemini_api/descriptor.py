@@ -1,211 +1,191 @@
 """
-Gemini Vision API integration for scene description
+Gemini Vision API — scene description for Object Memory Assistant.
+
+Uses google-genai SDK (google.genai.Client) with inline JPEG bytes.
+Includes built-in rate limiting to avoid quota exhaustion.
 """
 
 import logging
-import base64
+import time
 import cv2
 import numpy as np
-from typing import Optional, Tuple
-from pathlib import Path
+from typing import Optional
 import config
 
 logger = logging.getLogger(__name__)
 
+
 class GeminiSceneDescriptor:
-    """Generate scene descriptions using Gemini Vision API"""
-    
+    """Generate per-object scene descriptions using Gemini Vision."""
+
     def __init__(self, api_key: str = None):
-        """
-        Initialize Gemini API client
-        
-        Args:
-            api_key: Google Gemini API key
-        """
-        self.api_key = api_key or config.GEMINI_API_KEY
+        self.api_key = (api_key or config.GEMINI_API_KEY or "").strip()
+        self.model_name = config.GEMINI_MODEL
         self.client = None
+        self._last_call_ts: float = 0.0   # epoch seconds of last Gemini call
+        self.error_count = 0
+        
+        # Debug logging
+        logger.info(f"🔍 GeminiSceneDescriptor init:")
+        logger.info(f"   API Key provided: {bool(api_key)}")
+        logger.info(f"   API Key from config: {bool(config.GEMINI_API_KEY)}")
+        logger.info(f"   Final API Key: {len(self.api_key)} chars")
+        
         self._init_client()
-    
+
+    # ------------------------------------------------------------------
     def _init_client(self):
-        """Initialize Google API client"""
+        if not self.api_key:
+            logger.error("❌ GEMINI_API_KEY is EMPTY or NOT SET")
+            logger.error("   Set GEMINI_API_KEY in .env file or environment variable")
+            return
+        
+        logger.info(f"🔑 Initializing Gemini client...")
+        logger.info(f"   API Key: {self.api_key[:10]}...{self.api_key[-4:]}")
+        logger.info(f"   Model: {self.model_name}")
+        
         try:
-            import google.generativeai as genai
-            
-            if not self.api_key:
-                logger.error("Gemini API key not provided")
-                return
-            
-            genai.configure(api_key=self.api_key)
-            self.client = genai.GenerativeModel(config.GEMINI_MODEL)
-            
-            logger.info("✓ Gemini Vision API initialized")
+            from google import genai
+            self.client = genai.Client(api_key=self.api_key)
+            logger.info(f"✅ Gemini client initialized successfully!")
         except ImportError:
-            logger.error("google-generativeai not installed. Install with: pip install google-generativeai")
-            raise
+            logger.error("❌ google-genai not installed. Run: pip install google-genai")
         except Exception as e:
-            logger.error(f"Error initializing Gemini API: {e}")
-            raise
-    
-    def describe_scene(self, frame: np.ndarray, detections: list = None) -> Optional[str]:
+            logger.error(f"❌ Gemini init error: {e}")
+            logger.error(f"   Type: {type(e).__name__}")
+            if "API_KEY" in str(e) or "key" in str(e).lower():
+                logger.error("   → This looks like an API key issue")
+                logger.error(f"   → API Key length: {len(self.api_key)} chars")
+                if len(self.api_key) < 20:
+                    logger.error("   → API Key is too short! Check .env file")
+
+    # ------------------------------------------------------------------
+    def _can_call(self) -> bool:
+        """Enforce minimum interval between API calls."""
+        return time.time() - self._last_call_ts >= config.GEMINI_MIN_INTERVAL_SECONDS
+
+    def _mark_call(self):
+        self._last_call_ts = time.time()
+
+    # ------------------------------------------------------------------
+    def _frame_to_jpeg(self, frame: np.ndarray) -> Optional[bytes]:
+        """Encode BGR frame → JPEG bytes (compressed for API efficiency)."""
+        try:
+            # Resize to max 640px wide to reduce token cost
+            h, w = frame.shape[:2]
+            if w > 640:
+                scale = 640 / w
+                frame = cv2.resize(frame, (640, int(h * scale)))
+            ok, buf = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 75])
+            return buf.tobytes() if ok else None
+        except Exception as e:
+            logger.error(f"Frame encoding error: {e}")
+            return None
+
+    # ------------------------------------------------------------------
+    def describe_scene_for_object(
+        self,
+        frame: np.ndarray,
+        object_name: str,
+        bbox: np.ndarray,
+    ) -> Optional[str]:
         """
-        Generate scene description using Gemini Vision
-        
-        Args:
-            frame: Input frame (BGR)
-            detections: List of detected objects
-        
-        Returns:
-            Scene description string or None if error
+        Generate a natural-language location description for `object_name`
+        visible in `frame`.
+
+        Returns None if rate-limited, client not ready, or API error.
         """
         if self.client is None:
-            logger.warning("Gemini API not initialized")
+            if self.error_count == 0:
+                logger.debug(f"⚠️ Gemini client not initialized for '{object_name}'")
+                self.error_count += 1
             return None
-        
+        if not self._can_call():
+            # Don't spam logs, just silently skip
+            return None
+
+        image_bytes = self._frame_to_jpeg(frame)
+        if image_bytes is None:
+            logger.debug(f"Could not encode frame for '{object_name}'")
+            return None
+
+        prompt = config.GEMINI_OBJECT_PROMPT_TEMPLATE.format(object_name=object_name)
+
         try:
-            # Convert frame to JPEG bytes
-            success, buffer = cv2.imencode('.jpg', frame)
-            if not success:
-                logger.error("Failed to encode frame")
+            from google.genai import types
+            self._mark_call()
+            logger.debug(f"🔄 Calling Gemini for '{object_name}'...")
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=[
+                    types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
+                    prompt,
+                ],
+            )
+            text = (response.text or "").strip()
+            if not text:
+                logger.warning(f"❌ Gemini returned empty response for '{object_name}'")
                 return None
-            
-            # Encode to base64
-            image_data = base64.standard_b64encode(buffer).decode()
-            
-            # Create custom prompt based on detections
-            prompt = self._build_prompt(detections)
-            
-            # Call Gemini API
-            message = self.client.generate_content([
-                {
-                    "mime_type": "image/jpeg",
-                    "data": image_data,
-                },
-                prompt
-            ])
-            
-            description = message.text
-            logger.debug(f"Generated scene description: {description[:100]}...")
-            return description
-        
+            logger.info(f"✅ Gemini Scene [{object_name}]: {text[:100]}...")
+            return text
+
         except Exception as e:
-            logger.error(f"Error describing scene: {e}")
+            logger.error(f"❌ Gemini API error for '{object_name}': {e}")
+            self.error_count += 1
+            if self.error_count >= 3:
+                logger.error(f"   Gemini API has failed {self.error_count} times. Check API key?")
             return None
-    
-    def describe_scene_for_object(self, frame: np.ndarray, 
-                                  object_name: str, 
-                                  bbox: np.ndarray) -> Optional[str]:
+
+    # ------------------------------------------------------------------
+    def describe_scene(
+        self,
+        frame: np.ndarray,
+        detections: list = None,
+    ) -> Optional[str]:
         """
-        Generate description focusing on a specific object's location
-        
-        Args:
-            frame: Input frame
-            object_name: Name of object
-            bbox: Bounding box of object
-        
-        Returns:
-            Description of object location in scene
-        """
-        if self.client is None:
-            return None
-        
-        try:
-            success, buffer = cv2.imencode('.jpg', frame)
-            if not success:
-                return None
-            
-            image_data = base64.standard_b64encode(buffer).decode()
-            
-            prompt = f"""Look at this image. There is a '{object_name}' in the frame.
-            Describe:
-            1. What room/environment is this?
-            2. What furniture or surfaces are nearby the {object_name}?
-            3. Describe the {object_name}'s exact location in simple terms a visually impaired person would understand.
-            
-            Be specific and concise. Format: "Your {object_name} is [description of location in the scene]."
-            """
-            
-            message = self.client.generate_content([
-                {
-                    "mime_type": "image/jpeg",
-                    "data": image_data,
-                },
-                prompt
-            ])
-            
-            return message.text
-        
-        except Exception as e:
-            logger.error(f"Error describing object: {e}")
-            return None
-    
-    def extract_location_info(self, frame: np.ndarray) -> Optional[dict]:
-        """
-        Extract location/environment information from frame
-        
-        Args:
-            frame: Input frame
-        
-        Returns:
-            Dictionary with location details
+        General scene description (used to annotate stored frames).
+        Returns None if rate-limited or error.
         """
         if self.client is None:
             return None
-        
-        try:
-            success, buffer = cv2.imencode('.jpg', frame)
-            if not success:
-                return None
-            
-            image_data = base64.standard_b64encode(buffer).decode()
-            
-            prompt = """Analyze this image and provide location information in JSON format:
-            {
-                "room_type": "bedroom/kitchen/living_room/etc",
-                "main_furniture": ["list of furniture items visible"],
-                "lighting": "bright/dim/natural/artificial",
-                "environment_type": "indoor/outdoor",
-                "notable_features": ["special features like windows, doors, etc"],
-                "surface_types": ["types of surfaces: wooden, carpeted, tiled, etc"]
-            }
-            
-            Respond with ONLY the JSON, no other text.
-            """
-            
-            message = self.client.generate_content([
-                {
-                    "mime_type": "image/jpeg",
-                    "data": image_data,
-                },
-                prompt
-            ])
-            
-            import json
-            try:
-                location_info = json.loads(message.text)
-                return location_info
-            except json.JSONDecodeError:
-                logger.warning("Failed to parse location info JSON")
-                return None
-        
-        except Exception as e:
-            logger.error(f"Error extracting location info: {e}")
+        if not self._can_call():
             return None
-    
-    def _build_prompt(self, detections: list = None) -> str:
-        """Build dynamic prompt based on detections"""
-        base_prompt = config.GEMINI_SCENE_PROMPT
-        
+
+        image_bytes = self._frame_to_jpeg(frame)
+        if image_bytes is None:
+            return None
+
+        detected_items = ""
         if detections:
-            detected_items = ", ".join([d.get('class_name', 'unknown') for d in detections])
-            base_prompt += f"\n\nDetected objects in the scene: {detected_items}"
-        
-        return base_prompt
+            names = ", ".join(d.get("class_name", "?") for d in detections[:6])
+            detected_items = f"\n\nDetected objects: {names}"
+
+        prompt = (
+            "Briefly describe this scene in 1–2 sentences for a visually "
+            "impaired person. Focus on the room type and where objects are placed."
+            + detected_items
+        )
+
+        try:
+            from google.genai import types
+            self._mark_call()
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=[
+                    types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
+                    prompt,
+                ],
+            )
+            return (response.text or "").strip() or None
+        except Exception as e:
+            logger.error(f"Gemini scene describe error: {e}")
+            return None
 
 
-def create_scene_descriptor(api_key: str = None) -> GeminiSceneDescriptor:
-    """Factory function to create scene descriptor"""
+def create_scene_descriptor(api_key: str = None) -> Optional[GeminiSceneDescriptor]:
+    """Factory — returns None if Gemini cannot be initialised."""
     try:
         return GeminiSceneDescriptor(api_key)
     except Exception as e:
-        logger.error(f"Failed to create scene descriptor: {e}")
+        logger.error(f"Failed to create GeminiSceneDescriptor: {e}")
         return None

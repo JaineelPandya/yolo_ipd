@@ -275,6 +275,36 @@ class ObjectMemory:
             logger.error(f"Error retrieving history: {e}")
             return []
     
+    def update_object_description(self, object_name: str, timestamp: str, scene_description: str) -> bool:
+        """
+        Update scene description for an object (on-the-fly generation)
+        
+        Args:
+            object_name: Name of object
+            timestamp: Timestamp of record (DATETIME format)
+            scene_description: New description from Gemini
+        
+        Returns:
+            True if successful
+        """
+        try:
+            cursor = self.conn.cursor()
+            
+            cursor.execute('''
+                UPDATE objects 
+                SET scene_description = ?
+                WHERE LOWER(object_name) = LOWER(?) 
+                AND timestamp = ?
+            ''', (scene_description, object_name, timestamp))
+            
+            self.conn.commit()
+            logger.debug(f"Updated description for {object_name} at {timestamp}")
+            return cursor.rowcount > 0
+        
+        except Exception as e:
+            logger.error(f"Error updating description: {e}")
+            return False
+    
     def search_objects_by_location(self, location_keywords: List[str]) -> List[Dict]:
         """
         Search objects by location mentioned in scene description
@@ -353,6 +383,27 @@ class ObjectMemory:
             
             self.conn.commit()
             deleted_count = cursor.rowcount
+            logger.info(f"✓ Cleaned up data: deleted {deleted_count} old records")
+        except Exception as e:
+            logger.error(f"Error cleaning up old data: {e}")
+    
+    def clear_records_without_descriptions(self) -> int:
+        """Delete all records that don't have scene descriptions (old data)"""
+        try:
+            cursor = self.conn.cursor()
+            
+            cursor.execute('''
+                DELETE FROM objects 
+                WHERE scene_description IS NULL OR scene_description = ''
+            ''')
+            
+            self.conn.commit()
+            deleted_count = cursor.rowcount
+            logger.info(f"✓ Deleted {deleted_count} records without descriptions")
+            return deleted_count
+        except Exception as e:
+            logger.error(f"Error clearing records: {e}")
+            return 0
             logger.info(f"Cleaned up {deleted_count} old records")
         
         except Exception as e:
@@ -385,6 +436,142 @@ class ObjectMemory:
         except Exception as e:
             logger.error(f"Error getting statistics: {e}")
             return {"total_objects": 0, "unique_objects": 0, "total_frames": 0, "avg_confidence": 0.0}
+    
+    # ==================== EMBEDDING & SEMANTIC RETRIEVAL ====================
+    
+    def store_embedding(self, frame_id: int, embedding: np.ndarray) -> bool:
+        """
+        Store embedding vector for a frame (for semantic search)
+        
+        Args:
+            frame_id: Frame ID from frames table
+            embedding: Embedding vector (numpy array)
+        
+        Returns:
+            True if successful
+        """
+        try:
+            cursor = self.conn.cursor()
+            
+            # Convert embedding to binary blob
+            embedding_bytes = embedding.astype(np.float32).tobytes()
+            
+            cursor.execute('''
+                UPDATE frames 
+                SET embedding_vector = ?
+                WHERE id = ?
+            ''', (embedding_bytes, frame_id))
+            
+            self.conn.commit()
+            logger.debug(f"Stored embedding for frame {frame_id}")
+            return True
+        
+        except Exception as e:
+            logger.error(f"Error storing embedding: {e}")
+            return False
+    
+    def get_frame_embedding(self, frame_id: int) -> Optional[np.ndarray]:
+        """
+        Retrieve embedding vector for a frame
+        
+        Args:
+            frame_id: Frame ID
+        
+        Returns:
+            Numpy array or None if not found
+        """
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute('SELECT embedding_vector FROM frames WHERE id = ?', (frame_id,))
+            row = cursor.fetchone()
+            
+            if row and row[0]:
+                embedding = np.frombuffer(row[0], dtype=np.float32)
+                return embedding
+            
+            return None
+        
+        except Exception as e:
+            logger.error(f"Error retrieving embedding: {e}")
+            return None
+    
+    def semantic_search(self, query_embedding: np.ndarray, k: int = 5, 
+                       time_range_minutes: int = None) -> List[Dict]:
+        """
+        Find similar frames using semantic embeddings
+        
+        Args:
+            query_embedding: Query embedding vector
+            k: Number of results to return
+            time_range_minutes: Optional time filter
+        
+        Returns:
+            List of similar frame records
+        """
+        try:
+            cursor = self.conn.cursor()
+            
+            # Get all embeddings with timestamps
+            time_filter = ""
+            if time_range_minutes:
+                time_filter = f"AND timestamp > datetime('now', '-{time_range_minutes} minutes')"
+            
+            cursor.execute(f'''
+                SELECT id, embedding_vector, scene_description, timestamp 
+                FROM frames 
+                WHERE embedding_vector IS NOT NULL
+                {time_filter}
+                ORDER BY timestamp DESC
+            ''')
+            
+            rows = cursor.fetchall()
+            
+            if not rows:
+                return []
+            
+            # Calculate similarity for each frame
+            results = []
+            for row in rows:
+                frame_id, emb_bytes, scene_desc, timestamp = row
+                
+                if emb_bytes:
+                    frame_embedding = np.frombuffer(emb_bytes, dtype=np.float32)
+                    # Cosine similarity
+                    similarity = self._cosine_similarity(query_embedding, frame_embedding)
+                    
+                    results.append({
+                        'frame_id': frame_id,
+                        'similarity': similarity,
+                        'scene_description': scene_desc,
+                        'timestamp': timestamp
+                    })
+            
+            # Sort by similarity (highest first) and return top k
+            results.sort(key=lambda x: x['similarity'], reverse=True)
+            return results[:k]
+        
+        except Exception as e:
+            logger.error(f"Semantic search error: {e}")
+            return []
+    
+    @staticmethod
+    def _cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
+        """Calculate cosine similarity between two vectors"""
+        try:
+            a = a.flatten().astype(np.float32)
+            b = b.flatten().astype(np.float32)
+            
+            dot_product = np.dot(a, b)
+            norm_a = np.linalg.norm(a)
+            norm_b = np.linalg.norm(b)
+            
+            if norm_a == 0 or norm_b == 0:
+                return 0.0
+            
+            return float(dot_product / (norm_a * norm_b))
+        except Exception as e:
+            logger.error(f"Similarity calculation error: {e}")
+            return 0.0
     
     def close(self):
         """Close database connection"""
