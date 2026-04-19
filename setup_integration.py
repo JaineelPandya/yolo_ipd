@@ -70,7 +70,6 @@ def main():
     print("1. Set GEMINI_API_KEY: export GEMINI_API_KEY=your_key")
     print("2. Run tests:         python test_integration.py")
     print("3. Run app:           python main_app.py --enable-gemini")
-    print("   Or Streamlit:      streamlit run app_streamlit.py")
     print("="*70 + "\n")
 
 if __name__ == "__main__":

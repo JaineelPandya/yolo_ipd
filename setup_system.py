@@ -93,8 +93,8 @@ def install_dependencies():
             "Installing requirements"
         )
         run_command(
-            "pip install streamlit google-generativeai",
-            "Installing Streamlit and Gemini API"
+            "pip install google-generativeai",
+            "Installing Gemini API"
         )
 
 def download_models():
@@ -234,16 +234,16 @@ def main():
 ║                                                              ║
 ║  Next steps:                                                 ║
 ║                                                              ║
-║  1. Run Streamlit (Web UI):                                 ║
-║     streamlit run app_streamlit.py                          ║
-║                                                              ║
-║  2. Or run command-line interface:                          ║
+║  1. Run CLI interface:                                      ║
 ║     python main_app.py                                      ║
 ║                                                              ║
-║  3. Or query for an object:                                 ║
+║  2. Run with TFLite (Raspberry Pi):                         ║
+║     python main_app.py --use-tflite                         ║
+║                                                              ║
+║  3. Query for an object:                                    ║
 ║     python main_app.py --query phone                        ║
 ║                                                              ║
-║  For Raspberry Pi deployment, see README_SETUP.md           ║
+║  For Raspberry Pi deployment, see TFLITE/DEPLOY_GUIDE.md    ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
     """)

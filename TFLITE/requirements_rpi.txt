@@ -1,18 +1,21 @@
 # ==========================================================
-# Raspberry Pi requirements - minimal, no PyTorch/TensorFlow
+# Raspberry Pi 5 - TFLite Object Memory Assistant
 # Install with: pip install -r requirements_rpi.txt
 # ==========================================================
 
-# Vision (headless for RPi)
+# Vision (headless — no GUI needed on RPi)
 opencv-python-headless>=4.8.0
 numpy>=1.21.0
 
-# TFLite (arm64 wheel - much lighter than full tensorflow)
+# TFLite Runtime (arm64 wheel — much lighter than full TensorFlow)
 tflite-runtime>=2.13.0
 
-# Gemini Vision API
+# Gemini Vision API (for scene descriptions)
 google-genai>=1.0.0
 
 # Utilities
 Pillow>=10.0.0
 psutil>=5.9.5
+
+# Environment variable loader
+python-dotenv>=1.0.0

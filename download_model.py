@@ -114,14 +114,14 @@ def main():
 
     if args.pt_only or args.skip_export:
         print("\n✅ PyTorch model ready.")
-        print("   Run:  streamlit run app_streamlit.py")
+        print("   Run:  python main_app.py")
         return
 
     export_tflite()
 
     print("\n✅ All models ready.")
-    print("   TFLite (RPi): streamlit run app_streamlit.py  (select TFLite in sidebar)")
-    print("   PyTorch (PC):  streamlit run app_streamlit.py  (select PyTorch in sidebar)")
+    print("   TFLite (RPi): python main_app.py --use-tflite")
+    print("   PyTorch (PC): python main_app.py")
 
 
 if __name__ == "__main__":

@@ -17,9 +17,6 @@ tflite-runtime>=2.13.0
 # Gemini Vision API
 google-genai>=1.0.0
 
-# Web UI
-streamlit>=1.28.0
-
 # Database
 # sqlite3 is built into Python — no install needed
 
